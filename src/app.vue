@@ -13,6 +13,7 @@
 </style>
 <script type="text/javascript">
     import FastClick from 'fastclick';
+    import "./styles/animate.min.css";
 
     export default {
         created(){
