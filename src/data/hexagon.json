@@ -9,13 +9,13 @@
             "content": "内容1"
         },
         {
-            "img": "images/touxiang.jpg",
+            "img": "images/hexagon/test.jpg",
             "title": "标题2",
             "content": "内容2"
         },
         {},
         {
-            "img": "images/touxiang.jpg",
+            "img": "images/hexagon/test2.jpg",
             "title": "标题3",
             "content": "内容3"
         },
@@ -36,7 +36,7 @@
             "content": "内容6"
         },
         {
-            "img": "images/touxiang.jpg",
+            "img": "images/hexagon/test.jpg",
             "title": "标题7",
             "content": "内容7"
         },
@@ -46,7 +46,7 @@
             "content": "内容8"
         },
         {
-            "img": "images/touxiang.jpg",
+            "img": "images/hexagon/test2.jpg",
             "title": "标题9",
             "content": "内容9"
         },
