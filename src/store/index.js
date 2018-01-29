@@ -6,14 +6,7 @@ import * as getters from './getters';
 const debug = process.env.NODE_ENV !== 'production';
 
 const store = new Vuex.Store({
-    state: {
-        loadStatus: 0,
-        toast: {
-            msg: "",
-            timer: null,
-            status: 0
-        }
-    },
+    state: {},
     getters,
     actions,
     mutations,

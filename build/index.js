@@ -38,7 +38,7 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin("css/vueStyle.css"),
         new CopyWebpackPlugin([
-            {from: 'images/static/**/*'},
+            {from: 'images/**/*'},
             {from: srcVue, to: 'js/vue.js'},
             {from: srcVuex, to: 'js/vuex.js'},
             {from: srcVueRouter, to: 'js/vue-router.js'}
@@ -101,21 +101,6 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif)$/,
-                exclude: /static/,
-                use: [
-                    {
-                        loader:'url-loader',
-                        options: {
-                            limit: 8192,
-                            publicPath: '../',
-                            name: '[path][name].[ext]?[hash]'
-                        }
-                    }
-                ]
-            },
-            {
-                test: /\.(png|jpe?g|gif)$/,
-                include: /static/,
                 use: [
                     {
                         loader: 'file-loader',

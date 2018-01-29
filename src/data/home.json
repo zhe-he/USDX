@@ -1,0 +1,69 @@
+{
+    "version": "1.0.0",
+    "icon1": [
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_1.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_1.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_1.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_1.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_1.png"
+        }
+    ],
+    "icon2": [
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_11.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_12.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_13.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_14.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_15.png"
+        }
+    ],
+    "icon3": [
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_21.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_22.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_23.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_24.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_25.png"
+        }
+    ]
+}

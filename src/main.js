@@ -2,10 +2,6 @@ import Vue from 'vue';
 import store from './store';
 import router from './router';
 import App from './app';
-import nav from './modules/nav';
-
-Vue.component('common-nav',nav);
-
 
 new Vue({
     el: "#app",
