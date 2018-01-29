@@ -2,55 +2,32 @@
     <div class="hexagon-box">
         <div class="hexagon-title">
             <h3>ADVISORS</h3>
-            <h4>xxx xxx xx</h4>
-            <p>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+            <h4>{{hexagon[cur].title}}</h4>
+            <p v-html="hexagon[cur].content"></p>
         </div>
         <ul class="hexagon">
-            <li class="pusher"></li>
-            <li class="pusher"></li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
+            <li :class="cur==index?'active':''" @click="showItem(item,index)" v-for="(item,index) in hexagon">
+                <div v-if="item.img"><img :src="item.img" alt=""></div>
             </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li class="pusher"></li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li class="pusher"></li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li>
-                <div><img src="images/touxiang.jpg" alt=""></div>
-            </li>
-            <li class="pusher"></li>
-            <li class="pusher"></li>
-            <li class="pusher"></li>
         </ul>
     </div>
 </template>
 
 <script type="text/javascript">
+    import hexagonData from '../data/hexagon';
     export default {
         data(){
-            return {}
+            return {
+                cur: 2,
+                hexagon: hexagonData.data
+            }
+        },
+        methods: {
+            showItem(item,index) {
+                if (item.img) {
+                    this.cur = index;
+                }
+            }
         }
     }
 </script>
@@ -70,6 +47,10 @@
         align-items: center;
         justify-content: center;
         color: #fff;
+        padding: 0 50px;
+        h3{
+            margin-top: -30%;
+        }
     }
 
     .hexagon{
@@ -81,7 +62,10 @@
             float:left;
             overflow:hidden;
             visibility:hidden;
-            transform: rotate(-60deg) skewY(30deg);
+            transform: rotate(-60deg) skewY(30deg) scale(1,1);
+            opacity: 0.8;
+            transition: 0.6s;
+            cursor: pointer;
             &:nth-child(3n+2){
                 margin:0 1%;
             }
@@ -116,6 +100,16 @@
                 width: auto; 
                 height:100%;
                 margin:0 auto;  
+            }
+            &:nth-child(6n+4), &:nth-child(6n+5), &:nth-child(6n+6) {
+                &:hover,&.active{
+                    opacity: 1;
+                    transform: translateX(50%) rotate(-60deg) skewY(30deg) scale(1.05,1.05);
+                }
+            }
+            &:hover,&.active{
+                opacity: 1;
+                transform: rotate(-60deg) skewY(30deg) scale(1.05,1.05);
             }
         }
     }

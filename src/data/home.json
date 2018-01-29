@@ -7,44 +7,22 @@
         },
         {
             "link": "javascript:;",
-            "img": "images/company/parterners_1.png"
+            "img": "images/company/parterners_2.png"
         },
         {
             "link": "javascript:;",
-            "img": "images/company/parterners_1.png"
+            "img": "images/company/parterners_31.png"
         },
         {
             "link": "javascript:;",
-            "img": "images/company/parterners_1.png"
+            "img": "images/company/parterners_4.png"
         },
         {
             "link": "javascript:;",
-            "img": "images/company/parterners_1.png"
+            "img": "images/company/parterners_5.png"
         }
     ],
     "icon2": [
-        {
-            "link": "javascript:;",
-            "img": "images/company/parterners_11.png"
-        },
-        {
-            "link": "javascript:;",
-            "img": "images/company/parterners_12.png"
-        },
-        {
-            "link": "javascript:;",
-            "img": "images/company/parterners_13.png"
-        },
-        {
-            "link": "javascript:;",
-            "img": "images/company/parterners_14.png"
-        },
-        {
-            "link": "javascript:;",
-            "img": "images/company/parterners_15.png"
-        }
-    ],
-    "icon3": [
         {
             "link": "javascript:;",
             "img": "images/company/parterners_21.png"
@@ -64,6 +42,28 @@
         {
             "link": "javascript:;",
             "img": "images/company/parterners_25.png"
+        }
+    ],
+    "icon3": [
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_31.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_32.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_33.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_34.png"
+        },
+        {
+            "link": "javascript:;",
+            "img": "images/company/parterners_35.png"
         }
     ]
 }
