@@ -22,7 +22,11 @@ body{background:#fff;font-size: 16px;}
 .clearfix{zoom:1;}
 .height20{height: 20px;}
 .height60{height: 60px;}
+.height70{height: 70px;}
 .height110{height: 110px;}
+.height120{height: 120px;}
+.height100{height: 100px;}
+
 
 body,html{background: #272a2f;}
 .topNav{
@@ -101,11 +105,125 @@ body,html{background: #272a2f;}
 .aboutUSDX{
     background: #2e3137;
     width: 100%;
+    background-image: url("../images/about_bg.png");
+    background-repeat: no-repeat;
+    background-size: 1280px auto;
+    background-position: center center;
+}
+.aboutUSDX .title{
+    width: 492px;
+    margin:  0 auto;
+    color: #ffffff;
+    font-size: 24px;
+}
+.aboutContent{
+    width: 894px;
+    height: 600px;
+    margin:  0 auto;
+    position: relative;
+}
+.aboutContent .content{
+    width: 420px;
+    padding-left: 47px;
+    padding-top: 86px;
+}
+.aboutContent .content h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 24px;
+
+}
+.aboutContent .content p{
+    font-size: 13px;
+    color: #fff;
+    margin-top: 18px;
+    line-height: 18px;
+}
+.aboutContent .content .line{
+    height: 2px;
+    width: 64px;
+    background-color: #267474;
+    margin-top: 18px;
+}
+.aboutContent .content .order{
+    margin-top: 18px;
+
+}
+.order .big{
+    color: #04e0e0;
+    font-size: 26px;
+}
+.order .small{
+    font-size: 13px;
+    color: #fff;
+}
+.aboutContent .rightPicBox{position: absolute;
+    right: 0;
+    width: 457px;
+    height: 394px;
+    top:142px;
+
+}
+.aboutContent .rightPicBox{}
+.aboutContent .rightPicBox{}
+.rightPicBox .bottomBase{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("../images/phases/base_icon.png");
+    background-repeat: no-repeat;
+    width: 419px;
+    height: 305px;
+}
+.rightPicBox .topImage{
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    background-image: url("../images/phases/phaseOne.png");
+    background-repeat: no-repeat;
+    background-size: 414px 350px;
+    width: 414px;
+    height: 350px;
+
+}
+.phaseTwoDesc{
+    padding-top: 10px;
 }
 
-.teamBox{
-    background-color: #1e2023;
+.phaseTwoDesc li{display: block;height: 15px; line-height: 15px;margin-top: 16px;}
+.phaseTwoDesc li i{display: block; float: left;
+    background-image: url("../images/phases/phasesTwo01.png");
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 15px;
 }
+.phaseTwoDesc .phase02 i{background-image: url("../images/phases/phasesTwo02.png");background-repeat: no-repeat;}
+.phaseTwoDesc .phase03 i{background-image: url("../images/phases/phasesTwo03.png");background-repeat: no-repeat;}
+.phaseTwoDesc li span{float: left;margin-left: 12px;font-size: 14px; color: #fff;}
+.phaseTwoBox .rightPicBox .topImage{
+    bottom: 150px;
+    right: -40px;
+    background-image: url("../images/phases/phaseTwo.png");
+    background-size: 470px 290px;
+    width: 470px;
+    height: 290px;
+}
+
+.phaseThreeBox .content p{
+    line-height: 22px;
+}
+.phaseThreeBox .rightPicBox .topImage{
+    bottom: 135px;
+    right: -26px;
+    background-image: url("../images/phases/phaseThree.png");
+    background-size: 470px 290px;
+    width: 465px;
+    height: 306px;
+}
+
+.aboutContent p{font-size: 13px;}
+
 .partenersBox .title,.teamBox .title{height:40px;line-height: 40px;width: 466px;margin: 0 auto;}
 .teamBox .title{width: 352px;}
 .teamBox .teamMember{

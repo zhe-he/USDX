@@ -26,16 +26,69 @@
         </div>
 
         <div class="aboutUSDX clearfix">
+            <div class="height120"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>ABOUT USDX</span>
                 <i class="line_icon right_line"></i>
             </h2>
-            <div class="aboutContent"></div>
+            <div class="aboutContent" style="display: none;">
+                <div class="content">
+                    <h2>Current Stablecoins Are Unsustainable</h2>
+                    <div class="line"></div>
+                    <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
+                    <div class="order">
+                        <span class="big">01</span>&nbsp;<span class="small">/ 03</span>
+                    </div>
+                </div>
+                <div class="rightPicBox">
+                    <div class="bottomBase"></div>
+                    <div class="topImage"></div>
+                </div>
+            </div>
+            <!--phase two-->
+            <div class="aboutContent phaseTwoBox" style="display: none;">
+                <div class="content">
+                    <h2>What Is USDX</h2>
+                    <div class="line"></div>
+                    <p>USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank.</p>
+                    <ul class="phaseTwoDesc">
+                        <li><i></i><span>Programmable Money</span></li>
+                        <li class="phase02"><i></i><span>Algorithmic Central Bank</span></li>
+                        <li class="phase03"><i></i><span>Decentralized Financial System</span></li>
+                    </ul>
+                    <div class="order">
+                        <span class="big">02</span>&nbsp;<span class="small">/ 03</span>
+                    </div>
+                </div>
+                <div class="rightPicBox">
+                    <div class="bottomBase"></div>
+                    <div class="topImage"></div>
+                </div>
+            </div>
+            <!--phase three-->
+            <div class="aboutContent phaseThreeBox">
+                <div class="content">
+                    <h2>How USDX Protocol Works</h2>
+                    <div class="line"></div>
+                    <p>1.&nbsp;Measure the exchange rates through reliable Oracle feed from third party</p>
+                    <p>2.&nbsp;Expansion : when USDX is traded for more than 1USD, the blockchain will mint new coins & distribute to participants intellgently according to protocol</p>
+                    <p>3.&nbsp;Contraction : when USDX is traded for less than 1USD, the blockchain will generate SDRs(Special Drawing Rigjhs) to recycle stablecoins intellgently according to protocol.</p>
+                    <p>4.&nbsp;USDX price will fluctuates around 1USD contantly.</p>
+
+                    <div class="order">
+                        <span class="big">03</span>&nbsp;<span class="small">/ 03</span>
+                    </div>
+                </div>
+                <div class="rightPicBox">
+                    <div class="bottomBase"></div>
+                    <div class="topImage"></div>
+                </div>
+            </div>
         </div>
         <!-- <div class="teamBox">
 
-        </div>-->
+         </div>-->
         <!--TEAM-->
         <div class="teamBox clearfix">
             <h2 class="title">
