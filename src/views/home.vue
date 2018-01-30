@@ -32,7 +32,7 @@
                 <span>ABOUT USDX</span>
                 <i class="line_icon right_line"></i>
             </h2>
-            <div class="aboutContent" style="display: none;">
+            <div class="aboutContent">
                 <div class="content">
                     <h2>Current Stablecoins Are Unsustainable</h2>
                     <div class="line"></div>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <!--phase three-->
-            <div class="aboutContent phaseThreeBox">
+            <div class="aboutContent phaseThreeBox" style="display: none;">
                 <div class="content">
                     <h2>How USDX Protocol Works</h2>
                     <div class="line"></div>
