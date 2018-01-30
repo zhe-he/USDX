@@ -1,11 +1,11 @@
 {
   "name": "vue-router-demo",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "vue-router,vue,webpack,vuex",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack --config build/ --progress --colors",
     "watch": "cross-env NODE_ENV=development webpack --config build/ --colors --watch",
-    "prebuild": "rm -rf ./www",
+    "prebuild": "rm -rf ./dist",
     "build": "cross-env NODE_ENV=production webpack -p --config build/ --progress --colors",
     "dev": "cross-env NODE_ENV=development node build/server --4010",
     "pack": "node build/pack",

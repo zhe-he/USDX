@@ -25,7 +25,7 @@
 
             </div>
         </div>
-
+        <phases></phases>
         <div class="aboutUSDX clearfix">
             <div class="height120 height_mobile_120"></div>
             <h2 class="title">
@@ -213,6 +213,7 @@
 
 <script type="text/javascript">
     import Hexagon from './hexagon';
+    import Phases from './phases';
     import homeData from '../data/home';
 
     export default {
@@ -249,7 +250,8 @@
             }
         },
         components: {
-            Hexagon
+            Hexagon,
+            Phases
         }
     }
 </script>
