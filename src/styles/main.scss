@@ -335,6 +335,13 @@ body,html{background: #272a2f;}
     background-repeat: no-repeat;
     margin-right: 29px;
 }
+/*.linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
+.linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
+.linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
+.linkBox .icon_m{background-image: url("../images/icon/icon_m.png");}
+.linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
+.linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
+.linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}*/
 .linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
 .linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
 .linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
@@ -342,6 +349,14 @@ body,html{background: #272a2f;}
 .linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
 .linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
 .linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}
+
+.linkBox .icon_facebook:hover{background-image: url("../images/icon/icon_facebook_active.png"); }
+.linkBox .icon_f:hover{background-image: url("../images/icon/icon_f_active.png");}
+.linkBox .icon_msg:hover{background-image: url("../images/icon/icon_msg_active.png");}
+.linkBox .icon_m:hover{background-image: url("../images/icon/icon_m_active.png");}
+.linkBox .icon_github:hover{background-image: url("../images/icon/icon_github_active.png");}
+.linkBox .icon_reddit:hover{background-image: url("../images/icon/icon_reddit_active.png");}
+.linkBox .icon_medium:hover{background-image: url("../images/icon/icon_medium_active.png");}
 
 .linkBox a:last-child{margin-right: 0px;}
 .footerBox .copyRight{color:#cccccc;font-size: 15px;text-align: center;margin-top: 54px;}
