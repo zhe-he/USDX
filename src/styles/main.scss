@@ -26,7 +26,8 @@ body{background:#fff;font-size: 16px;}
 .height110{height: 110px;}
 .height120{height: 120px;}
 .height100{height: 100px;}
-
+.mobileShow{display: none;}
+.mobileHide{display: block;}
 
 body,html{background: #272a2f;}
 .topNav{
@@ -144,7 +145,13 @@ body,html{background: #272a2f;}
             background-color: #267474;
             margin-top: 18px;
         }
+        .swiperBtn{display: block;float: left;width: 32px; height: 32px;}
+        .swiperLeft{background: url("../images/phases/left_uncheck_btn.png") no-repeat;margin-right: 20px;}
+        .swiperRight{background: url("../images/phases/right_check_btn.png") no-repeat;margin-left: 20px;}
         .order{
+            .number{
+                float: left;
+            }
             margin-top: 18px;
             .big{
                 color: #04e0e0;
@@ -267,14 +274,9 @@ body,html{background: #272a2f;}
     background-color: #1e2023;
 }
 .teamBox .title{width: 352px;}
-/*.teamHeader{width:473px;
-    height: 208px;
-    display: block;
-    margin: 0 auto;
-    background-image: url("../images/team_header_bg.jpg");
-    background-repeat: no-repeat;
 
-}*/
+
+.teamHeader img{display: block; margin: 0 auto;}
 .teamBox .teamMember{
 
 }
@@ -408,6 +410,8 @@ body,html{background: #272a2f;}
     .height_mobile_120{height: 30px;}
     .height_mobile_20{height: 20px;}
     .mobile_block{display: block;}
+    .mobileShow{display: block;}
+    .mobileHide{display: none;}
     .topNav{
         position: relative;
         height: 76px;

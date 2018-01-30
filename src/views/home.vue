@@ -39,18 +39,20 @@
                     <div class="line"></div>
                     <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
                     <div class="order">
-                        <span class="big">01</span>&nbsp;<span class="small">/ 03</span>
+                        <a href="javascript:;" @click="swiperNext()" class="swiperBtn swiperLeft mobileHide"></a>
+                            <div class="number"><span class="big">01</span>&nbsp;<span class="small">/ 03</span></div>
+                        <a href="javascript:;" @click="swiperPrev()" class="swiperBtn swiperRight mobileHide"></a>
                     </div>
                 </div>
                 <div class="rightPicBox">
                     <div class="bottomBase"></div>
-                    <div  @click="swipeNext(1)" :class="'topImage '+ nextData"></div>
-                    <div  @click="swipeNext(2)" :class="'topTwoImage '+nextData" style="display: none;"></div>
-                    <div  @click="swipeNext(3)" :class="'topThreeImage '+nextData" style="display: none;"></div>
+                    <div :class="'topImage '+ nextData"></div>
+                    <div :class="'topTwoImage '+nextData" style="display: none;"></div>
+                    <div :class="'topThreeImage '+nextData" style="display: none;"></div>
                 </div>
             </div>
             <!--phase two-->
-            <div class="aboutContent phaseTwoBox">
+            <div class="aboutContent phaseTwoBox mobileShow">
                 <div class="content">
                     <h2>What Is USDX</h2>
                     <div class="line"></div>
@@ -70,7 +72,7 @@
                 </div>
             </div>
             <!--phase three-->
-            <div class="aboutContent phaseThreeBox">
+            <div class="aboutContent phaseThreeBox mobileShow">
                 <div class="content">
                     <h2>How USDX Protocol Works</h2>
                     <div class="line"></div>
@@ -220,11 +222,26 @@
                 icon1: homeData.icon1,
                 icon2: homeData.icon2,
                 icon3: homeData.icon3,
+                prevData:'',
                 nextData:'',
-                nextIndex:'1'
+                nextIndex:'1',
+                curPage:1,
             }
         },
         methods:{
+            swiperNext(){
+                if(this.curPage <3){
+
+                    this.curPage += 1;
+
+                }
+
+            },
+            swiperPrev(){
+                if(this.curPage >1){
+                    this.curPage -= 1;
+                }
+            },
             swipeNext(index){
                 this.nextData = 'animated fadeInRight';
                 this.nextIndex = index;
