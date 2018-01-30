@@ -14,6 +14,7 @@
 <script type="text/javascript">
     import FastClick from 'fastclick';
     import "./styles/animate.min.css";
+    import "./fonts/iconfont.css"
 
     export default {
         created(){

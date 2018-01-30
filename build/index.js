@@ -29,6 +29,7 @@ module.exports = {
     },
     // 入口文件输出配置
     output: {
+        publicPath: '/',
         // publicPath: 'http://tannie.huchill.com/usdx/',
         path: path.resolve(__dirname, `../${DIST}`),
         filename: 'js/[name].js',
@@ -116,7 +117,7 @@ module.exports = {
                     {
                         loader:'file-loader',
                         options: {
-                            name: '[path][name].[ext]?[hash]'
+                            name: 'fonts/[name].[ext]?[hash]'
                         }
                     }
                 ]
