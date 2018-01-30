@@ -182,7 +182,7 @@
 <style lang="scss">
     .hexagon-box{
         padding-top: 20px;
-        width: 960px;
+        width: 80%;
         margin: 0 auto;
     }
 </style>
