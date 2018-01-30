@@ -6,7 +6,12 @@
             <span @click="cur=2">right</span>
         </div>
         <div class="phases-main">
-            <div class="phases-l"></div>
+            <div class="phases-l">
+                <div v-show="cur==index" v-for="(item,index) in phases">
+                    <h4 v-html="item.h4"></h4>
+                    <p v-html="item.p"></p>
+                </div>
+            </div>
             <div class="phases-r">
                 <div class="phases-tianping">
                     <img src="images/phases/tianping_base.png" alt="">
@@ -28,10 +33,13 @@
 </template>
 
 <script type="text/javascript">
+    import phasesData from '../data/home';
+
     export default {
         data() {
             return {
-                cur: 1
+                cur: 1,
+                phases: phasesData.phases
             }
         },
 
@@ -48,9 +56,17 @@
     }
     .phases-main{
         display: flex;
+        align-item: center;
+        justify-content: center;
+        padding: 10%;
     }
     .phases-l{
         flex: 1;
+        padding: 0 10%;
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .phases-r{
         position: relative;

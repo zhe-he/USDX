@@ -26,69 +26,8 @@
             </div>
         </div>
         <phases></phases>
-        <div class="aboutUSDX clearfix">
-            <div class="height120 height_mobile_120"></div>
-            <h2 class="title">
-                <i class="line_icon left_line"></i>
-                <span>ABOUT USDX</span>
-                <i class="line_icon right_line"></i>
-            </h2>
-            <div class="aboutContent phaseOneBox">
-                <div class="content">
-                    <h2>Current Stablecoins Are <span class="mobile_block">Unsustainable</span></h2>
-                    <div class="line"></div>
-                    <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
-                    <div class="order">
-                        <span class="big">01</span>&nbsp;<span class="small">/ 03</span>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div  @click="swipeNext(1)" :class="'topImage '+ nextData"></div>
-                    <div  @click="swipeNext(2)" :class="'topTwoImage '+nextData" style="display: none;"></div>
-                    <div  @click="swipeNext(3)" :class="'topThreeImage '+nextData" style="display: none;"></div>
-                </div>
-            </div>
-            <!--phase two-->
-            <div class="aboutContent phaseTwoBox">
-                <div class="content">
-                    <h2>What Is USDX</h2>
-                    <div class="line"></div>
-                    <p>USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank.</p>
-                    <ul class="phaseTwoDesc">
-                        <li><i></i><span>Programmable Money</span></li>
-                        <li class="phase02"><i></i><span>Algorithmic Central Bank</span></li>
-                        <li class="phase03"><i></i><span>Decentralized Financial System</span></li>
-                    </ul>
-                    <div class="order">
-                        <span class="big">02</span>&nbsp;<span class="small">/ 03</span>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div class="topImage"></div>
-                </div>
-            </div>
-            <!--phase three-->
-            <div class="aboutContent phaseThreeBox">
-                <div class="content">
-                    <h2>How USDX Protocol Works</h2>
-                    <div class="line"></div>
-                    <p>1.&nbsp;Measure the exchange rates through reliable Oracle feed from third party</p>
-                    <p>2.&nbsp;Expansion : when USDX is traded for more than 1USD, the blockchain will mint new coins & distribute to participants intellgently according to protocol</p>
-                    <p>3.&nbsp;Contraction : when USDX is traded for less than 1USD, the blockchain will generate SDRs(Special Drawing Rigjhs) to recycle stablecoins intellgently according to protocol.</p>
-                    <p>4.&nbsp;USDX price will fluctuates around 1USD contantly.</p>
-
-                    <div class="order">
-                        <span class="big">03</span>&nbsp;<span class="small">/ 03</span>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div class="topImage"></div>
-                </div>
-            </div>
-        </div>
+        
+        <aboutusdx></aboutusdx>
         <!-- <div class="teamBox">
 
          </div>-->
@@ -160,36 +99,8 @@
         <div class="hexagon-box">
             <hexagon></hexagon>
         </div>
-        <div class="partenersBox">
-            <h2 class="title">
-                <i class="line_icon left_line"></i>
-                <span>PARTENERS</span>
-                <i class="line_icon right_line"></i>
-            </h2>
-            <div class="itemContainer">
-                <ul>
-                    <li v-for="item in icon1">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li v-for="item in icon2">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li v-for="item in icon3">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
+        <parteners></parteners>
 
         <footer class="footerBox">
             <div class="wrapper clearfix">
@@ -212,15 +123,13 @@
 <script type="text/javascript">
     import Hexagon from './hexagon';
     import Phases from './phases';
-    import homeData from '../data/home';
+    import Parteners from './parteners';
+    import Aboutusdx from './Aboutusdx';
 
     export default {
         name:'home',
         data(){
             return {
-                icon1: homeData.icon1,
-                icon2: homeData.icon2,
-                icon3: homeData.icon3,
                 nextData:'',
                 nextIndex:'1'
             }
@@ -234,7 +143,9 @@
         },
         components: {
             Hexagon,
-            Phases
+            Phases,
+            Parteners,
+            Aboutusdx
         }
     }
 </script>

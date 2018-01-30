@@ -1093,6 +1093,21 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .itemContainer-mobile{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .itemContainer-pc{
+        display: none !important;
+    }
+    .itemContainer-mobile{
+        width: 93% !important;
+    }
+}
+
+
 @media screen and (max-width: 580px) {
     .section-6 {
         padding-top:150px
