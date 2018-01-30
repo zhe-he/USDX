@@ -91,6 +91,8 @@
          </div>-->
         <!--TEAM-->
         <div class="teamBox clearfix">
+            <div class="teamHeader"></div>
+            <div class="height70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>TEAM</span>

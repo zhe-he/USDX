@@ -225,7 +225,18 @@ body,html{background: #272a2f;}
 .aboutContent p{font-size: 13px;}
 
 .partenersBox .title,.teamBox .title{height:40px;line-height: 40px;width: 466px;margin: 0 auto;}
+.teamBox{
+    background-color: #1e2023;
+}
 .teamBox .title{width: 352px;}
+.teamHeader{width:473px;
+    height: 208px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/team_header_bg.jpg");
+    background-repeat: no-repeat;
+
+}
 .teamBox .teamMember{
 
 }
