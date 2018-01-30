@@ -23,6 +23,7 @@ body{background:#fff;font-size: 16px;}
 .height20{height: 20px;}
 .height60{height: 60px;}
 .height70{height: 70px;}
+.height90{height: 90px;}
 .height110{height: 110px;}
 .height120{height: 120px;}
 .height100{height: 100px;}
@@ -284,27 +285,54 @@ body,html{background: #272a2f;}
 
 .teamHeader img{display: block; margin: 0 auto;}
 .teamBox .teamMember{
+    .intro{
+        .title{
+            font-size: 22px;
+            font-weight: normal;
+        }
+    }
 
 }
-.teamMember {width: 800px;margin: 0 auto; height: 1580px;}
-.teamMember .itemOne{padding-left: 82px;position: relative;height: 313px;}
-.teamMember .itemOne .intro{font-size: 15px;width: 228px;text-align: left;float: left;}
-.itemOne .bigCapitial{position: absolute;width: 138px;height: 179px;display: block;
+.teamMember {width: 960px;margin: 0 auto; height: 1580px;}
+.teamMember .itemOne{padding-left: 100px;position: relative;height: 313px;}
+.teamMember .itemOne .intro{font-size: 15px;width: 274px;text-align: left;float: left;}
+.itemOne .bigCapitial{
+    position: absolute;
+    width: 163px;
+    height: 211px;
+    display: block;
     background: url("../images/r_big_icon.png") no-repeat;
-    left: 247px;
-    top:134px;
+    background-size: 163px 211px;
+    left: 322px;
+    top:164px;
 }
-.itemOne .teamPic{float: left;margin-left: 21px;}
-.teamMember .itemTwo{height:438px;position: relative;float: right;padding-right: 82px;}
-.teamMember .itemTwo .intro{font-size: 15px;width: 228px;text-align: left;}
+.teamPic{
+    //float: left;
+    //margin-left: 24px;
+    img{
+        width: 276px;
+    }
+}
+.teamMember .itemTwo{height:438px;position: relative;float: right;padding-right: 80px;}
+.teamMember .itemTwo .intro{font-size: 15px;width: 278px;text-align: left;}
 .itemTwo  .teamPic{padding-top: 16px;}
-.itemTwo .bigCapitial{position: absolute;width: 144px;height: 222px;display: block;
+.itemTwo .bigCapitial{
+    position: absolute;
+    width: 174px;
+    height: 268px;
+    display: block;
     background: url("../images/l_big_icon.png") no-repeat;
+    background-size: 174px 268px;
     right: 180px;
     top:230px;
 }
 .teamMember .itemThree{height: 444px;position: relative;padding-top: 60px;}
-.teamMember .itemThree .intro{font-size: 15px;width: 228px;text-align: left;padding-left: 164px;}
+.teamMember .itemThree .intro{
+    font-size: 15px;
+    width: 274px;
+    text-align: left;
+    padding-left: 200px;
+}
 .itemThree  .teamPic{padding-top: 90px;padding-left: 82px;}
 .intro{
     .big_number_font{
@@ -322,18 +350,24 @@ body,html{background: #272a2f;}
     }
 }
 .itemThree .bigCapitial{
-    width: 145px;
-    height: 142px;
+    width: 175px;
+    height: 168px;
     display: block;
     background: url("../images/m_big_icon.png") no-repeat;
+    background-size: 175px 168px;
     position: absolute;
-    top:180px;
+    top:156px;
     left:0px;
 }
 .teamMember .itemFour{padding-left: 82px;position: relative;height: 313px;}
 .teamMember .itemFour .intro{font-size: 15px;width: 228px;text-align: left;float: left;margin-top: 203px;}
-.itemFour .bigCapitial{position: absolute;width: 144px;height: 165px;display: block;
+.itemFour .bigCapitial{
+    position: absolute;
+    width: 170px;
+    height: 194px;
+    display: block;
     background: url("../images/a_big_icon.png") no-repeat;
+    background-size: 170px 194px;
     left: 304px;
     top:0px;
 }
@@ -343,7 +377,12 @@ body,html{background: #272a2f;}
 .teamMember .big{font-size: 27px;}
 .teamMember .small{font-size: 13px;}
 .teamMember h2{color:#ffffff;margin-top: 5px;}
-.teamMember p{font-size: 11px; color: #999999;line-height: 15px;margin-top: 15px;}
+.teamMember p{
+    font-size: 14px;
+    color: #999999;
+    line-height: 20px;
+    margin-top: 2px;
+}
 
 
 .partenersBox .title .line_icon,.teamBox .title .line_icon,.aboutUSDX .title .line_icon{background: url("../images/left_line_icon.png") no-repeat;
