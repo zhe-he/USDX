@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="home">
         <div class="topNav">
             <img src="images/logo.png"/>
             <ul class="clearfix">
@@ -43,9 +43,9 @@
                 </div>
                 <div class="rightPicBox">
                     <div class="bottomBase"></div>
-                    <!--<div class="topImage"></div>-->
-                    <!--<div class="topImage topTwoImage"></div>-->
-                    <div class="bottomBase"></div>
+                    <div  @click="swipeNext(1)" :class="'topImage '+ nextData"></div>
+                    <div  @click="swipeNext(2)" :class="'topTwoImage '+nextData" style="display: none;"></div>
+                    <div  @click="swipeNext(3)" :class="'topThreeImage '+nextData" style="display: none;"></div>
                 </div>
             </div>
             <!--phase two-->
@@ -207,11 +207,21 @@
     import homeData from '../data/home';
 
     export default {
+        name:'home',
         data(){
             return {
                 icon1: homeData.icon1,
                 icon2: homeData.icon2,
-                icon3: homeData.icon3
+                icon3: homeData.icon3,
+                nextData:'',
+                nextIndex:'1'
+            }
+        },
+        methods:{
+            swipeNext(index){
+                this.nextData = 'animated fadeInRight';
+                this.nextIndex = index;
+
             }
         },
         components: {
