@@ -2,6 +2,7 @@
     <div id="home">
         <div class="topNav">
             <img src="images/logo.png"/>
+            <div class="navBar"></div>
             <ul class="clearfix">
                 <li><a href="javascript:;" class="anchor-hd active">Home</a></li>
                 <li><a href="javascript:;" class="anchor-hd">Whitepaper</a></li>
@@ -12,7 +13,7 @@
             </ul>
         </div>
         <div class="indexSection clearfix">
-            <div class="height110"></div>
+            <div class="height110 height_mobile_110"></div>
             <div class="indexBox">
                 <div class="indexContent">
                     <h2>USDX</h2>
@@ -26,15 +27,15 @@
         </div>
         <phases></phases>
         <div class="aboutUSDX clearfix">
-            <div class="height120"></div>
+            <div class="height120 height_mobile_120"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>ABOUT USDX</span>
                 <i class="line_icon right_line"></i>
             </h2>
-            <div class="aboutContent">
+            <div class="aboutContent phaseOneBox">
                 <div class="content">
-                    <h2>Current Stablecoins Are Unsustainable</h2>
+                    <h2>Current Stablecoins Are <span class="mobile_block">Unsustainable</span></h2>
                     <div class="line"></div>
                     <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
                     <div class="order">
@@ -49,7 +50,7 @@
                 </div>
             </div>
             <!--phase two-->
-            <div class="aboutContent phaseTwoBox" style="display: none;">
+            <div class="aboutContent phaseTwoBox">
                 <div class="content">
                     <h2>What Is USDX</h2>
                     <div class="line"></div>
@@ -69,7 +70,7 @@
                 </div>
             </div>
             <!--phase three-->
-            <div class="aboutContent phaseThreeBox" style="display: none;">
+            <div class="aboutContent phaseThreeBox">
                 <div class="content">
                     <h2>How USDX Protocol Works</h2>
                     <div class="line"></div>
@@ -93,13 +94,16 @@
          </div>-->
         <!--TEAM-->
         <div class="teamBox clearfix">
-            <div class="teamHeader"></div>
+            <div class="teamHeader">
+                <img src="images/team_header_bg.jpg"/>
+            </div>
             <div class="height70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>TEAM</span>
                 <i class="line_icon right_line"></i>
             </h2>
+            <div class="height120 height_mobile_120"></div>
                 <div class="teamMember">
                     <!--team one-->
                     <div class="itemOne clearfix">
@@ -116,7 +120,7 @@
                     <div class="height20"></div>
                     <!--team two-->
                     <div class="itemTwo clearfix">
-                        <div class="intro">
+                        <div class="intro ">
                             <h2><span class="big">02</span>&nbsp;/&nbsp;<span class="small">04</span>&nbsp;&nbsp;&nbsp;&nbsp;Lucas Porco</h2>
                             <p>Experienced lawyer focus on the compliance of blockchain and cryptocurrency Ph.D candidate of Law at University of Toronto Top-level participation in the design of legal frameworks for several cryptocurrencies</p>
                         </div>
@@ -125,6 +129,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
+                    <div class="height_mobile_20"></div>
                     <!--team three-->
                     <div class="itemThree clearfix">
                         <div class="intro">
@@ -136,7 +141,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                   <div class="height60"></div>
+                   <div class="height60 height_mobile_120"></div>
                    <!--team four-->
                    <div class="itemFour clearfix">
                         <div class="intro">
@@ -149,7 +154,9 @@
                         <span class="bigCapitial"></span>
                     </div>
                 </div>
+            <div class="height_mobile_100"></div>
         </div>
+
         <div class="hexagon-box">
             <hexagon></hexagon>
         </div>

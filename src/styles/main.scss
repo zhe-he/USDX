@@ -267,14 +267,14 @@ body,html{background: #272a2f;}
     background-color: #1e2023;
 }
 .teamBox .title{width: 352px;}
-.teamHeader{width:473px;
+/*.teamHeader{width:473px;
     height: 208px;
     display: block;
     margin: 0 auto;
     background-image: url("../images/team_header_bg.jpg");
     background-repeat: no-repeat;
 
-}
+}*/
 .teamBox .teamMember{
 
 }
@@ -398,3 +398,346 @@ body,html{background: #272a2f;}
 
 .linkBox a:last-child{margin-right: 0px;}
 .footerBox .copyRight{color:#cccccc;font-size: 15px;text-align: center;margin-top: 54px;}
+
+
+
+/*750*/
+@media screen and (max-width: 720px) {
+    .height_mobile_100{height: 100px;}
+    .height_mobile_110{height: 0px;}
+    .height_mobile_120{height: 30px;}
+    .height_mobile_20{height: 20px;}
+    .mobile_block{display: block;}
+    .topNav{
+        position: relative;
+        height: 76px;
+        background: transparent;
+        img{
+            height: 48px;
+            width: auto;
+            margin-top: 15px;
+        }
+        li{
+            display: none;
+        }
+        .navBar{
+            display: block;
+            width: 23px;
+            height: 17px;
+            position: absolute;
+            right: 18px;
+            top:30px;
+            background: url("../images/mobile/nav_bar_icon.png");
+            background-repeat: no-repeat;
+        }
+        ul{
+            position: absolute;
+        }
+    }
+    .indexSection{
+        .indexBox{margin-top: 50px;
+            width: 352px;
+            height: 468px;
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-size: 342px auto;
+            background-position: 32px top;
+
+            .indexContent{
+                padding: 0px;
+                padding-top: 280px;
+                padding-left: 32px;
+                h2{
+                    font-size: 52px;
+                }
+            }
+            p{font-size: 18px;line-height: 21px;}
+        }
+
+    }
+    .whitePaper{
+        font-size: 12px;
+        height: 38px;
+        width: 152px;
+    }
+    .aboutUSDX{
+        width: 100%;
+        padding-bottom: 210px;
+        .title{
+            width: 336px;
+            .line_icon{
+                width: 60px;
+                background-size: 60px auto;
+            }
+            span{
+                font-size: 29px;
+                font-weight: 500;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+        }
+        .aboutContent{
+            .content{
+                h2{
+                    font-size: 21px;
+                    line-height: 23px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                    width: 312px;
+                }
+                .order{margin-top: 40px;}
+            }
+            .rightPicBox{
+                left:0;
+                top:120px;
+                height: auto;
+                .bottomBase{
+                    width: 335px;
+                    height: 244px;
+                    left:0;
+                    bottom: 0;
+                    top:305px;
+                }
+                .topImage{
+                    left:24px;
+                    top:192px;
+                    width: 331px;
+                    height: 288px;
+                    background-size: 331px 288px;
+                }
+            }
+
+
+        }
+        /*two*/
+        .phaseTwoBox{
+            .content{
+                h2{
+                    font-size: 21px;
+                    line-height: 23px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                    width: 312px;
+                }
+                .order{margin-top: 40px;}
+            }
+            .rightPicBox{
+                left:0;
+                top:120px;
+                height: auto;
+                .bottomBase{
+                    width: 335px;
+                    height: 244px;
+                    left:0;
+                    bottom: 0;
+                    top:305px;
+                }
+                .topImage{
+                    left:24px;
+                    top:240px;
+                    width: 350px;
+                    height: 213px;
+                    background-size: 350px 213px;
+                }
+            }
+
+
+        }
+        /*three*/
+        .phaseThreeBox{
+            .content{
+                h2{
+                    font-size: 21px;
+                    line-height: 23px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                    width: 312px;
+                }
+                .order{margin-top: 40px;}
+            }
+            .rightPicBox{
+                left:0;
+                top:120px;
+                height: auto;
+                .bottomBase{
+                    width: 335px;
+                    height: 244px;
+                    left:0;
+                    bottom: 0;
+                    top:400px;
+                }
+                .topImage{
+                    left:20px;
+                    top:315px;
+                    width: 350px;
+                    height: 252px;
+                    background-size: 350px 252px;
+                }
+            }
+        }
+
+    }
+    /*.teamHeader{width: 90%;}*/
+    .teamHeader{
+        width: 100%;
+        img{width: 92%; display: block; margin:  0 auto;}
+    }
+    .teamBox{
+        .title{
+            span{
+                font-size: 29px;
+            }
+        }
+        .teamMember{
+            width: 100%;
+            height: auto;
+            .bigCapitial{display: none;}
+            h2{margin-top: -4px;}
+            p{margin-top: 10px;font-size: 9px;}
+        }
+        .itemOne{
+            padding-left: 24px;
+            padding-right: 24px;
+            position: relative;
+            height: auto;
+            .intro{
+                float: left;
+                width: auto;
+                padding-left: 136px;
+                //width: 180px;
+                font-size: 13px;
+            }
+            .teamPic{
+                //float: left;
+                position: absolute;
+                margin: 0;
+                img{
+                    width: 104px;
+                }
+            }
+        }
+        .itemTwo{
+            padding-left: 24px;
+            padding-right: 24px;
+            position: relative;
+            height: auto;
+            .intro{
+               // float: right;
+                width: auto;
+                padding-right: 120px;
+                padding-top: 18px;
+                //width: 180px;
+
+            }
+            .teamPic{
+                //float: right;
+                position: absolute;
+                right:24px;
+                margin: 0;
+                top:0;
+                img{
+                    width: 104px;
+                }
+            }
+        }
+        .itemThree{
+            padding-left: 24px;
+            padding-right: 24px;
+            position: relative;
+            height: auto;
+            margin-top: 140px;
+            .intro{
+                float: left;
+                margin-top: -60px;
+                width: auto;
+                padding-left: 136px;
+                font-size: 13px;
+            }
+            .teamPic{
+                padding: 0;
+                position: absolute;
+                top:0;
+                left:24px;
+                margin: 0;
+                img{
+                    width: 104px;
+                }
+            }
+        }
+        .itemFour{
+            padding-left: 24px;
+            padding-right: 24px;
+            position: relative;
+            height: auto;
+            .intro{
+                width: auto;
+                padding-right: 120px;
+                padding-top: 0px;
+                margin-top: 0px;
+
+            }
+            .teamPic{
+                //float: right;
+                position: absolute;
+                right:24px;
+                margin: 0;
+                top:0;
+                img{
+                    width: 104px;
+                }
+            }
+        }
+
+
+    }
+    .partenersBox{
+        .title{
+            width: 328px;
+            margin: 0 auto;
+            span{
+                font-size: 25px;
+                margin-left: 9px;
+                margin-right: 9px;
+
+            }
+            .line_icon{
+                width: 74px;
+            }
+        }
+    }
+    .itemContainer{
+        ul{
+            padding-left: 24px;
+            padding-right: 24px;
+            li{
+
+            }
+        }
+    }
+    .footerBox{
+        .bottomLogo{
+            img{
+                height: 56px;
+                width: 186px;
+            }
+        }
+        .linkBox{
+            width: 302px;
+            margin-top: 45px;
+            a{
+                width:26px;
+                height: 26px;
+                margin-right: 20px;
+            }
+            a:last-child{margin-right: 0px;}
+        }
+    }
+    
+}
