@@ -29,7 +29,12 @@ module.exports = {
     },
     // 入口文件输出配置
     output: {
+<<<<<<< HEAD
          publicPath: '/',
+=======
+        publicPath: '/',
+        // publicPath: 'http://tannie.huchill.com/usdx/',
+>>>>>>> 87bb02153bf1a3138af44f06b2a91abe8f2f56f3
         path: path.resolve(__dirname, `../${DIST}`),
         filename: 'js/[name].js',
         chunkFilename: 'js/chunk/[name].js?[hash]',
@@ -116,7 +121,7 @@ module.exports = {
                     {
                         loader:'file-loader',
                         options: {
-                            name: '[path][name].[ext]?[hash]'
+                            name: 'fonts/[name].[ext]?[hash]'
                         }
                     }
                 ]
