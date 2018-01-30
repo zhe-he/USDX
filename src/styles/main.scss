@@ -30,6 +30,8 @@ body{background:#fff;font-size: 16px;}
 .mobileHide{display: block;}
 
 body,html{background: #272a2f;}
+
+
 .topNav{
     z-index: 100;
     height: 60px;width: 100%;position: fixed;
@@ -44,6 +46,7 @@ body,html{background: #272a2f;}
     margin-top: 12px;
     float: left;
 }
+.icon-USDX_logo{color: #fff;}
 .topNav ul{float: right;padding-top: 20px;padding-right: 60px;}
 .topNav li {
     float: left;
@@ -146,17 +149,32 @@ body,html{background: #272a2f;}
             margin-top: 18px;
         }
         .swiperBtn{display: block;float: left;width: 32px; height: 32px;}
-        .swiperLeft{background: url("../images/phases/left_uncheck_btn.png") no-repeat;margin-right: 20px;}
-        .swiperRight{background: url("../images/phases/right_check_btn.png") no-repeat;margin-left: 20px;}
+        .swiperLeft{margin-right: 20px;margin-top: -3px;}
+        .icon-right_arrow,.icon-left_arrow{font-size: 31px;color: #4a4f59;}
+        .active{
+            .icon-right_arrow,.icon-left_arrow{font-size: 31px;color: #05e1e3;}
+        }
+        .swiperRight{margin-left: 20px;margin-top: -3px;}
         .order{
             .number{
                 float: left;
             }
             margin-top: 18px;
-            .big{
+            .big_number_font{
+                color: #04e0e0;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .icon-three{font-size: 26px;}
+            .icon-two{font-size: 26px;}
+            .small_number_font{
+                color:#ffffff;
+                font-size: 12px;
+            }
+            /*.big{
                 color: #04e0e0;
                 font-size: 26px;
-            }
+            }*/
             .small{
                 font-size: 13px;
                 color: #fff;
@@ -210,19 +228,20 @@ body,html{background: #272a2f;}
 }
 .phaseTwoDesc{
     padding-top: 10px;
+    .psIconfont{
+        color: #08d6d8;
+        font-size: 15px;
+        display: block;
+        float: left;
+        margin-top: 1px;
+    }
+
     li{
         display: block;
         height: 15px;
         line-height: 15px;
         margin-top: 16px;
-        i{
-            display: block;
-            float: left;
-            background-image: url("../images/phases/phasesTwo01.png");
-            background-repeat: no-repeat;
-            width: 14px;
-            height: 15px;
-        }
+
         span{
             float: left;
             margin-left: 12px;
@@ -230,19 +249,6 @@ body,html{background: #272a2f;}
             color: #fff;
         }
     }
-    .phase02{
-        i{
-            background-image: url("../images/phases/phasesTwo02.png");
-            background-repeat: no-repeat;
-        }
-    }
-    .phase03{
-        i{
-            background-image: url("../images/phases/phasesTwo03.png");
-            background-repeat: no-repeat;
-        }
-    }
-
 }
 
 
@@ -300,6 +306,21 @@ body,html{background: #272a2f;}
 .teamMember .itemThree{height: 444px;position: relative;padding-top: 60px;}
 .teamMember .itemThree .intro{font-size: 15px;width: 228px;text-align: left;padding-left: 164px;}
 .itemThree  .teamPic{padding-top: 90px;padding-left: 82px;}
+.intro{
+    .big_number_font{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .icon-two{font-size: 26px;}
+    .icon-three{font-size: 26px;}
+    .icon-four{font-size: 26px;}
+    .small_number_font{
+        font-size: 12px;
+        color: #fff;
+
+    }
+}
 .itemThree .bigCapitial{
     width: 145px;
     height: 142px;
@@ -363,40 +384,42 @@ body,html{background: #272a2f;}
     width: 100%;
     padding-top: 34px;
 }
-.footerBox .wrapper{}
-.footerBox .wrapper{}
-.footerBox .wrapper{}
-.footerBox .wrapper{}
-.footerBox .wrapper{}
+
 .bottomLogo img{display: block;width:216px;height: 65px; margin: 0 auto; }
 .linkBox{width: 400px; margin: 0 auto;margin-top: 50px;}
-.linkBox a{ float: left;width: 32px;height: 32px;
+/*.linkBox a{ float: left;width: 32px;height: 32px;
     background-image: url("../images/facebook_icon.png");
     background-repeat: no-repeat;
     margin-right: 29px;
+}*/
+.linkBox{
+    .iconfont{
+        font-size: 26px;
+        color: #fff;
+        margin-right: 29px;
+    }
 }
-/*.linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
-.linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
-.linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
-.linkBox .icon_m{background-image: url("../images/icon/icon_m.png");}
-.linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
-.linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
-.linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}*/
-.linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
-.linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
-.linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
-.linkBox .icon_m{background-image: url("../images/icon/icon_m.png");}
-.linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
-.linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
-.linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}
+.linkBox a:hover{
+    i{
+        color:#06dde0;
+    }
+}
+    /*
+    .linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
+    .linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
+    .linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
+    .linkBox .icon_m{background-image: url("../images/icon/icon_m.png");}
+    .linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
+    .linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
+    .linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}*/
 
-.linkBox .icon_facebook:hover{background-image: url("../images/icon/icon_facebook_active.png"); }
+/*.linkBox .icon_facebook:hover{background-image: url("../images/icon/icon_facebook_active.png"); }
 .linkBox .icon_f:hover{background-image: url("../images/icon/icon_f_active.png");}
 .linkBox .icon_msg:hover{background-image: url("../images/icon/icon_msg_active.png");}
 .linkBox .icon_m:hover{background-image: url("../images/icon/icon_m_active.png");}
 .linkBox .icon_github:hover{background-image: url("../images/icon/icon_github_active.png");}
 .linkBox .icon_reddit:hover{background-image: url("../images/icon/icon_reddit_active.png");}
-.linkBox .icon_medium:hover{background-image: url("../images/icon/icon_medium_active.png");}
+.linkBox .icon_medium:hover{background-image: url("../images/icon/icon_medium_active.png");}*/
 
 .linkBox a:last-child{margin-right: 0px;}
 .footerBox .copyRight{color:#cccccc;font-size: 15px;text-align: center;margin-top: 54px;}

@@ -1,6 +1,7 @@
 <template>
     <div id="home">
         <div class="topNav">
+            <!--<i class="icon iconfont icon-USDX_logo"></i>-->
             <img src="images/logo.png"/>
             <div class="navBar"></div>
             <ul class="clearfix">
@@ -39,9 +40,16 @@
                     <div class="line"></div>
                     <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
                     <div class="order">
-                        <a href="javascript:;" @click="swiperNext()" class="swiperBtn swiperLeft mobileHide"></a>
-                            <div class="number"><span class="big">01</span>&nbsp;<span class="small">/ 03</span></div>
-                        <a href="javascript:;" @click="swiperPrev()" class="swiperBtn swiperRight mobileHide"></a>
+                        <a href="javascript:;" @click="swiperNext()" class="swiperBtn swiperLeft mobileHide">
+                            <i class="icon iconfont icon-left_arrow"></i>
+                        </a>
+                            <div class="number">
+                                <i class="icon iconfont icon-one big_number_font"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
+                            </div>
+                        <a href="javascript:;" @click="swiperPrev()" class="swiperBtn swiperRight mobileHide active">
+                            <i class="icon iconfont icon-right_arrow"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="rightPicBox">
@@ -58,12 +66,14 @@
                     <div class="line"></div>
                     <p>USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank.</p>
                     <ul class="phaseTwoDesc">
-                        <li><i></i><span>Programmable Money</span></li>
-                        <li class="phase02"><i></i><span>Algorithmic Central Bank</span></li>
-                        <li class="phase03"><i></i><span>Decentralized Financial System</span></li>
+                        <li><i class="icon iconfont icon-phaseOne psIconfont"></i><span>Programmable Money</span></li>
+                        <li class="phase02"><i class="icon iconfont icon-phaseTwo psIconfont"></i><span>Algorithmic Central Bank</span></li>
+                        <li class="phase03"><i class="icon iconfont icon-phaseThree psIconfont"></i><span>Decentralized Financial System</span></li>
                     </ul>
                     <div class="order">
-                        <span class="big">02</span>&nbsp;<span class="small">/ 03</span>
+                        <!--<span class="big">02</span>&nbsp;<span class="small">/ 03</span>-->
+                        <i class="icon iconfont icon-two big_number_font"></i>
+                        &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
                     </div>
                 </div>
                 <div class="rightPicBox">
@@ -82,7 +92,9 @@
                     <p>4.&nbsp;USDX price will fluctuates around 1USD contantly.</p>
 
                     <div class="order">
-                        <span class="big">03</span>&nbsp;<span class="small">/ 03</span>
+                        <!--<span class="big">03</span>&nbsp;<span class="small">/ 03</span>-->
+                        <i class="icon iconfont icon-three big_number_font"></i>
+                        &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
                     </div>
                 </div>
                 <div class="rightPicBox">
@@ -110,7 +122,10 @@
                     <!--team one-->
                     <div class="itemOne clearfix">
                         <div class="intro">
-                            <h2><span class="big">01</span>&nbsp;/&nbsp;<span class="small">04</span>&nbsp;&nbsp;&nbsp;&nbsp;Richard Tiutiun</h2>
+                            <h2>
+                                <i class="icon iconfont icon-one big_number_font"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Richard Tiutiun</h2>
                             <p>Fanatical genius of blockchain technology and hacker born in Ukraine Designed and developed XOR project and stablecoin lab after drop out from UC Berkley, and focus on the research of next generation of currency.
                             </p>
                         </div>
@@ -123,7 +138,11 @@
                     <!--team two-->
                     <div class="itemTwo clearfix">
                         <div class="intro ">
-                            <h2><span class="big">02</span>&nbsp;/&nbsp;<span class="small">04</span>&nbsp;&nbsp;&nbsp;&nbsp;Lucas Porco</h2>
+                            <h2>
+
+                                <i class="icon iconfont icon-two big_number_font"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Lucas Porco</h2>
                             <p>Experienced lawyer focus on the compliance of blockchain and cryptocurrency Ph.D candidate of Law at University of Toronto Top-level participation in the design of legal frameworks for several cryptocurrencies</p>
                         </div>
                         <div class="teamPic">
@@ -135,7 +154,10 @@
                     <!--team three-->
                     <div class="itemThree clearfix">
                         <div class="intro">
-                            <h2><span class="big">03</span>&nbsp;/&nbsp;<span class="small">04</span>&nbsp;&nbsp;&nbsp;&nbsp;Michael Gord</h2>
+                            <h2>
+                                <i class="icon iconfont icon-three big_number_font"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Michael Gord</h2>
                            <p>Professional blockchain consultant expert and product strategy expert In charge of strategic planning, business expansion and cooperation with regulators, banks and other institutions and departments of USDX project.</p>
                         </div>
                         <div class="teamPic">
@@ -147,7 +169,11 @@
                    <!--team four-->
                    <div class="itemFour clearfix">
                         <div class="intro">
-                            <h2><span class="big">04</span>&nbsp;/&nbsp;<span class="small">04</span>&nbsp;&nbsp;&nbsp;&nbsp;Ada Tie</h2>
+                            <h2>
+                                <!--<span class="big">04</span>&nbsp;/&nbsp;<span class="small">04</span>-->
+                                <i class="icon iconfont icon-four big_number_font"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Ada Tie</h2>
                            <p>Graduated from University of Toronto and London School of Economics Not only a financial practitioner but also a brand expert Has rich brand and marketing experience in art curatorial, luxury marketing and private banking, and applies it to the field of cryptocurrency.</p>
                         </div>
                         <div class="teamPic">
@@ -197,13 +223,13 @@
             <div class="wrapper clearfix">
                 <p class="bottomLogo"><img src="images/bottom_logo.png"></p>
                 <div class="clearfix linkBox">
-                    <a href="javascript:;"  class="icon icon_facebook"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_f"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_msg"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_m"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_github"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_reddit"></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_medium"></a>
+                    <a href="javascript:;"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_github"><i class="icon iconfont icon-github"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_medium"><i class="icon iconfont icon-emi"></i></a>
                 </div>
                 <p class="copyRight">©️USDX 2017.All Rights Reserved.</p>
             </div>
@@ -259,7 +285,7 @@
 <style lang="scss">
     .hexagon-box{
         padding-top: 20px;
-        width: 80%;
+        width: 960px;
         margin: 0 auto;
     }
 </style>

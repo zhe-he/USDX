@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
         color: #fff;
-        padding: 0 50px;
+        //padding: 0 50px;
         h3{
             margin-top: -30%;
         }
