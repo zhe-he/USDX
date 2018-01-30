@@ -6,7 +6,7 @@
             <p v-html="hexagon[cur].content"></p>
         </div>
         <ul class="hexagon">
-            <li :class="cur==index?'active':''" @mouseover="showItem(item,index)" v-for="(item,index) in hexagon">
+            <li :class="cur==index?'active':''" @click="showItem(item,index)" @mouseover="showItem(item,index)" v-for="(item,index) in hexagon">
                 <div v-if="item.img"><img :src="item.img" alt=""></div>
             </li>
         </ul>
