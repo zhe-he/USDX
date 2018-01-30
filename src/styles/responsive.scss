@@ -1093,6 +1093,42 @@
     }
 }
 
+/////////////
+@media screen and (min-width: 769px) {
+    .itemContainer-mobile{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .itemContainer-pc{
+        display: none !important;
+    }
+    .itemContainer-mobile{
+        width: 93% !important;
+    }
+    .hexagon-box{
+        width: 90%;
+        flex-direction: column;
+        .hexagon-title{
+            padding: 0;
+            h3{
+                margin-top: 0;
+                font-size: 16px;
+            }
+            h4{
+                font-size: 14px;
+            }
+            .line{
+                margin: 20px 0;
+            }
+            p{
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+///////////
+
 @media screen and (max-width: 580px) {
     .section-6 {
         padding-top:150px

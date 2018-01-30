@@ -27,82 +27,7 @@
             </div>
         </div>
         <phases></phases>
-        <div class="aboutUSDX clearfix">
-            <div class="height120 height_mobile_120"></div>
-            <h2 class="title">
-                <i class="line_icon left_line"></i>
-                <span>ABOUT USDX</span>
-                <i class="line_icon right_line"></i>
-            </h2>
-            <div class="aboutContent phaseOneBox">
-                <div class="content">
-                    <h2>Current Stablecoins Are <span class="mobile_block">Unsustainable</span></h2>
-                    <div class="line"></div>
-                    <p>Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks.</p>
-                    <div class="order">
-                        <a href="javascript:;" @click="swiperNext()" class="swiperBtn swiperLeft mobileHide">
-                            <i class="icon iconfont icon-left_arrow"></i>
-                        </a>
-                            <div class="number">
-                                <i class="icon iconfont icon-one big_number_font"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
-                            </div>
-                        <a href="javascript:;" @click="swiperPrev()" class="swiperBtn swiperRight mobileHide active">
-                            <i class="icon iconfont icon-right_arrow"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div :class="'topImage '+ nextData"></div>
-                    <div :class="'topTwoImage '+nextData" style="display: none;"></div>
-                    <div :class="'topThreeImage '+nextData" style="display: none;"></div>
-                </div>
-            </div>
-            <!--phase two-->
-            <div class="aboutContent phaseTwoBox mobileShow">
-                <div class="content">
-                    <h2>What Is USDX</h2>
-                    <div class="line"></div>
-                    <p>USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank.</p>
-                    <ul class="phaseTwoDesc">
-                        <li><i class="icon iconfont icon-phaseOne psIconfont"></i><span>Programmable Money</span></li>
-                        <li class="phase02"><i class="icon iconfont icon-phaseTwo psIconfont"></i><span>Algorithmic Central Bank</span></li>
-                        <li class="phase03"><i class="icon iconfont icon-phaseThree psIconfont"></i><span>Decentralized Financial System</span></li>
-                    </ul>
-                    <div class="order">
-                        <!--<span class="big">02</span>&nbsp;<span class="small">/ 03</span>-->
-                        <i class="icon iconfont icon-two big_number_font"></i>
-                        &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div class="topImage"></div>
-                </div>
-            </div>
-            <!--phase three-->
-            <div class="aboutContent phaseThreeBox mobileShow">
-                <div class="content">
-                    <h2>How USDX Protocol Works</h2>
-                    <div class="line"></div>
-                    <p>1.&nbsp;Measure the exchange rates through reliable Oracle feed from third party</p>
-                    <p>2.&nbsp;Expansion : when USDX is traded for more than 1USD, the blockchain will mint new coins & distribute to participants intellgently according to protocol</p>
-                    <p>3.&nbsp;Contraction : when USDX is traded for less than 1USD, the blockchain will generate SDRs(Special Drawing Rigjhs) to recycle stablecoins intellgently according to protocol.</p>
-                    <p>4.&nbsp;USDX price will fluctuates around 1USD contantly.</p>
-
-                    <div class="order">
-                        <!--<span class="big">03</span>&nbsp;<span class="small">/ 03</span>-->
-                        <i class="icon iconfont icon-three big_number_font"></i>
-                        &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
-                    </div>
-                </div>
-                <div class="rightPicBox">
-                    <div class="bottomBase"></div>
-                    <div class="topImage"></div>
-                </div>
-            </div>
-        </div>
+        <aboutusdx></aboutusdx>
         <!-- <div class="teamBox">
 
          </div>-->
@@ -188,36 +113,8 @@
         <div class="hexagon-box">
             <hexagon></hexagon>
         </div>
-        <div class="partenersBox">
-            <h2 class="title">
-                <i class="line_icon left_line"></i>
-                <span>PARTENERS</span>
-                <i class="line_icon right_line"></i>
-            </h2>
-            <div class="itemContainer">
-                <ul>
-                    <li v-for="item in icon1">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li v-for="item in icon2">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li v-for="item in icon3">
-                        <a :href="item.link">
-                            <img :src="item.img" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
+        <parteners></parteners>
 
         <footer class="footerBox">
             <div class="wrapper clearfix">
@@ -240,15 +137,13 @@
 <script type="text/javascript">
     import Hexagon from './hexagon';
     import Phases from './phases';
-    import homeData from '../data/home';
+    import Parteners from './parteners';
+    import Aboutusdx from './Aboutusdx';
 
     export default {
         name:'home',
         data(){
             return {
-                icon1: homeData.icon1,
-                icon2: homeData.icon2,
-                icon3: homeData.icon3,
                 prevData:'',
                 nextData:'',
                 nextIndex:'1',
@@ -277,7 +172,9 @@
         },
         components: {
             Hexagon,
-            Phases
+            Phases,
+            Parteners,
+            Aboutusdx
         }
     }
 </script>
@@ -285,7 +182,7 @@
 <style lang="scss">
     .hexagon-box{
         padding-top: 20px;
-        width: 960px;
+        width: 80%;
         margin: 0 auto;
     }
 </style>

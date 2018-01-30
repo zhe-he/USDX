@@ -2,6 +2,7 @@
     <div class="hexagon-box">
         <div class="hexagon-title">
             <h3>ADVISORS</h3>
+            <div class="line"></div>
             <h4>{{hexagon[cur].title}}</h4>
             <p v-html="hexagon[cur].content"></p>
         </div>
@@ -44,12 +45,27 @@
     .hexagon-title{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         color: #fff;
-        //padding: 0 50px;
+        padding: 0 50px;
         h3{
             margin-top: -30%;
+            font-size: 32px;
+        }
+        h4{
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+        p{
+            font-size: 12px;
+            text-align: justify;
+            color: #999999;
+        }
+        .line{
+            height: 2px;
+            width: 64px;
+            background-color: #267474;
+            margin: 30px 0;
         }
     }
 
