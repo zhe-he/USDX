@@ -121,86 +121,124 @@ body,html{background: #272a2f;}
     height: 600px;
     margin:  0 auto;
     position: relative;
-}
-.aboutContent .content{
-    width: 420px;
-    padding-left: 47px;
-    padding-top: 86px;
-}
-.aboutContent .content h2{
-    font-size: 24px;
-    color: #fff;
-    font-weight: normal;
-    line-height: 24px;
+    .content{
+        width: 420px;
+        padding-left: 47px;
+        padding-top: 86px;
+        h2{
+            font-size: 24px;
+            color: #fff;
+            font-weight: normal;
+            line-height: 24px;
 
-}
-.aboutContent .content p{
-    font-size: 13px;
-    color: #fff;
-    margin-top: 18px;
-    line-height: 18px;
-}
-.aboutContent .content .line{
-    height: 2px;
-    width: 64px;
-    background-color: #267474;
-    margin-top: 18px;
-}
-.aboutContent .content .order{
-    margin-top: 18px;
+        }
+        p{
+            font-size: 13px;
+            color: #fff;
+            margin-top: 18px;
+            line-height: 18px;
+        }
+        .line{
+            height: 2px;
+            width: 64px;
+            background-color: #267474;
+            margin-top: 18px;
+        }
+        .order{
+            margin-top: 18px;
+            .big{
+                color: #04e0e0;
+                font-size: 26px;
+            }
+            .small{
+                font-size: 13px;
+                color: #fff;
+            }
 
-}
-.order .big{
-    color: #04e0e0;
-    font-size: 26px;
-}
-.order .small{
-    font-size: 13px;
-    color: #fff;
-}
-.aboutContent .rightPicBox{position: absolute;
-    right: 0;
-    width: 457px;
-    height: 394px;
-    top:142px;
+        }
+    }
+    .rightPicBox{position: absolute;
+        right: 0;
+        width: 457px;
+        height: 394px;
+        top:142px;
+        .bottomBase{
+            position: absolute;
+            bottom: 26px;
+            right: 0px;
+            background-image: url("../images/phases/base_icon.png");
+            background-repeat: no-repeat;
+            width: 419px;
+            height: 305px;
+        }
+        .topImage{
+            position: absolute;
+            bottom: 124px;
+            right: 0px;
+            background-image: url("../images/phases/phaseOne.png");
+            background-repeat: no-repeat;
+            background-size: 414px 350px;
+            width: 414px;
+            height: 350px;
+        }
+        .topTwoImage{
+            bottom: 165px;
+            right: -48px;
+            background-image: url("../images/phases/phaseTwo.png");
+            background-size: 470px 290px;
+            width: 470px;
+            height: 290px;
+        }
+        .topThreeImage{
+            bottom: 135px;
+            right: -26px;
+            background-image: url("../images/phases/phaseThree.png");
+            background-size: 470px 290px;
+            width: 465px;
+            height: 306px;
+        }
 
-}
-.aboutContent .rightPicBox{}
-.aboutContent .rightPicBox{}
-.rightPicBox .bottomBase{
-    position: absolute;
-    bottom: 26px;
-    right: 0px;
-    background-image: url("../images/phases/base_icon.png");
-    background-repeat: no-repeat;
-    width: 419px;
-    height: 305px;
-}
-.rightPicBox .topImage{
-    position: absolute;
-    bottom: 124px;
-    right: 0px;
-    background-image: url("../images/phases/phaseOne.png");
-    background-repeat: no-repeat;
-    background-size: 414px 350px;
-    width: 414px;
-    height: 350px;
+    }
 
 }
 .phaseTwoDesc{
     padding-top: 10px;
+    li{
+        display: block;
+        height: 15px;
+        line-height: 15px;
+        margin-top: 16px;
+        i{
+            display: block;
+            float: left;
+            background-image: url("../images/phases/phasesTwo01.png");
+            background-repeat: no-repeat;
+            width: 14px;
+            height: 15px;
+        }
+        span{
+            float: left;
+            margin-left: 12px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    .phase02{
+        i{
+            background-image: url("../images/phases/phasesTwo02.png");
+            background-repeat: no-repeat;
+        }
+    }
+    .phase03{
+        i{
+            background-image: url("../images/phases/phasesTwo03.png");
+            background-repeat: no-repeat;
+        }
+    }
+
 }
 
-.phaseTwoDesc li{display: block;height: 15px; line-height: 15px;margin-top: 16px;}
-.phaseTwoDesc li i{display: block; float: left;
-    background-image: url("../images/phases/phasesTwo01.png");
-    background-repeat: no-repeat;
-    width: 14px;
-    height: 15px;
-}
-.phaseTwoDesc .phase02 i{background-image: url("../images/phases/phasesTwo02.png");background-repeat: no-repeat;}
-.phaseTwoDesc .phase03 i{background-image: url("../images/phases/phasesTwo03.png");background-repeat: no-repeat;}
-.phaseTwoDesc li span{float: left;margin-left: 12px;font-size: 14px; color: #fff;}
+
 .phaseTwoBox .rightPicBox .topImage{
     bottom: 150px;
     right: -40px;

@@ -43,7 +43,9 @@
                 </div>
                 <div class="rightPicBox">
                     <div class="bottomBase"></div>
-                    <div class="topImage"></div>
+                    <!--<div class="topImage"></div>-->
+                    <!--<div class="topImage topTwoImage"></div>-->
+                    <div class="bottomBase"></div>
                 </div>
             </div>
             <!--phase two-->
