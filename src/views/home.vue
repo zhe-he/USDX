@@ -148,7 +148,9 @@
                     </div>
                 </div>
         </div>
-        <hexagon></hexagon>
+        <div class="hexagon-box">
+            <hexagon></hexagon>
+        </div>
         <div class="partenersBox">
             <h2 class="title">
                 <i class="line_icon left_line"></i>
@@ -157,23 +159,23 @@
             </h2>
             <div class="itemContainer">
                 <ul>
-                    <li :key="item" v-for="item in 5">
-                        <a href="javascript:;">
-                            <img :src="'images/company/parterners_'+item+'.png'" alt="">
+                    <li v-for="item in icon1">
+                        <a :href="item.link">
+                            <img :src="item.img" alt="">
                         </a>
                     </li>
                 </ul>
                 <ul>
-                    <li :key="item" v-for="item in 5">
-                        <a href="javascript:;">
-                            <img :src="'images/company/parterners_'+(20+item)+'.png'" alt="">
+                    <li v-for="item in icon2">
+                        <a :href="item.link">
+                            <img :src="item.img" alt="">
                         </a>
                     </li>
                 </ul>
                 <ul>
-                    <li :key="item" v-for="item in 5">
-                        <a href="javascript:;">
-                            <img :src="'images/company/parterners_'+(30+item)+'.png'" alt="">
+                    <li v-for="item in icon3">
+                        <a :href="item.link">
+                            <img :src="item.img" alt="">
                         </a>
                     </li>
                 </ul>
@@ -200,11 +202,14 @@
 
 <script type="text/javascript">
     import Hexagon from './hexagon';
+    import homeData from '../data/home';
 
     export default {
         data(){
             return {
-                icons: {}
+                icon1: homeData.icon1,
+                icon2: homeData.icon2,
+                icon3: homeData.icon3
             }
         },
         components: {
@@ -214,5 +219,9 @@
 </script>
 
 <style lang="scss">
-
+    .hexagon-box{
+        padding-top: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
 </style>
