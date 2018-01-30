@@ -15,8 +15,17 @@
                 <ul v-if="item.ul" class='phaseTwoDesc'>
                     <li :class="i.class" v-html="i.li" v-for="i in item.ul"></li>
                 </ul>
-                <div class='order'>
-                    <span @click="run(-1)">&lt;——</span><span class='big'>0{{index+1}}</span>&nbsp;<span class='small'>/ 0{{aboutusdx.length}}</span><span @click="run(1)">——&gt;</span>
+                <div class="order">
+                    <a href="javascript:;" @click="run(-1)" class="swiperBtn swiperLeft mobileHide" :class="{'active':cur != 0}">
+                        <i class="icon iconfont icon-left_arrow"></i>
+                    </a>
+                        <div class="number">
+                            <i class="icon iconfont big_number_font" :class="{'icon-one':index==0,'icon-two':index==1,'icon-three':index==2}"></i>
+                            &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
+                        </div>
+                    <a href="javascript:;" @click="run(1)" class="swiperBtn swiperRight mobileHide" :class="{'active':cur != 2}">
+                        <i class="icon iconfont icon-right_arrow"></i>
+                    </a>
                 </div>
             </div>
             <div class="rightPicBox">
@@ -41,13 +50,11 @@
         },
         methods: {
             run(step) {
-                this.cur += step;
-                if (this.cur > 2) {
-                    this.cur = 0;
+                var cur = this.cur + step;
+                if (cur == -1 || cur == 3) {
+                    return ;
                 }
-                if (this.cur < 0) {
-                    this.cur = 2;
-                }
+                this.cur = cur;
             }
         }
     }
