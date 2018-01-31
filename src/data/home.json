@@ -1,5 +1,13 @@
 {
     "version": "1.0.0",
+    "nav": [
+        {"content": "Home", "ref": "nav-home"},
+        {"content": "About USDX", "ref": "nav-about"},
+        {"content": "Whitepaper", "ref": "nav-paper"},
+        {"content": "Phases", "ref": "nav-phases"},
+        {"content": "Team", "ref": "nav-team"},
+        {"content": "Partners", "ref": "nav-parteners"}
+    ],
     "icon": [
         {
             "link": "javascript:;",

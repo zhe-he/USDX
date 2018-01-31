@@ -5,15 +5,10 @@
             <!--<img src="images/logo.png"/>-->
             <div class="navBar"></div>
             <ul class="clearfix mobileHide">
-                <li><a href="javascript:;" class="anchor-hd active">Home</a></li>
-                <li><a href="javascript:;" class="anchor-hd">Whitepaper</a></li>
-                <li><a href="javascript:;" class="anchor-hd">About USDX</a></li>
-                <li><a href="javascript:;" class="anchor-hd">Phases</a></li>
-                <li><a href="javascript:;" class="anchor-hd">Team</a></li>
-                <li><a href="javascript:;" class="anchor-hd">Partners</a></li>
+                <li v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to(item,index)" class="anchor-hd">{{item.content}}</a></li>
             </ul>
         </div>
-        <div class="indexSection clearfix">
+        <div ref="nav-home" class="indexSection clearfix">
             <div class="height110 height_mobile_110"></div>
             <div class="indexBox">
                 <div class="indexContent">
@@ -26,11 +21,16 @@
 
             </div>
         </div>
-        <phases></phases>
-        <aboutusdx></aboutusdx>
+        <div ref="nav-about">
+            <aboutusdx></aboutusdx>
+        </div>
+        <div ref="nav-paper" class="whitepaper"></div>
+        <div ref="nav-phases">
+            <phases></phases>
+        </div>    
 
         <!--TEAM-->
-        <div class="teamBox clearfix">
+        <div ref="nav-team" class="teamBox clearfix">
             <div class="teamHeader">
                 <img src="images/team_header_bg.jpg"/>
             </div>
@@ -117,7 +117,9 @@
             <hexagon></hexagon>
         </div>
         
-        <parteners></parteners>
+        <div ref="nav-parteners">
+            <parteners></parteners>
+        </div>
 
         <footer class="footerBox">
             <div class="wrapper clearfix">
@@ -144,35 +146,42 @@
     import Phases from './phases';
     import Parteners from './parteners';
     import Aboutusdx from './Aboutusdx';
+    import homeData from '../data/home';
+    import { scrollMove } from '../modules/method'
 
     export default {
         name:'home',
-        data(){
+        data() {
             return {
-                prevData:'',
-                nextData:'',
-                nextIndex:'1',
-                curPage:1,
+                curpage: 0,
+                nav: homeData.nav
             }
         },
+        mounted() {
+            this.$nextTick(() => {
+                this.scroll();
+            })
+        },
         methods:{
-            swiperNext(){
-                if(this.curPage <3){
-
-                    this.curPage += 1;
-
-                }
-
+            to(item,index){
+                var T = this.$refs[item.ref].getBoundingClientRect().y;
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                this.curpage = index;
+                scrollMove({y:t+T})
             },
-            swiperPrev(){
-                if(this.curPage >1){
-                    this.curPage -= 1;
-                }
-            },
-            swipeNext(index){
-                this.nextData = 'animated fadeInRight';
-                this.nextIndex = index;
+            scroll() {
+                var arr = ['nav-home','nav-about','nav-paper','nav-phases','nav-team','nav-parteners'];
+                window.addEventListener('scroll', () => {
+                    for (var i = 0; i < arr.length; i++) {
+                        var rect = this.$refs[arr[i]].getBoundingClientRect();
+                        if (rect.y>=0 && rect.y+rect.height>=0) {
+                            this.curpage = i;
+                            return ;
+                        }
+                    }
+                    this.curpage = arr.length - 1;
 
+                }, false);
             }
         },
         components: {
