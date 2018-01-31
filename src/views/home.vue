@@ -3,10 +3,16 @@
         <div class="topNav">
             <i class="icon iconfont icon-USDX-logo"></i>
             <!--<img src="images/logo.png"/>-->
-            <div class="navBar"></div>
+            <div @click="navTab" class="navBar"></div>
             <ul class="clearfix mobileHide">
                 <li v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to(item,index)" class="anchor-hd">{{item.content}}</a></li>
             </ul>
+            <div class="navtab-box">
+                <div class="navtab" :class="showNav?'active':''">
+                    <div v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to2(item,index)" class="anchor-hd">{{item.content}}</a></div>
+                </div>
+            </div>
+            
         </div>
         <div ref="nav-home" class="indexSection clearfix">
             <div class="height110 height_mobile_110"></div>
@@ -153,7 +159,8 @@
         data() {
             return {
                 curpage: 0,
-                nav: homeData.nav
+                nav: homeData.nav,
+                showNav: false
             }
         },
         mounted() {
@@ -162,6 +169,13 @@
             })
         },
         methods:{
+            to2(item,index) {
+                this.showNav = false;
+                this.to(item,index);
+            },
+            navTab() {
+                this.showNav = !this.showNav;
+            },
             to(item,index){
                 var T = this.$refs[item.ref].getBoundingClientRect().y;
                 var t = document.documentElement.scrollTop||document.body.scrollTop;
