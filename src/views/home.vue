@@ -28,9 +28,7 @@
         </div>
         <phases></phases>
         <aboutusdx></aboutusdx>
-        <!-- <div class="teamBox">
 
-         </div>-->
         <!--TEAM-->
         <div class="teamBox clearfix">
             <div class="teamHeader">
@@ -42,7 +40,7 @@
                 <i class="icon iconfont icon-team1"></i>
                 <i class="line_icon right_line"></i>
             </h2>
-            <div class="teamBg">
+            <div class="teamBg mobileHide">
                 <i class="icon iconfont icon-team1"></i>
             </div>
             <div class="height120 height_mobile_120"></div>
@@ -113,7 +111,7 @@
         </div>
 
         <div class="hexagon-box">
-            <div class="advisorBox">
+            <div class="advisorBox mobileHide">
                 <i class="icon iconfont icon-adivsor"></i>
             </div>
             <hexagon></hexagon>

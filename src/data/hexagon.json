@@ -8,8 +8,8 @@
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/1.png",
-            "title": "Motoko Eio",
-            "content": "The Bank of Japan<br/>Graduated from University of Tokyo<br/>Used to be an economic adviser to the Bank of Japan<br/>Participating in the formulation of monetary policy of Japan<br/>"
+            "title": "Motoko Eio&nbsp;&nbsp;The Bank of Japan",
+            "content": "Graduated from University of Tokyo<br/>Used to be an economic adviser to the Bank of Japan<br/>Participating in the formulation of monetary policy of Japan<br/>"
         },
         {},
 
@@ -17,27 +17,27 @@
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/JasonFang.png",
-            "title": "Jason Fang",
+            "title": "Jason Fang&nbsp;&nbsp;Sora Ventures",
             "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
         },
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/JimDeWild.png",
-            "title": "Jim De Wild",
-            "content": "McGill University<br/>Famous venture capitalist and management educator<br/>Used to manage and invest over $5 billion<br/>Doctor of political science and tenured professor at McGill University<br/>"
+            "title": "Jim De Wild&nbsp;&nbsp;McGill University",
+            "content": "Famous venture capitalist and management educator<br/>Used to manage and invest over $5 billion<br/>Doctor of political science and tenured professor at McGill University<br/>"
         },
 
 
         {
             "img": "images/hexagon/Diiorio.png",
-            "title": "Anthony Diiorio CEO of JAXX",
+            "title": "Anthony Diiorio&nbsp;&nbsp;CEO of JAXX",
             "content": "Famous founder of the JAXX wallet and co-founder of Ethereum.<br/>Senior cryptocurrency investor<br/>Serial entrepreneur, VC, community organizer, and thought leader in the field of decentralized technologies"
         },
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/AlexMashinsky.png",
-            "title": "Alex Mashinsky",
-            "content": "CEO of Celsius<br/>Early developer of VoIP protocol <br/>One of the leading evangelists of web-based exchanges<br/>Prominent entrepreneur who has founded several companies over the years, including GroundLink, Transit Wireless, Elematics and Arbinet"
+            "title": "Alex Mashinsky&nbsp;&nbsp;CEO of Celsius",
+            "content": "Early developer of VoIP protocol <br/>One of the leading evangelists of web-based exchanges<br/>Prominent entrepreneur who has founded several companies over the years, including GroundLink, Transit Wireless, Elematics and Arbinet"
         },
         {"img": "images/hexagon/blank.png"},
 
@@ -46,31 +46,31 @@
 
         {
             "img": "images/hexagon/ErnieEves.png",
-            "title": "Hon. Ernie Eves",
+            "title": "Hon. Ernie Eves&nbsp;&nbsp;GIC",
             "content": "Founder and President of GIC group.Rich experience in investment and management.Has a very unique understanding and insight to the foreign exchange market, international trade and monetary policy"
         },
         {
             "img": "images/hexagon/Benartzi.png",
-            "title": "Guy Benartzi CEO of Bancor",
+            "title": "Guy Benartzi&nbsp;&nbsp;CEO of Bancor",
             "content": "Founder of Bancor<br/>Famous figure in blockchain industry<br/>Has been active in the blockchain sector since 2012 and has helped introduce numerous local currencies, including Ithacash in New York and Heart Market in Tel Aviv"
         },
         {
             "img": "images/hexagon/PatrickDai.png",
-            "title": "Patrick Dai",
-            "content": "Founder of Qtum<br/>Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group<br/>Rich experience in the development of blockchain technology and management and striving to push the blockchain technology to mainstream at an early date"
+            "title": "Patrick Dai&nbsp;&nbsp;Founder of Qtum",
+            "content": "Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group<br/>Rich experience in the development of blockchain technology and management and striving to push the blockchain technology to mainstream at an early date"
         },
 
 
         {
             "img": "images/hexagon/RichRobb.png",
-            "title": "Rich Robb",
-            "content": "Columbia University<br/>Professor of Finance at Columbia University<br/>PhD in Business Economics<br/>Global head of the derivatives and securities subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
+            "title": "Rich Robb&nbsp;&nbsp;Columbia University",
+            "content": "Professor of Finance at Columbia University<br/>PhD in Business Economics<br/>Global head of the derivatives and securities subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
         },
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/JamesPesando.png",
-            "title": "James Pesando",
-            "content": "University of Toronto<br/>Graduated from the Economics Department of Harvard<br/>Famous macroeconomist working as research associate at National Bureau of Economic Research<br/>Thorough research to monetary policy and Hayek theory"
+            "title": "James Pesando&nbsp;&nbsp;University of Toronto",
+            "content": "Graduated from the Economics Department of Harvard<br/>Famous macroeconomist working as research associate at National Bureau of Economic Research<br/>Thorough research to monetary policy and Hayek theory"
         },
         {},
 

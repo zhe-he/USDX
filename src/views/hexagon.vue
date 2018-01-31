@@ -4,7 +4,7 @@
         <div class="hexagon-title">
             <i class="icon iconfont icon-adivsor"></i>
             <div class="line"></div>
-            <h4>{{hexagon[cur].title}}</h4>
+            <h4 v-html="hexagon[cur].title">{{hexagon[cur].title}}</h4>
             <p v-html="hexagon[cur].content"></p>
         </div>
         <ul class="hexagon">
