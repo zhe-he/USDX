@@ -22,6 +22,7 @@ body{background:#fff;font-size: 16px;}
 .clearfix{zoom:1;}
 .height20{height: 20px;}
 .height60{height: 60px;}
+.height66{height: 66px;}
 .height70{height: 70px;}
 .height90{height: 90px;}
 .height110{height: 110px;}
@@ -38,61 +39,60 @@ body,html{background: #272a2f;}
     height: 60px;width: 100%;position: fixed;
     top:0;
     background: rgba(41,43,49,0.5);
-}
-.topNav img{
-    width: 134px;
-    height: 40px;
-    display: block;
-    margin-left: 14px;
-    margin-top: 12px;
-    float: left;
-}
-#home {
-    .topNav{
-        .icon-USDX-logo{
-            color: #fff;
-            font-size: 40px;
-            float:left;
-            margin-left: 14px;
-            margin-top: 10px;
+    img{
+        width: 134px;
+        height: 40px;
+        display: block;
+        margin-left: 14px;
+        margin-top: 12px;
+        float: left;
+    }
+    .icon-USDX-logo{
+        color: #fff;
+        font-size: 40px;
+        float:left;
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+    ul{
+        float: right;
+        padding-top: 20px;
+        padding-right: 60px;
+        li {
+            float: left;
+            display: block;
+            height: 28px;
+            line-height: 28px;
+            padding-left: 17px;
+            padding-right: 17px;
+            text-align: center;
+            a{
+                font-size: 12px;
+                color: #ffffff;
+            }
+            a.active{
+                color: #02f7f7;
+            }
         }
     }
-    .icon-USDX{font-size: 45px;}
+}
+.homeBox{
+    .icon-USDX{
+        font-size: 45px;
+    }
     .icon-team1{
         font-size: 26px;
         float:left;
-        font-weight: bold;
-        float: left;
+        font-weight: normal;
         margin-left: 18px;
         margin-right: 18px;
         color: #fff;
     }
 }
 
-
-
-
-.topNav ul{float: right;padding-top: 20px;padding-right: 60px;}
-.topNav li {
-    float: left;
-    display: block;
-    height: 28px;
-    line-height: 28px;
-    padding-left: 17px;
-    padding-right: 17px;
-    text-align: center;
-}
-.topNav li a{
-    font-size: 12px;
-    color: #ffffff;
-}
-.topNav li a.active{
-    color: #02f7f7;
-}
 .indexSection{
     width: 100%;
     height: 638px;
-
     background-color: #2c2f35;
 }
 .indexBox{
@@ -102,11 +102,18 @@ body,html{background: #272a2f;}
     background-image: url("../images/index_bg.jpg");
     background-repeat: no-repeat;
     background-position: left top;
-
+    h2{
+        font-size: 60px;
+        color: #fff;
+        line-height:60px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 12px;
+    }
 }
-.indexBox h2{font-size: 60px;color: #fff;
-    line-height:60px;}
-.indexBox p{font-size: 20px;line-height: 24px;color: #fff;margin-top: 12px;}
 .indexContent{
     padding-left: 493px;
     padding-top: 97px;
@@ -123,7 +130,6 @@ body,html{background: #272a2f;}
     line-height: 42px;
     margin-top: 22px;
 }
-.whitePaper:hover{}
 
 .adviserBox{
     background: #2b2e34;
@@ -138,12 +144,12 @@ body,html{background: #272a2f;}
     background-repeat: no-repeat;
     background-size: 1280px auto;
     background-position: center center;
-}
-.aboutUSDX .title{
-    width: 492px;
-    margin:  0 auto;
-    color: #ffffff;
-    font-size: 24px;
+    .title{
+        width: 492px;
+        margin:  0 auto;
+        color: #ffffff;
+        font-size: 24px;
+    }
 }
 .aboutContent{
     width: 894px;
@@ -235,6 +241,7 @@ body,html{background: #272a2f;}
             bottom: 165px;
             right: -48px;
             background-image: url("../images/phases/phaseTwo.png");
+            background-repeat: no-repeat;
             background-size: 470px 290px;
             width: 470px;
             height: 290px;
@@ -285,89 +292,201 @@ body,html{background: #272a2f;}
     width: 470px;
     height: 290px;
 }
-
-.phaseThreeBox .content p{
-    line-height: 22px;
-}
-.phaseThreeBox .rightPicBox .topImage{
-    bottom: 135px;
-    right: -26px;
-    background-image: url("../images/phases/phaseThree.png");
-    background-size: 470px 290px;
-    width: 465px;
-    height: 306px;
-}
-
-.aboutContent p{font-size: 13px;}
-
-.partenersBox .title,.teamBox .title{height:40px;line-height: 40px;width: 466px;margin: 0 auto;}
-.teamBox{
-    background-color: #1e2023;
-}
-.teamBox .title{width: 352px;}
-
-
-.teamHeader img{display: block; margin: 0 auto;}
-.teamBox .teamMember{
-    .intro{
-        .title{
-            font-size: 22px;
-            font-weight: normal;
+.phaseThreeBox{
+    .content{
+        p{
+            line-height: 22px;
+        }
+    }
+    .rightPicBox{
+        .topImage{
+            bottom: 135px;
+            right: -26px;
+            background-image: url("../images/phases/phaseThree.png");
+            background-size: 470px 290px;
+            width: 465px;
+            height: 306px;
         }
     }
 
 }
-.teamMember {width: 960px;margin: 0 auto; height: 1580px;}
-.teamMember .itemOne{padding-left: 100px;position: relative;height: 313px;}
-.teamMember .itemOne .intro{font-size: 15px;width: 274px;text-align: left;float: left;}
-.itemOne .bigCapitial{
-    position: absolute;
-    width: 163px;
-    height: 211px;
+.aboutContent p{font-size: 13px;}
+
+.partenersBox .title{
+    height:40px;
+    line-height: 40px;
+    width: 466px;
+    margin: 0 auto;
+}
+.teamBox{
+    background-color: #24272b;
+    position: relative;
+    .title{
+        width: 352px;
+        height:40px;
+        line-height: 40px;
+        margin: 0 auto;
+        .line_icon{
+            background: url("../images/left_line_icon.png") no-repeat;
+            background-size: 109px 1px;
+            display: block;
+            width: 109px;
+            height: 40px;
+            background-position: left center;
+        }
+        .left_line{
+            float: left;
+        }
+        span{
+            font-size: 34px;
+            font-weight: bold;
+            float: left;
+            margin-left: 18px;
+            margin-right: 18px;
+            color: #fff;
+        }
+        .right_line{
+            float: left;
+            background-image: url("../images/right_line_icon.png");
+        }
+    }
+    .teamBg{
+        .icon-team1{
+            font-weight: bold;
+            font-size: 130px;
+            position: absolute;
+            right: 10px;
+            top:336px;
+            opacity: 0.01;
+        }
+
+
+    }
+    .teamMember{
+        width: 960px;
+        margin: 0 auto;
+        height: 1580px;
+        .intro{
+            .title{
+                font-size: 22px;
+                font-weight: normal;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: #999999;
+            line-height: 20px;
+            margin-top: 2px;
+        }
+        .itemOne{
+            padding-left: 100px;
+            position: relative;
+            height: 313px;
+            .intro{
+                font-size: 15px;
+                width: 274px;
+                text-align: left;
+                float: left;
+            }
+            .bigCapitial{
+                position: absolute;
+                width: 163px;
+                height: 211px;
+                display: block;
+                background: url("../images/r_big_icon.png") no-repeat;
+                background-size: 163px 211px;
+                left: 322px;
+                top:164px;
+            }
+        }
+        .itemTwo{
+            height:438px;
+            position: relative;
+            float: right;
+            padding-right: 80px;
+            margin-top: 40px;
+            .intro{
+                font-size: 15px;
+                width: 278px;
+                text-align: left;
+            }
+            .teamPic{padding-top: 16px;}
+            .bigCapitial{
+                position: absolute;
+                width: 174px;
+                height: 268px;
+                display: block;
+                background: url("../images/l_big_icon.png") no-repeat;
+                background-size: 174px 268px;
+                right: 187px;
+                top:270px;
+            }
+        }
+        .itemThree{
+            height: 444px;
+            position: relative;
+            padding-top: 120px;
+            .intro{
+                font-size: 15px;
+                width: 274px;
+                text-align: left;
+                padding-left: 200px;
+            }
+            .teamPic{
+                padding-top: 90px;
+                padding-left: 98px;
+            }
+            .bigCapitial{
+                width: 175px;
+                height: 168px;
+                display: block;
+                background: url("../images/m_big_icon.png") no-repeat;
+                background-size: 175px 168px;
+                position: absolute;
+                top:256px;
+                left:0px;
+            }
+        }
+        .itemFour{
+            margin-top: 86px;
+            padding-left: 82px;
+            position: relative;
+            height: 313px;
+            .intro{
+                font-size: 15px;
+                width: 274px;
+                text-align: left;
+                float: left;
+                margin-top: 258px;
+            }
+            .teamPic{
+                float: left;
+                margin-left: 21px;
+                margin-top: 156px;
+            }
+            .bigCapitial{
+                position: absolute;
+                width: 170px;
+                height: 194px;
+                display: block;
+                background: url("../images/a_big_icon.png") no-repeat;
+                background-size: 170px 194px;
+                left: 344px;
+                top:8px;
+            }
+        }
+    }
+}
+
+.teamHeader img{
     display: block;
-    background: url("../images/r_big_icon.png") no-repeat;
-    background-size: 163px 211px;
-    left: 322px;
-    top:164px;
+    margin: 0 auto;
 }
 .teamPic{
-    //float: left;
-    //margin-left: 24px;
     img{
         width: 276px;
     }
 }
-.teamMember .itemTwo{
-    height:438px;
-    position: relative;
-    float: right;
-    padding-right: 80px;
-    margin-top: 40px;
-}
-.teamMember .itemTwo .intro{font-size: 15px;width: 278px;text-align: left;}
-.itemTwo  .teamPic{padding-top: 16px;}
-.itemTwo .bigCapitial{
-    position: absolute;
-    width: 174px;
-    height: 268px;
-    display: block;
-    background: url("../images/l_big_icon.png") no-repeat;
-    background-size: 174px 268px;
-    right: 187px;
-    top:270px;
-}
-.teamMember .itemThree{
-    height: 444px;
-    position: relative;
-    padding-top: 120px;
-}
-.teamMember .itemThree .intro{
-    font-size: 15px;
-    width: 274px;
-    text-align: left;
-    padding-left: 200px;
-}
-.itemThree .teamPic{padding-top: 90px;padding-left: 98px;}
 .intro{
     .big_number_font{
         font-size: 22px;
@@ -383,92 +502,129 @@ body,html{background: #272a2f;}
 
     }
 }
-.itemThree .bigCapitial{
-    width: 175px;
-    height: 168px;
-    display: block;
-    background: url("../images/m_big_icon.png") no-repeat;
-    background-size: 175px 168px;
+.advisorBox{
     position: absolute;
-    top:256px;
-    left:0px;
-}
-.teamMember .itemFour{padding-left: 82px;position: relative;height: 313px;}
-.teamMember .itemFour .intro{
-    font-size: 15px;
-    width: 274px;
-    text-align: left;
-    float: left;
-    margin-top: 258px;
-}
-.itemFour{
-    margin-top: 86px;
-}
-.itemFour .bigCapitial{
-    position: absolute;
-    width: 170px;
-    height: 194px;
-    display: block;
-    background: url("../images/a_big_icon.png") no-repeat;
-    background-size: 170px 194px;
-    left: 344px;
-    top:8px;
-}
-.itemFour .teamPic{
-    float: left;
-    margin-left: 21px;
-    margin-top: 156px;
-}
-
-
-.teamMember .big{font-size: 27px;}
-.teamMember .small{font-size: 13px;}
-.teamMember h2{color:#ffffff;margin-top: 5px;}
-.teamMember p{
-    font-size: 14px;
-    color: #999999;
-    line-height: 20px;
-    margin-top: 2px;
-}
-
-
-.partenersBox .title .line_icon,.teamBox .title .line_icon,.aboutUSDX .title .line_icon{background: url("../images/left_line_icon.png") no-repeat;
-    background-size: 109px 1px;display: block;width: 109px;height: 40px; background-position: left center;}
-.partenersBox .title .left_line,.teamBox .title .left_line,.aboutUSDX .title .left_line{float: left;}
-.partenersBox .title span,.teamBox .title span,.aboutUSDX .title span{font-size: 34px;font-weight: bold;float: left;margin-left: 18px;margin-right: 18px;color: #fff;}
-.partenersBox .title .right_line,.teamBox .title .right_line,.aboutUSDX .title .right_line{float: left;background-image: url("../images/right_line_icon.png");}
-.partenersBox .itemContainer{
-    padding-top: 26px;
-    padding-bottom: 106px;
-}
-.partenersBox .itemContainer ul{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.partenersBox .itemContainer li{
-    flex: 1;
-    display: block;
-    margin-top: 20px;
-    margin-right: 20px;
-    border: 1px solid #272a2f;
-    background: #2c2f35;
-    img{
-        display: block;
-        width: 100%;
+    top: 0;
+    left: 0;
+    .icon-adivsor{
+        font-size: 120px;
+        opacity: 0.01;
+        font-weight: normal;
     }
-    &.active,&:active,&:hover{
-        border: 1px solid #2c2f35;
-        box-shadow: 3px 2.598px 12.18px 1.82px rgba(0, 0, 0, 0.067);
+}
+.partenersBox{
+    .title{
+        .line_icon{
+            background: url("../images/left_line_icon.png") no-repeat;
+            background-size: 109px 1px;
+            display: block;
+            width: 109px;
+            height: 40px;
+            background-position: left center;
+        }
+        .left_line{
+            float: left;
+        }
+        span{
+            font-size: 34px;
+            font-weight: bold;
+            float: left;
+            margin-left: 18px;
+            margin-right: 18px;
+            color: #fff;
+        }
+        .right_line{
+            float: left;
+            background-image: url("../images/right_line_icon.png");
+        }
     }
 }
 
+.aboutUSDX{
+    .title{
+        .line_icon{
+            background: url("../images/left_line_icon.png") no-repeat;
+            background-size: 109px 1px;
+            display: block;
+            width: 109px;
+            height: 40px;
+            background-position: left center;
+        }
+        .left_line{
+            float: left;
+        }
+        span{
+            font-size: 34px;
+            font-weight: bold;
+            float: left;
+            margin-left: 18px;
+            margin-right: 18px;
+            color: #fff;
+        }
+        .right_line{
+            float: left;
+            background-image: url("../images/right_line_icon.png");
+        }
+    }
+}
+
+.partenersBox {
+    .itemContainer{
+        padding-top: 26px;
+        padding-bottom: 106px;
+        ul{
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            li{
+                flex: 1;
+                display: block;
+                margin-top: 20px;
+                margin-right: 20px;
+                border: 1px solid #272a2f;
+                background: #2c2f35;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+                &.active,&:active,&:hover{
+                    border: 1px solid #2c2f35;
+                    box-shadow: 3px 2.598px 12.18px 1.82px rgba(0, 0, 0, 0.067);
+                }
+            }
+        }
+    }
+}
 .footerBox{
     background: #292b31;
     height: 298px;
     width: 100%;
     padding-top: 34px;
+    .linkBox{
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 28px;
+        .iconfont{
+            font-size: 26px;
+            color: #fff;
+            margin-right: 29px;
+        }
+        a:hover{
+            i{
+                color:#06dde0;
+            }
+        }
+        a:last-child{
+            margin-right: 0px;
+        }
+    }
+    .copyRight{
+        color:#cccccc;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 54px;
+    }
+
 }
 
 .bottomLogo .icon-USDX-logo{
@@ -478,27 +634,6 @@ body,html{background: #272a2f;}
     color: #fff;
     text-align: center;
 }
-
-.linkBox{
-    width: 400px;
-    margin: 0 auto;
-    margin-top: 28px;
-}
-
-.linkBox{
-    .iconfont{
-        font-size: 26px;
-        color: #fff;
-        margin-right: 29px;
-    }
-}
-.linkBox a:hover{
-    i{
-        color:#06dde0;
-    }
-}
-.linkBox a:last-child{margin-right: 0px;}
-.footerBox .copyRight{color:#cccccc;font-size: 15px;text-align: center;margin-top: 54px;}
 
 
 

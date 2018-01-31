@@ -1,5 +1,5 @@
 <template>
-    <div id="home">
+    <div id="home" class="homeBox">
         <div class="topNav">
             <i class="icon iconfont icon-USDX-logo"></i>
             <!--<img src="images/logo.png"/>-->
@@ -39,10 +39,12 @@
             <div class="height90 height_mobile_70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
-                <!--<span>TEAM</span>-->
                 <i class="icon iconfont icon-team1"></i>
                 <i class="line_icon right_line"></i>
             </h2>
+            <div class="teamBg">
+                <i class="icon iconfont icon-team1"></i>
+            </div>
             <div class="height120 height_mobile_120"></div>
                 <div class="teamMember">
                     <!--team one-->
@@ -111,6 +113,9 @@
         </div>
 
         <div class="hexagon-box">
+            <div class="advisorBox">
+                <i class="icon iconfont icon-adivsor"></i>
+            </div>
             <hexagon></hexagon>
         </div>
         

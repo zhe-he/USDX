@@ -1,9 +1,8 @@
 <template>
     <div class="aboutUSDX clearfix">
-        <div class="height120 height_mobile_120"></div>
+        <div class="height66 height_mobile_120"></div>
         <h2 class="title">
             <i class="line_icon left_line"></i>
-            <!--<span>ABOUT USDX</span>-->
             <i class="icon iconfont icon-about_usdx"></i>
             <i class="line_icon right_line"></i>
         </h2>
@@ -74,7 +73,7 @@
         .icon-about_usdx{
             font-size: 26px;
             float:left;
-            font-weight: bold;
+            font-weight: normal;
             float: left;
             margin-left: 18px;
             margin-right: 18px;
