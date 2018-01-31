@@ -103,10 +103,15 @@
             opacity: 0.4;
             transition: 0.6s;
             cursor: pointer;
+            
+            &:nth-child(4n+2),&:nth-child(4n+3){
+                margin: 0 1%;
+            }
+
 
             &:nth-child(8n),&:nth-child(8n+5), &:nth-child(8n+6), &:nth-child(8n+7) {
-                margin-top: -7%;
-                margin-bottom: -7%;
+                margin-top: -6%;
+                margin-bottom: -6%;
                 transform: translateX(50%) rotate(-60deg) skewY(30deg);
 
                 &::last-child{
