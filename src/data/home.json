@@ -3,9 +3,9 @@
     "nav": [
         {"content": "Home", "ref": "nav-home"},
         {"content": "About USDX", "ref": "nav-about"},
-        {"content": "Whitepaper", "ref": "nav-paper"},
         {"content": "Phases", "ref": "nav-phases"},
         {"content": "Team", "ref": "nav-team"},
+        {"content": "Advisors", "ref": "nav-advisors"},
         {"content": "Partners", "ref": "nav-parteners"}
     ],
     "icon": [
