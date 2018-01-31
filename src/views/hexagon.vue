@@ -10,6 +10,7 @@
         <ul class="hexagon">
             <li :class="cur==index?'active':''" @click="showItem(item,index)" @mouseover="showItem(item,index)" v-for="(item,index) in hexagon">
                 <div v-if="item.img"><img :src="item.img" alt=""></div>
+                <!-- <div v-else><i class="icon520 icon iconfont icon-hexagon"></i></div> -->
             </li>
         </ul>
     </div>
@@ -26,7 +27,7 @@
         },
         methods: {
             showItem(item,index) {
-                if (item.img) {
+                if (item.title) {
                     this.cur = index;
                 }
             }
@@ -45,6 +46,12 @@
             color: #fff;
             font-weight: normal;
         }
+    }
+    .icon520{
+        font-size: 520%;
+        line-height: 1;
+        top: 0;
+        left: 0;
     }
     .hexagon-box{
         display: flex;
@@ -68,6 +75,7 @@
             margin-bottom: 14px;
         }
         p{
+            height: 54px;
             font-size: 12px;
             text-align: justify;
             color: #999999;
@@ -82,10 +90,12 @@
 
     .hexagon{
         overflow:hidden;
+        padding-right: 3.5%;
         li{
             position:relative;
-            width:27.85714285714286%;
-            padding-bottom: 32.16760145166612%;
+            width: 23%;
+            padding-bottom: 27%;
+
             float:left;
             overflow:hidden;
             visibility:hidden;
@@ -93,15 +103,10 @@
             opacity: 0.4;
             transition: 0.6s;
             cursor: pointer;
-            &:nth-child(3n+2){
-                margin:0 1%;
-            }
-            &:nth-child(6n+4){
-                margin-left:0.5%;
-            }
-            &:nth-child(6n+4), &:nth-child(6n+5), &:nth-child(6n+6) {
-                margin-top: -6.9285714285%;
-                margin-bottom: -6.9285714285%;
+
+            &:nth-child(8n),&:nth-child(8n+5), &:nth-child(8n+6), &:nth-child(8n+7) {
+                margin-top: -7%;
+                margin-bottom: -7%;
                 transform: translateX(50%) rotate(-60deg) skewY(30deg);
 
                 &::last-child{

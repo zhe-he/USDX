@@ -1,30 +1,48 @@
 {
     "version": "1.0.0",
     "data": [
+        {},{},{},{},
+
+
+        {"img": "images/hexagon/blank.png"},
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/1.png",
+            "title": "Jason Fang",
+            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
+        },
         {},
-        {},
+
+
+        {"img": "images/hexagon/blank.png"},
         {
             "img": "images/touxiang.jpg",
             "title": "Motoko Eio",
             "content": "Graduated from University of Tokyo.Used to be an economic adviser to the Bank of Japan.Participating in the formulation of monetary policy of Japan"
         },
+        {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/hexagon/test.jpg",
-            "title": "Jason Fang",
-            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
+            "img": "images/touxiang.jpg",
+            "title": "Motoko Eio",
+            "content": "Graduated from University of Tokyo.Used to be an economic adviser to the Bank of Japan.Participating in the formulation of monetary policy of Japan"
         },
-        {},
+
+
         {
-            "img": "images/hexagon/test2.jpg",
+            "img": "images/hexagon/1-1.png",
             "title": "Jim De Wild",
             "content": "Famous venture capitalist and management educator.Used to manage and invest over $5 billion.Doctor of political science and tenured professor at McGill University."
         },
+        {"img": "images/hexagon/blank.png"},
         {
             "img": "images/touxiang.jpg",
             "title": "Anthony Diiorio",
             "content": "Famous founder of the JAXX wallet and co-founder of Ethereum.Senior cryptocurrency investor.Serial entrepreneur, VC, community organizer, and thought leader in the field of decentralized technologies"
         },
-        {},
+        {"img": "images/hexagon/blank.png"},
+
+        
+        {"img": "images/hexagon/blank.png"},
         {
             "img": "images/touxiang.jpg",
             "title": "Alex Mashinsky",
@@ -40,23 +58,22 @@
             "title": "Guy Benartzi",
             "content": "Founder of Bancor.Famous figure in blockchain industry.Has been active in the blockchain sector since 2012 and has helped introduce numerous local currencies, including Ithacash in New York and Heart Market in Tel Aviv"
         },
+
+
         {
             "img": "images/touxiang.jpg",
             "title": "Patrick Dai",
             "content": "Dropout from the Chinese Academy of Sciences.Used to work for Alibaba Group.Rich experience in the development of blockchain technology and management and striving to push the blockchain technology to mainstream at an early date"
         },
+        {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/test2.jpg",
             "title": "Rich Robb",
             "content": "Professor of Finance at Columbia University.PhD in Business Economics.Global head of the derivatives and securities subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
         },
-        {
-            "img": "images/touxiang.jpg",
-            "title": "James Pesando",
-            "content": "Graduated from the Economics Department of Harvard.Famous macroeconomist working as research associate at National Bureau of Economic Research.Thorough research to monetary policy and Hayek theory"
-        },
         {},
-        {},
-        {}
+
+
+        {},{},{},{}
     ]
 }
