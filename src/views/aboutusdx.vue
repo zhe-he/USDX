@@ -6,41 +6,42 @@
             <i class="icon iconfont icon-about_usdx"></i>
             <i class="line_icon right_line"></i>
         </h2>
-
-        <div :key="index" v-for="(item,index) in aboutusdx" class="aboutContent" :class="{'phaseOneBox':index==0,'phaseTwoBox':index==1,'phaseThreeBox':index==2,'mobileShow':cur!=index}">
-            
-            <div :class="{'mobileShow':cur!=index}" class="content">
-                <h2 v-html="item.h2"></h2>
-                <div class='line'></div>
-                <p v-for="i in item.p" v-html="i"></p>
-                <ul v-if="item.ul" class='phaseTwoDesc'>
-                    <li :class="i.class" v-html="i.li" v-for="i in item.ul"></li>
-                </ul>
-                <div class="order">
-                    <a href="javascript:;" @click="run(-1)" class="swiperBtn swiperLeft mobileHide" :class="{'active':cur != 0}">
-                        <i class="icon iconfont icon-left_arrow"></i>
-                    </a>
-                        <div class="number">
-                            <i class="icon iconfont big_number_font" :class="{'icon-one':index==0,'icon-two':index==1,'icon-three':index==2}"></i>
-                            &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
-                        </div>
-                    <a href="javascript:;" @click="run(1)" class="swiperBtn swiperRight mobileHide" :class="{'active':cur != 2}">
-                        <i class="icon iconfont icon-right_arrow"></i>
-                    </a>
+        <div class="aboutContent-box">
+            <div :key="index" v-for="(item,index) in aboutusdx" class="aboutContent" :class="{'phaseOneBox':index==0,'phaseTwoBox':index==1,'phaseThreeBox':index==2,'mobileShow':cur!=index}">
+                
+                <div :class="{'mobileShow':cur!=index}" class="content">
+                    <h2 v-html="item.h2"></h2>
+                    <div class='line'></div>
+                    <p v-for="i in item.p" v-html="i"></p>
+                    <ul v-if="item.ul" class='phaseTwoDesc'>
+                        <li :class="i.class" v-html="i.li" v-for="i in item.ul"></li>
+                    </ul>
+                    <div class="order">
+                        <a href="javascript:;" @click="run(-1)" class="swiperBtn swiperLeft mobileHide" :class="{'active':cur != 0}">
+                            <i class="icon iconfont icon-left_arrow"></i>
+                        </a>
+                            <div class="number">
+                                <i class="icon iconfont big_number_font" :class="{'icon-one':index==0,'icon-two':index==1,'icon-three':index==2}"></i>
+                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
+                            </div>
+                        <a href="javascript:;" @click="run(1)" class="swiperBtn swiperRight mobileHide" :class="{'active':cur != 2}">
+                            <i class="icon iconfont icon-right_arrow"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="rightPicBox">
-                <div class="bottomBase"></div>
-                <transition leave-active-class="leave-mvleft" name="mvleft">
-                    <div v-show="cur==0" class="topImage"></div>
-                </transition>
-                <transition leave-active-class="leave-mvleft" name="mvleft">
-                    <div v-show="cur==1" class="topTwoImage"></div>
-                </transition>
-                <transition leave-active-class="leave-mvleft" name="mvleft">
-                    <div v-show="cur==2" class="topThreeImage"></div>
-                </transition>
+                
+                <div class="rightPicBox">
+                    <div class="bottomBase"></div>
+                    <transition leave-active-class="leave-mvleft" name="mvleft">
+                        <div v-show="cur==0" class="topImage"></div>
+                    </transition>
+                    <transition leave-active-class="leave-mvleft" name="mvleft">
+                        <div v-show="cur==1" class="topTwoImage"></div>
+                    </transition>
+                    <transition leave-active-class="leave-mvleft" name="mvleft">
+                        <div v-show="cur==2" class="topThreeImage"></div>
+                    </transition>
+                </div>
             </div>
         </div>
     </div>
