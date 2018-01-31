@@ -16,6 +16,8 @@
                 <div v-show="cur==index" v-for="(item,index) in phases">
                     <h4 v-html="item.h4"></h4>
                     <p v-html="item.p"></p>
+                    <i class="phases-font icon iconfont"
+                        :class="{'icon-one':cur==0,'icon-two':cur==1,'icon-three':cur==2}"></i>
                 </div>
             </div>
             <div class="phases-r">
@@ -120,6 +122,7 @@
                 text-align: center;
                 cursor: pointer;
                 opacity: 0.6;
+                line-height: 2;
                 @for $i from 1 to 7 {
                     &:nth-child(#{$i}){
                         transform: rotate(#{($i/1+1)*-60}deg);
@@ -127,6 +130,19 @@
                 }
                 &:active,&:hover,&.active{
                     opacity: 1;
+                    &:before{
+                        background-color: #04e0e0;
+                    }
+                }
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: -15px;
+                    left: 50%;
+                    width: 6px;
+                    height: 6px;
+                    background-color: #fff;
+                    border-radius: 50%;
                 }
             }
         }
@@ -141,16 +157,26 @@
         display: flex;
         align-item: center;
         justify-content: center;
-        padding: 0 10% 10%;
+        padding: 5% 10% 10%;
     }
     .phases-l{
+        position: relative;
         flex: 1;
         padding: 0 10%;
         line-height: 1.5;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .phases-font{
+            position: absolute;
+            left: 15%;
+            bottom: 0;
+            font-size: 200px;
+            line-height: 1;
+            opacity: 0.1;
+        }
     }
+    
     .phases-r{
         position: relative;
         width: 30%;
