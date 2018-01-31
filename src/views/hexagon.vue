@@ -90,7 +90,7 @@
 
     .hexagon{
         overflow:hidden;
-        padding-right: 3.5%;
+        padding-right: 5%;
         li{
             position:relative;
             width: 23%;
@@ -105,17 +105,17 @@
             cursor: pointer;
             
             &:nth-child(4n+2),&:nth-child(4n+3){
-                margin: 0 1%;
+                margin: 0 0.5%;
             }
 
 
             &:nth-child(8n),&:nth-child(8n+5), &:nth-child(8n+6), &:nth-child(8n+7) {
-                margin-top: -6%;
-                margin-bottom: -6%;
+                margin-top: -6.5%;
+                margin-bottom: -6.5%;
                 transform: translateX(50%) rotate(-60deg) skewY(30deg);
 
                 &::last-child{
-                    margin-bottom:0%;
+                    margin-bottom: 0%;
                 }
             }
             *{
