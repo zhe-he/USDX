@@ -1125,6 +1125,27 @@
             }
         }
     }
+    .phases{
+        .phases-top{
+            transform: scale(0.8);
+        }
+        .phases-main{
+            flex-direction: column;
+            padding-top: 80px;
+        }
+        .h4Titlte{
+            font-size: 16px;
+        }
+        .phaseContent{
+            width: 100%;
+            font-size: 12px;
+            height: 140px;
+        }
+        .phases-r{
+            margin: 40px auto;
+            width: 80%;
+        }
+    }
 }
 ///////////
 
