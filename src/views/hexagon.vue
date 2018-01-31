@@ -126,8 +126,8 @@
                 width:100%;
                 height:100%;
                 text-align:center;
-                color:#fff;
-                overflow:hidden;
+                color: #fff;
+                overflow: hidden;
                 transform: skewY(-30deg) rotate(60deg);
                 -webkit-backface-visibility:hidden;
             }

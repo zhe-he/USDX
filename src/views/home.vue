@@ -24,7 +24,6 @@
         <div ref="nav-about">
             <aboutusdx></aboutusdx>
         </div>
-        <div ref="nav-paper" class="whitepaper"></div>
         <div ref="nav-phases">
             <phases></phases>
         </div>    
@@ -109,8 +108,8 @@
                 </div>
             <div class="height_mobile_100"></div>
         </div>
-
-        <div class="hexagon-box">
+        
+        <div ref="nav-advisors" class="hexagon-box">
             <div class="advisorBox mobileHide">
                 <i class="icon iconfont icon-adivsor"></i>
             </div>
@@ -170,7 +169,7 @@
                 scrollMove({y:t+T})
             },
             scroll() {
-                var arr = ['nav-home','nav-about','nav-paper','nav-phases','nav-team','nav-parteners'];
+                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-advisors','nav-parteners'];
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();
