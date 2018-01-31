@@ -21,7 +21,7 @@
     export default {
         data(){
             return {
-                cur: 2,
+                cur: 6,
                 hexagon: hexagonData.data
             }
         },
