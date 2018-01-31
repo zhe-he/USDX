@@ -7,7 +7,7 @@
             <i class="line_icon right_line"></i>
         </h2>
 
-        <div :key="index" v-show="cur==index" v-for="(item,index) in aboutusdx" class="aboutContent" :class="{'phaseOneBox':index==0,'phaseTwoBox':index==1,'phaseThreeBox':index==2}">
+        <div :key="index" v-for="(item,index) in aboutusdx" class="aboutContent" :class="{'phaseOneBox':index==0,'phaseTwoBox':index==1,'phaseThreeBox':index==2,'mobileShow':cur!=index}">
             
             <div v-show="cur==index" class="content">
                 <h2 v-html="item.h2"></h2>
