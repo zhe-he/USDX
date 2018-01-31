@@ -690,7 +690,10 @@ body,html{background: #272a2f;}
 
     }
     .indexSection{
-        .indexBox{margin-top: 50px;
+        height: auto;
+        padding-bottom: 80px;
+        .indexBox{
+            margin-top: 50px;
             width: 352px;
             height: 468px;
             background-repeat: no-repeat;
@@ -736,21 +739,28 @@ body,html{background: #272a2f;}
 
         }
         .aboutContent{
+            width: 100%;
+            height: 400px;
             .content{
+                width: 100%;
+                padding-top:30px;
+                padding-left: 24px;
                 h2{
                     font-size: 21px;
                     line-height: 23px;
                 }
+                .line{margin-top: 20px;}
                 p{
                     font-size: 12px;
                     line-height: 16px;
-                    width: 312px;
+                    padding-right: 48px;
+                    margin-top: 16px;
                 }
-                .order{margin-top: 40px;}
+                .order{margin-top: 32px;}
             }
             .rightPicBox{
                 left:0;
-                top:120px;
+                top:60px;
                 height: auto;
                 .bottomBase{
                     width: 335px;
@@ -758,20 +768,20 @@ body,html{background: #272a2f;}
                     left:0;
                     bottom: 0;
                     top:305px;
+                    background-size: 394px auto;
                 }
                 .topImage{
                     left:24px;
                     top:192px;
                     width: 331px;
                     height: 288px;
-                    background-size: 331px 288px;
+                    background-size: 328px auto;
                 }
             }
-
-
         }
         /*two*/
         .phaseTwoBox{
+            margin-top: 192px;
             .content{
                 h2{
                     font-size: 21px;
@@ -788,19 +798,21 @@ body,html{background: #272a2f;}
                 left:0;
                 top:120px;
                 height: auto;
+                margin-top: -27px;
                 .bottomBase{
                     width: 335px;
                     height: 244px;
                     left:0;
                     bottom: 0;
                     top:305px;
+                    background-size: 394px auto;
                 }
                 .topImage{
                     left:24px;
                     top:240px;
                     width: 350px;
                     height: 213px;
-                    background-size: 350px 213px;
+                    background-size: 340px auto;
                 }
             }
 
@@ -808,6 +820,7 @@ body,html{background: #272a2f;}
         }
         /*three*/
         .phaseThreeBox{
+            height: auto;
             .content{
                 h2{
                     font-size: 21px;
@@ -824,13 +837,14 @@ body,html{background: #272a2f;}
                 left:0;
                 top:120px;
                 height: auto;
-                .bottomBase{
+                margin-top: 215px;
+                /*.bottomBase{
                     width: 335px;
                     height: 244px;
                     left:0;
                     bottom: 0;
                     top:400px;
-                }
+                }*/
                 .topImage{
                     left:20px;
                     top:315px;

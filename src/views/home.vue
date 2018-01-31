@@ -4,7 +4,7 @@
             <i class="icon iconfont icon-USDX-logo"></i>
             <!--<img src="images/logo.png"/>-->
             <div class="navBar"></div>
-            <ul class="clearfix">
+            <ul class="clearfix mobileHide">
                 <li><a href="javascript:;" class="anchor-hd active">Home</a></li>
                 <li><a href="javascript:;" class="anchor-hd">Whitepaper</a></li>
                 <li><a href="javascript:;" class="anchor-hd">About USDX</a></li>

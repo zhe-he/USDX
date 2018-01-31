@@ -1,7 +1,7 @@
 <template>
     <div class="aboutUSDX clearfix">
         <div class="height66 height_mobile_120"></div>
-        <h2 class="title">
+        <h2 class="title clearfix">
             <i class="line_icon left_line"></i>
             <i class="icon iconfont icon-about_usdx"></i>
             <i class="line_icon right_line"></i>
@@ -81,6 +81,15 @@
             margin-top: 6px;
         }
     }
+
+    @media screen and (max-width: 720px) {
+        .aboutUSDX{
+            .icon-about_usdx{
+                font-size: 20px;
+            }
+        }
+    }
+
     .fade-enter-active, .fade-leave-active {
         transition: opacity .6s;
     }
