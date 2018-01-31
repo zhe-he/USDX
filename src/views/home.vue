@@ -17,7 +17,7 @@
             <div class="height110 height_mobile_110"></div>
             <div class="indexBox">
                 <div class="indexContent">
-                    <h2>USDX</h2>
+                    <h2><i class="icon iconfont icon-USDX"></i></h2>
                     <p>The Protocol for Decentralized<br/>
                         Stablecoin Central Bank<br/>
                         in the Community</p>
@@ -36,7 +36,7 @@
             <div class="teamHeader">
                 <img src="images/team_header_bg.jpg"/>
             </div>
-            <div class="height70"></div>
+            <div class="height90"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>TEAM</span>
@@ -50,7 +50,7 @@
                             <h2>
                                 <i class="icon iconfont icon-one big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Richard Tiutiun</h2>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Richard Tiutiun</span></h2>
                             <p>Fanatical genius of blockchain technology and hacker born in Ukraine Designed and developed XOR project and stablecoin lab after drop out from UC Berkley, and focus on the research of next generation of currency.
                             </p>
                         </div>
@@ -67,7 +67,7 @@
 
                                 <i class="icon iconfont icon-two big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Lucas Porco</h2>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Lucas Porco</span></h2>
                             <p>Experienced lawyer focus on the compliance of blockchain and cryptocurrency Ph.D candidate of Law at University of Toronto Top-level participation in the design of legal frameworks for several cryptocurrencies</p>
                         </div>
                         <div class="teamPic">
@@ -82,7 +82,7 @@
                             <h2>
                                 <i class="icon iconfont icon-three big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Michael Gord</h2>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Michael Gord</span></h2>
                            <p>Professional blockchain consultant expert and product strategy expert In charge of strategic planning, business expansion and cooperation with regulators, banks and other institutions and departments of USDX project.</p>
                         </div>
                         <div class="teamPic">
@@ -98,7 +98,7 @@
                                 <!--<span class="big">04</span>&nbsp;/&nbsp;<span class="small">04</span>-->
                                 <i class="icon iconfont icon-four big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Ada Tie</h2>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Ada Tie</span></h2>
                            <p>Graduated from University of Toronto and London School of Economics Not only a financial practitioner but also a brand expert Has rich brand and marketing experience in art curatorial, luxury marketing and private banking, and applies it to the field of cryptocurrency.</p>
                         </div>
                         <div class="teamPic">
