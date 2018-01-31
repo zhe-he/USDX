@@ -1,7 +1,8 @@
 <template>
     <div class="hexagon-box">
         <div class="hexagon-title">
-            <h3>ADVISORS</h3>
+            <!--<h3>ADVISORS</h3>-->
+            <i class="icon iconfont icon-adivsor"></i>
             <div class="line"></div>
             <h4>{{hexagon[cur].title}}</h4>
             <p v-html="hexagon[cur].content"></p>
@@ -35,6 +36,14 @@
 
 
 <style lang="scss">
+    .hexagon-box{
+        .icon-adivsor{
+            font-size: 26px;
+            float:left;
+            float: left;
+            color: #fff;
+        }
+    }
     .hexagon-box{
         display: flex;
         > ul, > div{

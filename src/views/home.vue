@@ -1,8 +1,8 @@
 <template>
     <div id="home">
         <div class="topNav">
-            <!--<i class="icon iconfont icon-USDX_logo"></i>-->
-            <img src="images/logo.png"/>
+            <i class="icon iconfont icon-USDX-logo"></i>
+            <!--<img src="images/logo.png"/>-->
             <div class="navBar"></div>
             <ul class="clearfix">
                 <li><a href="javascript:;" class="anchor-hd active">Home</a></li>
@@ -39,7 +39,8 @@
             <div class="height90 height_mobile_70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
-                <span>TEAM</span>
+                <!--<span>TEAM</span>-->
+                <i class="icon iconfont icon-team1"></i>
                 <i class="line_icon right_line"></i>
             </h2>
             <div class="height120 height_mobile_120"></div>
@@ -64,7 +65,6 @@
                     <div class="itemTwo clearfix">
                         <div class="intro ">
                             <h2>
-
                                 <i class="icon iconfont icon-two big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Lucas Porco</span></h2>
@@ -118,7 +118,9 @@
 
         <footer class="footerBox">
             <div class="wrapper clearfix">
-                <p class="bottomLogo"><img src="images/bottom_logo.png"></p>
+                <p class="bottomLogo"><!--<img src="images/bottom_logo.png">-->
+                    <i class="icon iconfont icon-USDX-logo"></i>
+                </p>
                 <div class="clearfix linkBox">
                     <a href="javascript:;"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
                     <a href="javascript:;" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>

@@ -47,8 +47,31 @@ body,html{background: #272a2f;}
     margin-top: 12px;
     float: left;
 }
-.icon-USDX_logo{color: #fff;}
-.icon-USDX{font-size: 45px;}
+#home {
+    .topNav{
+        .icon-USDX-logo{
+            color: #fff;
+            font-size: 40px;
+            float:left;
+            margin-left: 14px;
+            margin-top: 10px;
+        }
+    }
+    .icon-USDX{font-size: 45px;}
+    .icon-team1{
+        font-size: 26px;
+        float:left;
+        font-weight: bold;
+        float: left;
+        margin-left: 18px;
+        margin-right: 18px;
+        color: #fff;
+    }
+}
+
+
+
+
 .topNav ul{float: right;padding-top: 20px;padding-right: 60px;}
 .topNav li {
     float: left;
@@ -448,13 +471,20 @@ body,html{background: #272a2f;}
     padding-top: 34px;
 }
 
-.bottomLogo img{display: block;width:216px;height: 65px; margin: 0 auto; }
-.linkBox{width: 400px; margin: 0 auto;margin-top: 50px;}
-/*.linkBox a{ float: left;width: 32px;height: 32px;
-    background-image: url("../images/facebook_icon.png");
-    background-repeat: no-repeat;
-    margin-right: 29px;
-}*/
+.bottomLogo .icon-USDX-logo{
+    display: block;
+    margin: 0 auto;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.linkBox{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
 .linkBox{
     .iconfont{
         font-size: 26px;
@@ -467,23 +497,6 @@ body,html{background: #272a2f;}
         color:#06dde0;
     }
 }
-    /*
-    .linkBox .icon_facebook{background-image: url("../images/icon/icon_facebook.png"); }
-    .linkBox .icon_f{background-image: url("../images/icon/icon_f.png");}
-    .linkBox .icon_msg{background-image: url("../images/icon/icon_msg.png");}
-    .linkBox .icon_m{background-image: url("../images/icon/icon_m.png");}
-    .linkBox .icon_github{background-image: url("../images/icon/icon_github.png");}
-    .linkBox .icon_reddit{background-image: url("../images/icon/icon_reddit.png");}
-    .linkBox .icon_medium{background-image: url("../images/icon/icon_medium.png");}*/
-
-/*.linkBox .icon_facebook:hover{background-image: url("../images/icon/icon_facebook_active.png"); }
-.linkBox .icon_f:hover{background-image: url("../images/icon/icon_f_active.png");}
-.linkBox .icon_msg:hover{background-image: url("../images/icon/icon_msg_active.png");}
-.linkBox .icon_m:hover{background-image: url("../images/icon/icon_m_active.png");}
-.linkBox .icon_github:hover{background-image: url("../images/icon/icon_github_active.png");}
-.linkBox .icon_reddit:hover{background-image: url("../images/icon/icon_reddit_active.png");}
-.linkBox .icon_medium:hover{background-image: url("../images/icon/icon_medium_active.png");}*/
-
 .linkBox a:last-child{margin-right: 0px;}
 .footerBox .copyRight{color:#cccccc;font-size: 15px;text-align: center;margin-top: 54px;}
 
@@ -801,6 +814,7 @@ body,html{background: #272a2f;}
 
 
     }
+
     .partenersBox{
         .title{
             width: 328px;
@@ -817,13 +831,18 @@ body,html{background: #272a2f;}
         }
     }
     .itemContainer{
+        //padding-bottom: 40px;
         ul{
             padding-left: 24px;
             padding-right: 24px;
+
             li{
 
             }
         }
+    }
+    .partenersBox .itemContainer{
+        padding-bottom:60px;
     }
     .footerBox{
         .bottomLogo{

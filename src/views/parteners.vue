@@ -2,7 +2,8 @@
     <div class="partenersBox">
         <h2 class="title">
             <i class="line_icon left_line"></i>
-            <span>PARTENERS</span>
+            <!--<span>PARTENERS</span>-->
+            <i class="icon iconfont icon-partner1"></i>
             <i class="line_icon right_line"></i>
         </h2>
         <div class="itemContainer">
@@ -50,5 +51,17 @@
 </script>
 
 <style lang="scss">
+    .partenersBox{
+        .icon-partner1{
+            font-size: 26px;
+            float:left;
+            float: left;
+            margin-left: 18px;
+            margin-right: 18px;
+            color: #fff;
+            margin-top: 2px;
+        }
+    }
+
     
 </style>
