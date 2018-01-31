@@ -68,6 +68,7 @@
             margin-bottom: 14px;
         }
         p{
+            height: 54px;
             font-size: 12px;
             text-align: justify;
             color: #999999;
@@ -84,8 +85,9 @@
         overflow:hidden;
         li{
             position:relative;
-            width:27.85714285714286%;
-            padding-bottom: 32.16760145166612%;
+            width: 23%;
+            padding-bottom: 27%;
+
             float:left;
             overflow:hidden;
             visibility:hidden;
@@ -93,15 +95,10 @@
             opacity: 0.4;
             transition: 0.6s;
             cursor: pointer;
-            &:nth-child(3n+2){
-                margin:0 1%;
-            }
-            &:nth-child(6n+4){
-                margin-left:0.5%;
-            }
-            &:nth-child(6n+4), &:nth-child(6n+5), &:nth-child(6n+6) {
-                margin-top: -6.9285714285%;
-                margin-bottom: -6.9285714285%;
+
+            &:nth-child(8n),&:nth-child(8n+5), &:nth-child(8n+6), &:nth-child(8n+7) {
+                margin-top: -6.9%;
+                margin-bottom: -6.9%;
                 transform: translateX(50%) rotate(-60deg) skewY(30deg);
 
                 &::last-child{
