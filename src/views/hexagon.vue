@@ -79,7 +79,7 @@
             overflow:hidden;
             visibility:hidden;
             transform: rotate(-60deg) skewY(30deg) scale(1,1);
-            opacity: 0.8;
+            opacity: 0.4;
             transition: 0.6s;
             cursor: pointer;
             &:nth-child(3n+2){
@@ -117,15 +117,8 @@
                 height:100%;
                 margin:0 auto;  
             }
-            &:nth-child(6n+4), &:nth-child(6n+5), &:nth-child(6n+6) {
-                &:hover,&.active{
-                    opacity: 1;
-                    transform: translateX(50%) rotate(-60deg) skewY(30deg) scale(1.05,1.05);
-                }
-            }
             &:hover,&.active{
                 opacity: 1;
-                transform: rotate(-60deg) skewY(30deg) scale(1.05,1.05);
             }
         }
     }
