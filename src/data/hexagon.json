@@ -8,68 +8,69 @@
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/1.png",
-            "title": "Jason Fang",
-            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
+            "title": "Motoko Eio",
+            "content": "The Bank of Japan<br/>Graduated from University of Tokyo<br/>Used to be an economic adviser to the Bank of Japan<br/>Participating in the formulation of monetary policy of Japan<br/>"
         },
         {},
 
 
         {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/touxiang.jpg",
-            "title": "Motoko Eio",
-            "content": "Graduated from University of Tokyo.Used to be an economic adviser to the Bank of Japan.Participating in the formulation of monetary policy of Japan"
+            "img": "images/hexagon/JasonFang.png",
+            "title": "Jason Fang",
+            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
         },
         {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/touxiang.jpg",
-            "title": "Motoko Eio",
-            "content": "Graduated from University of Tokyo.Used to be an economic adviser to the Bank of Japan.Participating in the formulation of monetary policy of Japan"
-        },
-
-
-        {
-            "img": "images/hexagon/1-1.png",
+            "img": "images/hexagon/JimDeWild.png",
             "title": "Jim De Wild",
-            "content": "Famous venture capitalist and management educator.Used to manage and invest over $5 billion.Doctor of political science and tenured professor at McGill University."
+            "content": "McGill University<br/>Famous venture capitalist and management educator<br/>Used to manage and invest over $5 billion<br/>Doctor of political science and tenured professor at McGill University<br/>"
+        },
+
+
+        {
+            "img": "images/hexagon/Diiorio.png",
+            "title": "Anthony Diiorio CEO of JAXX",
+            "content": "Famous founder of the JAXX wallet and co-founder of Ethereum.<br/>Senior cryptocurrency investor<br/>Serial entrepreneur, VC, community organizer, and thought leader in the field of decentralized technologies"
         },
         {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/touxiang.jpg",
-            "title": "Anthony Diiorio",
-            "content": "Famous founder of the JAXX wallet and co-founder of Ethereum.Senior cryptocurrency investor.Serial entrepreneur, VC, community organizer, and thought leader in the field of decentralized technologies"
+            "img": "images/hexagon/AlexMashinsky.png",
+            "title": "Alex Mashinsky",
+            "content": "CEO of Celsius<br/>Early developer of VoIP protocol <br/>One of the leading evangelists of web-based exchanges<br/>Prominent entrepreneur who has founded several companies over the years, including GroundLink, Transit Wireless, Elematics and Arbinet"
         },
         {"img": "images/hexagon/blank.png"},
 
         
         {"img": "images/hexagon/blank.png"},
+
         {
-            "img": "images/touxiang.jpg",
-            "title": "Alex Mashinsky",
-            "content": "Early developer of VoIP protocol.One of the leading evangelists of web-based exchanges.Prominent entrepreneur who has founded several companies over the years, including GroundLink, Transit Wireless, Elematics and Arbinet"
-        },
-        {
-            "img": "images/touxiang.jpg",
+            "img": "images/hexagon/ErnieEves.png",
             "title": "Hon. Ernie Eves",
             "content": "Founder and President of GIC group.Rich experience in investment and management.Has a very unique understanding and insight to the foreign exchange market, international trade and monetary policy"
         },
         {
-            "img": "images/hexagon/test.jpg",
-            "title": "Guy Benartzi",
-            "content": "Founder of Bancor.Famous figure in blockchain industry.Has been active in the blockchain sector since 2012 and has helped introduce numerous local currencies, including Ithacash in New York and Heart Market in Tel Aviv"
+            "img": "images/hexagon/Benartzi.png",
+            "title": "Guy Benartzi CEO of Bancor",
+            "content": "Founder of Bancor<br/>Famous figure in blockchain industry<br/>Has been active in the blockchain sector since 2012 and has helped introduce numerous local currencies, including Ithacash in New York and Heart Market in Tel Aviv"
+        },
+        {
+            "img": "images/hexagon/PatrickDai.png",
+            "title": "Patrick Dai",
+            "content": "Founder of Qtum<br/>Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group<br/>Rich experience in the development of blockchain technology and management and striving to push the blockchain technology to mainstream at an early date"
         },
 
 
         {
-            "img": "images/touxiang.jpg",
-            "title": "Patrick Dai",
-            "content": "Dropout from the Chinese Academy of Sciences.Used to work for Alibaba Group.Rich experience in the development of blockchain technology and management and striving to push the blockchain technology to mainstream at an early date"
+            "img": "images/hexagon/RichRobb.png",
+            "title": "Rich Robb",
+            "content": "Columbia University<br/>Professor of Finance at Columbia University<br/>PhD in Business Economics<br/>Global head of the derivatives and securities subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
         },
         {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/hexagon/test2.jpg",
-            "title": "Rich Robb",
-            "content": "Professor of Finance at Columbia University.PhD in Business Economics.Global head of the derivatives and securities subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
+            "img": "images/hexagon/JamesPesando.png",
+            "title": "James Pesando",
+            "content": "University of Toronto<br/>Graduated from the Economics Department of Harvard<br/>Famous macroeconomist working as research associate at National Bureau of Economic Research<br/>Thorough research to monetary policy and Hayek theory"
         },
         {},
 
