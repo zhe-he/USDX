@@ -494,6 +494,7 @@ body,html{background: #272a2f;}
     .aboutContent .content {
         .swiperLeft,.swiperRight{display: none;}
     }
+    .height_mobile_70{height: 70px;}
     .height_mobile_100{height: 100px;}
     .height_mobile_110{height: 0px;}
     .height_mobile_120{height: 30px;}
@@ -527,6 +528,15 @@ body,html{background: #272a2f;}
             position: absolute;
         }
     }
+    .teamBox .teamMember{
+        .intro{
+            .title{
+                font-size: 13px;
+                font-weight: normal;
+            }
+        }
+
+    }
     .indexSection{
         .indexBox{margin-top: 50px;
             width: 352px;
@@ -538,10 +548,13 @@ body,html{background: #272a2f;}
 
             .indexContent{
                 padding: 0px;
-                padding-top: 280px;
+                padding-top: 270px;
                 padding-left: 32px;
                 h2{
                     font-size: 52px;
+                    .icon-USDX{
+                        font-size: 38px;
+                    }
                 }
             }
             p{font-size: 18px;line-height: 21px;}
@@ -692,17 +705,21 @@ body,html{background: #272a2f;}
             height: auto;
             .bigCapitial{display: none;}
             h2{margin-top: -4px;}
-            p{margin-top: 10px;font-size: 9px;}
+            p{
+                font-size: 9px;
+                margin-top: -5px;
+                line-height: 13px;
+            }
         }
         .itemOne{
             padding-left: 24px;
-            padding-right: 24px;
+            padding-right: 12px;
             position: relative;
             height: auto;
             .intro{
                 float: left;
                 width: auto;
-                padding-left: 136px;
+                padding-left: 128px;
                 font-size: 13px;
             }
             .teamPic{
@@ -718,6 +735,7 @@ body,html{background: #272a2f;}
             padding-right: 24px;
             position: relative;
             height: auto;
+            margin-top: 0px;
             .intro{
                 width: auto;
                 padding-right: 120px;
@@ -741,7 +759,7 @@ body,html{background: #272a2f;}
             margin-top: 140px;
             .intro{
                 float: left;
-                margin-top: -60px;
+                margin-top: -126px;
                 width: auto;
                 padding-left: 136px;
                 font-size: 13px;
@@ -762,6 +780,7 @@ body,html{background: #272a2f;}
             padding-right: 24px;
             position: relative;
             height: auto;
+            margin-top: -10px;
             .intro{
                 width: auto;
                 padding-right: 120px;

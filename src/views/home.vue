@@ -36,7 +36,7 @@
             <div class="teamHeader">
                 <img src="images/team_header_bg.jpg"/>
             </div>
-            <div class="height90"></div>
+            <div class="height90 height_mobile_70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <span>TEAM</span>
