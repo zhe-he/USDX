@@ -358,15 +358,19 @@
   padding-bottom:60px;
 }
 .footerBox{
+  height: 234px;
   .bottomLogo{
     img{
       height: 56px;
       width: 186px;
     }
+    .icon-USDX-logo{
+      font-size: 50px;
+    }
   }
   .linkBox{
     width: 302px;
-    margin-top: 45px;
+    margin-top: 38px;
     a{
       .iconfont{
         font-size: 20px;

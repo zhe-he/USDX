@@ -54,12 +54,19 @@
     .partenersBox{
         .icon-partner1{
             font-size: 26px;
-            float:left;
             float: left;
+            font-weight: normal;
             margin-left: 18px;
             margin-right: 18px;
             color: #fff;
             margin-top: 2px;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        .partenersBox{
+            .icon-partner1{
+                font-size: 20px;
+            }
         }
     }
 
