@@ -48,6 +48,7 @@ body,html{background: #272a2f;}
     float: left;
 }
 .icon-USDX_logo{color: #fff;}
+.icon-USDX{font-size: 45px;}
 .topNav ul{float: right;padding-top: 20px;padding-right: 60px;}
 .topNav li {
     float: left;
@@ -313,7 +314,13 @@ body,html{background: #272a2f;}
         width: 276px;
     }
 }
-.teamMember .itemTwo{height:438px;position: relative;float: right;padding-right: 80px;}
+.teamMember .itemTwo{
+    height:438px;
+    position: relative;
+    float: right;
+    padding-right: 80px;
+    margin-top: 40px;
+}
 .teamMember .itemTwo .intro{font-size: 15px;width: 278px;text-align: left;}
 .itemTwo  .teamPic{padding-top: 16px;}
 .itemTwo .bigCapitial{
@@ -323,17 +330,21 @@ body,html{background: #272a2f;}
     display: block;
     background: url("../images/l_big_icon.png") no-repeat;
     background-size: 174px 268px;
-    right: 180px;
-    top:230px;
+    right: 187px;
+    top:270px;
 }
-.teamMember .itemThree{height: 444px;position: relative;padding-top: 60px;}
+.teamMember .itemThree{
+    height: 444px;
+    position: relative;
+    padding-top: 120px;
+}
 .teamMember .itemThree .intro{
     font-size: 15px;
     width: 274px;
     text-align: left;
     padding-left: 200px;
 }
-.itemThree  .teamPic{padding-top: 90px;padding-left: 82px;}
+.itemThree .teamPic{padding-top: 90px;padding-left: 98px;}
 .intro{
     .big_number_font{
         font-size: 22px;
@@ -356,11 +367,20 @@ body,html{background: #272a2f;}
     background: url("../images/m_big_icon.png") no-repeat;
     background-size: 175px 168px;
     position: absolute;
-    top:156px;
+    top:256px;
     left:0px;
 }
 .teamMember .itemFour{padding-left: 82px;position: relative;height: 313px;}
-.teamMember .itemFour .intro{font-size: 15px;width: 228px;text-align: left;float: left;margin-top: 203px;}
+.teamMember .itemFour .intro{
+    font-size: 15px;
+    width: 274px;
+    text-align: left;
+    float: left;
+    margin-top: 258px;
+}
+.itemFour{
+    margin-top: 86px;
+}
 .itemFour .bigCapitial{
     position: absolute;
     width: 170px;
@@ -368,10 +388,14 @@ body,html{background: #272a2f;}
     display: block;
     background: url("../images/a_big_icon.png") no-repeat;
     background-size: 170px 194px;
-    left: 304px;
-    top:0px;
+    left: 344px;
+    top:8px;
 }
-.itemFour .teamPic{float: left;margin-left: 21px;margin-top: 126px;}
+.itemFour .teamPic{
+    float: left;
+    margin-left: 21px;
+    margin-top: 156px;
+}
 
 
 .teamMember .big{font-size: 27px;}
