@@ -1,21 +1,21 @@
 <template>
     <div class="phases" :class="'active'+cur">
         <div class="phases-top">
-            <p>PHASES</p>
+            <p><i class="icon iconfont icon-PHASES"></i></p>
             <ul :class="'active'+cur">
-                <li :class="cur==0?'active':''" @click="cur=0">11111111</li>
-                <li :class="cur==1?'active':''" @click="cur=1">22222222</li>
-                <li :class="cur==2?'active':''" @click="cur=2">33333333</li>
-                <li :class="cur==0?'active':''" @click="cur=0">11111111</li>
-                <li :class="cur==1?'active':''" @click="cur=1">22222222</li>
-                <li :class="cur==2?'active':''" @click="cur=2">33333333</li>
+                <li :class="cur==0?'active':''" @click="cur=0">1. Genesis USDX<br/>token</li>
+                <li :class="cur==1?'active':''" @click="cur=1">2. Pegging Day</li>
+                <li :class="cur==2?'active':''" @click="cur=2">3. Stablecoin</li>
+                <li :class="cur==0?'active':''" @click="cur=0">1. Genesis USDX<br/>token</li>
+                <li :class="cur==1?'active':''" @click="cur=1">2. Pegging Day</li>
+                <li :class="cur==2?'active':''" @click="cur=2">3. Stablecoin</li>
             </ul>
         </div>
         <div class="phases-main">
             <div class="phases-l">
                 <div v-show="cur==index" v-for="(item,index) in phases">
-                    <h4 v-html="item.h4"></h4>
-                    <p v-html="item.p"></p>
+                    <h4 class="h4Titlte" v-html="item.h4"></h4>
+                    <p class="phaseContent" v-html="item.p"></p>
                     <i class="phases-font icon iconfont"
                         :class="{'icon-one':cur==0,'icon-two':cur==1,'icon-three':cur==2}"></i>
                 </div>
@@ -172,9 +172,11 @@
             left: 15%;
             bottom: 0;
             font-size: 200px;
+            font-weight: bold;
             line-height: 1;
             opacity: 0.1;
         }
+        .icon-one{font-size: 190px;}
     }
     
     .phases-r{
@@ -236,7 +238,14 @@
         right: 0;
         animation: tianping3 3s linear infinite;
     }
-    
+    .icon-PHASES{font-size: 30px;}
+    .h4Titlte{font-size: 33px;font-weight: normal;}
+    .phaseContent{font-size: 14px;
+        color: #fff;
+        line-height: 20px;
+        margin-top: 16px;
+        width: 390px;
+    }
     @keyframes tianping1{
         0%{
             transform: rotate(0deg);

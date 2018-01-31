@@ -11,7 +11,7 @@
         },
         {
             "link": "javascript:;",
-            "img": "images/company/parterners_31.png"
+            "img": "images/company/parterners_3.png"
         },
         {
             "link": "javascript:;",
@@ -65,11 +65,11 @@
     "phases": [
         {
             "h4": "Genesis USDX token",
-            "p": "The initial offering of USDX will be a fixe"
+            "p": "The initial offering of USDX will be a fixed supply of Genesis USDX token with initial price for bidding before pegging day to maintain the spread of the token."
         },
         {
             "h4": "Pegging Day",
-            "p": "On pegging day, USDX will increase or decrease the"
+            "p": "On pegging day, USDX will increase or decrease the supply of token based on the exchange rate at that time, making the USDX price back to 1 USD."
         },
         {
             "h4": "Stablecoin",
