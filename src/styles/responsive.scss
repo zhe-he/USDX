@@ -1104,6 +1104,7 @@
     }
     .itemContainer-mobile{
         width: 93% !important;
+        padding: 0 !important;
     }
     .hexagon-box{
         width: 90%;
@@ -1139,7 +1140,7 @@
         .phaseContent{
             width: 100%;
             font-size: 12px;
-            height: 140px;
+            height: 120px;
             line-height: 16px;
         }
         .phases-l{
@@ -1149,7 +1150,7 @@
             }
         }
         .phases-r{
-            margin: 40px auto;
+            margin: 0 auto;
             width: 80%;
         }
     }

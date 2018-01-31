@@ -10,9 +10,9 @@
 .mobileShow{display: block;}
 .mobileHide{display: none;}
 .topNav{
-  // position: relative;
+  position: relative;
   height: 76px;
-  // background: transparent;
+  background: transparent;
   img{
     height: 48px;
     width: auto;
@@ -76,9 +76,12 @@
   height: 38px;
   width: 152px;
 }
+.aboutContent-box{
+  overflow-x: hidden;
+}
 .aboutUSDX{
   width: 100%;
-  padding-bottom: 385px;
+  // padding-bottom: 185px;
   .title{
     width: 336px;
     .line_icon{
@@ -94,12 +97,14 @@
 
   }
   .aboutContent{
+    // overflow-x: hidden;
     width: 100%;
-    height: 400px;
+    // height: 400px;
     .content{
       width: 100%;
       padding-top:30px;
       padding-left: 24px;
+      box-sizing: border-box;
       h2{
         font-size: 21px;
         line-height: 23px;
@@ -136,7 +141,7 @@
   }
   /*two*/
   .phaseTwoBox{
-    margin-top: 192px;
+    // margin-top: 192px;
     .content{
       h2{
         font-size: 21px;
@@ -175,8 +180,8 @@
   }
   /*three*/
   .phaseThreeBox{
-    height: auto;
-    margin-top:238px;
+    height: 800px;
+    // margin-top:238px;
     .content{
       h2{
         font-size: 21px;
