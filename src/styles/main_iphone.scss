@@ -78,7 +78,7 @@
 }
 .aboutUSDX{
   width: 100%;
-  padding-bottom: 210px;
+  padding-bottom: 385px;
   .title{
     width: 336px;
     .line_icon{
@@ -176,6 +176,7 @@
   /*three*/
   .phaseThreeBox{
     height: auto;
+    margin-top:238px;
     .content{
       h2{
         font-size: 21px;
@@ -193,9 +194,12 @@
       top:120px;
       height: auto;
       margin-top: 215px;
+      .bottomBase{
+        top:150px;
+      }
       .topImage{
         left:20px;
-        top:315px;
+        top:58px;
         width: 350px;
         height: 252px;
         background-size: 350px 252px;
