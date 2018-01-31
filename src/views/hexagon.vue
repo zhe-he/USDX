@@ -1,6 +1,5 @@
 <template>
     <div class="hexagon-box">
-
         <div class="hexagon-title">
             <i class="icon iconfont icon-adivsor"></i>
             <div class="line"></div>
