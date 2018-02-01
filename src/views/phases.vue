@@ -36,6 +36,7 @@
                         <img src="images/phases/line3.png" alt="">
                     </div>
                 </transition>
+                <img style="opacity:0" src="images/phases/line3.png" alt="">
                 <!-- <div class="phases-tianping">
                     <img src="images/phases/tianping_base.png" alt="">
                 </div>
