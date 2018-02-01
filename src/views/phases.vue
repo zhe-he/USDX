@@ -21,7 +21,22 @@
                 </div>
             </div>
             <div class="phases-r">
-                <div class="phases-tianping">
+                <transition name="fade">
+                    <div v-show="cur==0" class="phase-line">
+                        <img src="images/phases/line1.png" alt="">
+                    </div>
+                </transition>
+                <transition name="fade">
+                    <div v-show="cur==1" class="phase-line">
+                        <img src="images/phases/line2.png" alt="">
+                    </div>
+                </transition>
+                <transition name="fade">
+                    <div v-show="cur==2" class="phase-line">
+                        <img src="images/phases/line3.png" alt="">
+                    </div>
+                </transition>
+                <!-- <div class="phases-tianping">
                     <img src="images/phases/tianping_base.png" alt="">
                 </div>
                 <div class="phases-tianping-main">
@@ -50,7 +65,7 @@
                             <img src="images/phases/1-6.png" alt="">
                         </i>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -188,6 +203,19 @@
         width: 30%;
         // width: 330px; 
     }
+    .phase-line{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .fade-enter-active,.fade-leave-active{
+        transition: opacity 0.6s ease-out;
+    }
+    .fade-enter, .fade-leave-to {
+        opacity: 0;
+    }
+    /*
     .phases-tianping{
         width: 35%;
         margin: 0 auto;
@@ -300,5 +328,5 @@
         100%{
             margin-top: 0%;
         }
-    }
+    }*/
 </style>
