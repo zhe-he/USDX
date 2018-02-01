@@ -635,7 +635,8 @@ body,html{background: #272a2f;}
                     width: 100%;
                 }
                 &.active,&:active,&:hover{
-                    border: 1px solid #2c2f35;
+                    border: 1px solid #2e3137;
+                    background-color: #2e3137;
                     box-shadow: 3px 2.598px 12.18px 1.82px rgba(0, 0, 0, 0.067);
                 }
             }
