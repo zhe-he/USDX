@@ -35,9 +35,9 @@
 
         <!--TEAM-->
         <div ref="nav-team" class="teamBox clearfix">
-            <div class="teamHeader">
+            <!--<div class="teamHeader">
                 <img src="images/team_header_bg.jpg"/>
-            </div>
+            </div>-->
             <div class="height80 height_mobile_70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
@@ -47,7 +47,7 @@
             <div class="teamBg mobileHide">
                 <i class="icon iconfont icon-team1"></i>
             </div>
-            <div class="height100 height_mobile_120"></div>
+            <div class="height60 height_mobile_120"></div>
                 <div class="teamMember">
                     <!--team one-->
                     <div class="itemOne clearfix">
@@ -111,13 +111,15 @@
                     </div>
                 </div>
         </div>
-        
-        <div ref="nav-advisors" class="hexagon-box">
-            <div class="advisorBox mobileHide">
-                <i class="icon iconfont icon-adivsor"></i>
+        <div class="blueBg">
+            <div ref="nav-advisors" class="hexagon-box">
+                <div class="advisorBox mobileHide">
+                    <i class="icon iconfont icon-adivsor"></i>
+                </div>
+                <hexagon></hexagon>
             </div>
-            <hexagon></hexagon>
         </div>
+
         
         <div ref="nav-parteners">
             <parteners></parteners>
