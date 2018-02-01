@@ -75,9 +75,10 @@
         }
         p{
             height: 54px;
-            font-size: 12px;
+            font-size: 14px;
             text-align: justify;
             color: #999999;
+            line-height: 20px;
         }
         .line{
             height: 2px;
