@@ -10,9 +10,9 @@
 .mobileShow{display: block;}
 .mobileHide{display: none;}
 .topNav{
-  position: relative;
+  //position: relative;
   height: 76px;
-  background: transparent;
+  //background: transparent;
   img{
     height: 48px;
     width: auto;
@@ -48,7 +48,6 @@
   height: auto;
   padding-bottom: 80px;
   .indexBox{
-    margin-top: 50px;
     width: 352px;
     height: 468px;
     background-repeat: no-repeat;

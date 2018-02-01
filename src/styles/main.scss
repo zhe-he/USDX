@@ -89,9 +89,11 @@ body,html{background: #272a2f;}
         width: 100%;
     }
     .navtab{
+        z-index: -1;
         transition: 0.6s;
         transform: translate3d(0,-100%,0);
         &.active{
+            z-index: 1;
             transform: translate3d(0,0,0);
         }
         div{
