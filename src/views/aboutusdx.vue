@@ -31,7 +31,11 @@
                 </div>
                 
                 <div class="rightPicBox">
-                    <div class="bottomBase"></div>
+                    <div class="bottomBase">
+                        <span class="txt" v-if="cur ==0">USDT</span>
+                        <span class="txt" v-else-if="cur ==1">USDX</span>
+                        <span class="txt" v-else-if="cur ==2">USDX</span>
+                    </div>
                     <transition leave-active-class="leave-mvleft" name="mvleft">
                         <div v-show="cur==0" class="topImage"></div>
                     </transition>
