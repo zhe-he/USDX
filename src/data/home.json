@@ -94,13 +94,13 @@
             "p": ["USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank."],
             "ul": [{
                 "class": "",
-                "li": "<i></i><span>Programmable Money</span>"
+                "li": "<i class='icon iconfont icon-phaseOne'></i><span>Programmable Money</span>"
             },{
                 "class": "phase02",
-                "li": "<i></i><span>Algorithmic Central Bank</span>"
+                "li": "<i class='icon iconfont icon-phaseTwo'></i><span>Algorithmic Central Bank</span>"
             },{
                 "class": "phase03",
-                "li": "<i></i><span>Decentralized Financial System</span>"
+                "li": "<i class='icon iconfont icon-phaseThree'></i><span>Decentralized Financial System</span>"
             }]
         },
         {
