@@ -64,7 +64,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                    <div class="height56"></div>
+                    <div class="height56 height_moblie_10"></div>
                     <!--team two-->
                     <div class="itemTwo clearfix">
                         <div class="intro ">
@@ -79,7 +79,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                    <div class="height_mobile_20"></div>
+                    <!--<div class="height_mobile_20"></div>-->
                     <!--team three-->
                     <div class="itemThree clearfix">
                         <div class="intro">
@@ -111,7 +111,6 @@
                         <span class="bigCapitial"></span>
                     </div>
                 </div>
-            <div class="height_mobile_100"></div>
         </div>
         
         <div ref="nav-advisors" class="hexagon-box">

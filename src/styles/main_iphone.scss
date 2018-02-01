@@ -2,6 +2,7 @@
   .swiperLeft,.swiperRight{display: none;}
 }
 .height_mobile_40{height: 40px;}
+.height_moblie_10{height: 10px;}
 .height_mobile_70{height: 70px;}
 .height_mobile_100{height: 100px;}
 .height_mobile_110{height: 0px;}
@@ -232,12 +233,14 @@
         width: auto;
         padding-left: 128px;
         font-size: 13px;
+        padding-top: 0px;
       }
       .teamPic{
         position: absolute;
         margin: 0;
         img{
           width: 104px;
+          padding-left: 0px;
         }
       }
       .bigCapitial{
@@ -280,6 +283,7 @@
         width: auto;
         padding-left: 136px;
         font-size: 13px;
+        margin-left: 0px;
       }
       .teamPic{
         padding: 0;
@@ -289,6 +293,8 @@
         margin: 0;
         img{
           width: 104px;
+          left: 0px;
+          top:0px;
         }
       }
       .bigCapitial{
@@ -306,6 +312,8 @@
         padding-right: 120px;
         padding-top: 0px;
         margin-top: 0px;
+        margin-left: 0px;
+
 
       }
       .teamPic{
@@ -315,6 +323,8 @@
         top:0;
         img{
           width: 104px;
+          right: 0px;
+          top:0px;
         }
       }
       .bigCapitial{
