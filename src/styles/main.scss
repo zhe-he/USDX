@@ -27,10 +27,14 @@ body{background:#fff;font-size: 16px;}
 .clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
 .clearfix{zoom:1;}
 .height20{height: 20px;}
+.height56{height: 56px;}
 .height60{height: 60px;}
+.height50{height: 50px;}
 .height66{height: 66px;}
 .height70{height: 70px;}
+.height80{height: 80px;}
 .height90{height: 90px;}
+.height100{height: 100px;}
 .height110{height: 110px;}
 .height120{height: 120px;}
 .height100{height: 100px;}
@@ -434,24 +438,28 @@ body,html{background: #272a2f;}
         }
         .itemOne{
             padding-left: 100px;
+            ;
             position: relative;
-            height: 313px;
+            height: auto;
             .intro{
                 font-size: 15px;
-                width: 274px;
+                width: 260px;
                 text-align: left;
                 float: left;
+                padding-top: 40px
             }
             .bigCapitial{
                 position: absolute;
-                width: 163px;
-                height: 211px;
+                width: 169px;
+                height: 219px;
                 display: block;
                 background: url("../images/r_big_icon.png") no-repeat;
                 background-size: 163px 211px;
-                left: 322px;
-                top:164px;
+                left: 325px;
+                top:152px;
             }
+            img{display: block;
+                padding-left:40px;}
         }
         .itemTwo{
             height:438px;
@@ -467,13 +475,13 @@ body,html{background: #272a2f;}
             .teamPic{padding-top: 16px;}
             .bigCapitial{
                 position: absolute;
-                width: 174px;
-                height: 268px;
+                width: 147px;
+                height: 225px;
                 display: block;
                 background: url("../images/l_big_icon.png") no-repeat;
-                background-size: 174px 268px;
-                right: 187px;
-                top:270px;
+                background-size: 147px 225px;
+                right: 262px;
+                top:198px;
             }
         }
         .itemThree{
@@ -484,11 +492,16 @@ body,html{background: #272a2f;}
                 font-size: 15px;
                 width: 274px;
                 text-align: left;
-                padding-left: 200px;
+                margin-top: 300px;
+                margin-left: 110px;
             }
             .teamPic{
-                padding-top: 90px;
-                padding-left: 98px;
+                img{
+                    display: block;
+                    position: absolute;
+                    top: 200px;
+                    left: 165px;
+                }
             }
             .bigCapitial{
                 width: 175px;
@@ -497,26 +510,30 @@ body,html{background: #272a2f;}
                 background: url("../images/m_big_icon.png") no-repeat;
                 background-size: 175px 168px;
                 position: absolute;
-                top:256px;
+                top:130px;
                 left:0px;
             }
         }
         .itemFour{
-            margin-top: 86px;
-            padding-left: 82px;
             position: relative;
-            height: 313px;
             .intro{
                 font-size: 15px;
                 width: 274px;
                 text-align: left;
                 float: left;
-                margin-top: 258px;
+                margin-top: 133px;
+                margin-left: 207px;
             }
             .teamPic{
                 float: left;
                 margin-left: 21px;
                 margin-top: 156px;
+                img{
+                    position: absolute;
+                    display: block;
+                    right: 160px;
+                    top:36px;
+                }
             }
             .bigCapitial{
                 position: absolute;
@@ -525,8 +542,8 @@ body,html{background: #272a2f;}
                 display: block;
                 background: url("../images/a_big_icon.png") no-repeat;
                 background-size: 170px 194px;
-                left: 344px;
-                top:8px;
+                left: 405px;
+                top:-26px;
             }
         }
     }
@@ -538,7 +555,7 @@ body,html{background: #272a2f;}
 }
 .teamPic{
     img{
-        width: 276px;
+        width: 200px;
     }
 }
 .intro{

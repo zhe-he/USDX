@@ -38,7 +38,7 @@
             <div class="teamHeader">
                 <img src="images/team_header_bg.jpg"/>
             </div>
-            <div class="height90 height_mobile_70"></div>
+            <div class="height80 height_mobile_70"></div>
             <h2 class="title">
                 <i class="line_icon left_line"></i>
                 <i class="icon iconfont icon-team1"></i>
@@ -47,7 +47,7 @@
             <div class="teamBg mobileHide">
                 <i class="icon iconfont icon-team1"></i>
             </div>
-            <div class="height120 height_mobile_120"></div>
+            <div class="height100 height_mobile_120"></div>
                 <div class="teamMember">
                     <!--team one-->
                     <div class="itemOne clearfix">
@@ -64,7 +64,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                    <div class="height20"></div>
+                    <div class="height56"></div>
                     <!--team two-->
                     <div class="itemTwo clearfix">
                         <div class="intro ">
@@ -94,7 +94,7 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                   <div class="height60 height_mobile_120"></div>
+                   <!--<div class="height60 height_mobile_120"></div>-->
                    <!--team four-->
                    <div class="itemFour clearfix">
                         <div class="intro">
