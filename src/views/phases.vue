@@ -17,7 +17,7 @@
                     <h4 class="h4Titlte" v-html="item.h4"></h4>
                     <p class="phaseContent" v-html="item.p"></p>
                     <i class="phases-font icon iconfont"
-                        :class="{'icon-one':cur==0,'icon-two':cur==1,'icon-three':cur==2}"></i>
+                        :class="{'icon-one_big':cur==0,'icon-two_big':cur==1,'icon-three_big':cur==2}"></i>
                 </div>
             </div>
             <div class="phases-r">
@@ -172,11 +172,13 @@
             left: 15%;
             bottom: 0;
             font-size: 200px;
-            font-weight: bold;
+            font-weight: normal;
             line-height: 1;
             opacity: 0.1;
         }
         .icon-one{font-size: 190px;}
+        .icon-two_big{font-size: 230px;}
+        .icon-two_three{font-size: 230px;}
     }
     
     .phases-r{

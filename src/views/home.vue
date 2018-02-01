@@ -2,7 +2,6 @@
     <div id="home" class="homeBox">
         <div class="topNav">
             <i class="icon iconfont icon-USDX-logo"></i>
-            <!--<img src="images/logo.png"/>-->
             <div @click="navTab" class="navBar"></div>
             <ul class="clearfix mobileHide">
                 <li v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to(item,index)" class="anchor-hd">{{item.content}}</a></li>
@@ -15,7 +14,7 @@
             
         </div>
         <div ref="nav-home" class="indexSection clearfix">
-            <div class="height110 height_mobile_110"></div>
+            <div class="height110 height_mobile_40"></div>
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>

@@ -1,6 +1,7 @@
 .aboutContent .content {
   .swiperLeft,.swiperRight{display: none;}
 }
+.height_mobile_40{height: 40px;}
 .height_mobile_70{height: 70px;}
 .height_mobile_100{height: 100px;}
 .height_mobile_110{height: 0px;}
@@ -10,9 +11,11 @@
 .mobileShow{display: block;}
 .mobileHide{display: none;}
 .topNav{
-  //position: relative;
-  height: 76px;
-  //background: transparent;
+  height: 50px;
+  background:rgba(41, 43, 49, .8);
+  .icon-USDX-logo{
+    font-size: 32px;
+  }
   img{
     height: 48px;
     width: auto;
@@ -27,7 +30,7 @@
     height: 17px;
     position: absolute;
     right: 18px;
-    top:30px;
+    top:18px;
     background: url("../images/mobile/nav_bar_icon.png");
     background-repeat: no-repeat;
   }
@@ -180,7 +183,6 @@
   /*three*/
   .phaseThreeBox{
     height: 800px;
-    // margin-top:238px;
     .content{
       h2{
         font-size: 21px;
@@ -328,6 +330,7 @@
     }
   }
   .title{
+    width: 314px;
     span{
       font-size: 29px;
     }
@@ -374,6 +377,7 @@
     }
     .icon-USDX-logo{
       font-size: 50px;
+      margin-top: 8px;
     }
   }
   .linkBox{
@@ -388,4 +392,25 @@
     a:last-child{margin-right: 0px;}
   }
   .copyRight{font-size: 13px;}
+}
+.homeBox{
+  .icon-team1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.hexagon-box{
+  .icon-adivsor{
+    font-size: 20px;
+  }
+  .hexagon-title{
+    .line{
+      margin: 10px 0px;
+    }
+    h4{
+      font-size: 17px;
+      font-weight: normal;
+    }
+  }
 }
