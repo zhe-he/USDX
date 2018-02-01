@@ -40,6 +40,7 @@ module.exports = {
         new ExtractTextPlugin("css/vueStyle.css"),
         new CopyWebpackPlugin([
             {from: 'images/**/*'},
+            {from: 'whitepaper/**/*'},
             {from: srcVue, to: 'js/vue.js'},
             {from: srcVuex, to: 'js/vuex.js'},
             {from: srcVueRouter, to: 'js/vue-router.js'}
