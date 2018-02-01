@@ -175,7 +175,7 @@
         display: flex;
         align-item: center;
         justify-content: center;
-        padding: 5% 10% 10%;
+        padding: 10%;
     }
     .phases-l{
         position: relative;
