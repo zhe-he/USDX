@@ -101,9 +101,7 @@
 
   }
   .aboutContent{
-    // overflow-x: hidden;
     width: 100%;
-    // height: 400px;
     .content{
       width: 100%;
       padding-top:30px;
@@ -118,7 +116,7 @@
         font-size: 12px;
         line-height: 16px;
         padding-right: 48px;
-        margin-top: 16px;
+        margin-top: 8px;
       }
       .order{margin-top: 32px;}
     }
@@ -184,7 +182,7 @@
   }
   /*three*/
   .phaseThreeBox{
-    height: 800px;
+    height: 700px;
     .content{
       h2{
         font-size: 21px;
@@ -433,15 +431,71 @@
     height: 14px;
   }
 }
+.aboutUSDX .aboutContent .rightPicBox .topImage{
+  width: auto;
+  top:120px;
+}
+.aboutUSDX .aboutContent .rightPicBox .bottomBase{
+  width: 335px;
+  height: 244px;
+  left: 0;
+  bottom: 0;
+  top: 305px;
+  background-size: 340px auto;
+  top:240px;
+  left: 24px;
+}
+.aboutContent{
+  height: 540px;
+}
+.aboutUSDX .aboutContent .content{
+  padding-top: 0px;
+}
+.aboutUSDX .aboutContent .content .order{
+  margin-top: 0px;
+}
+.aboutContent .rightPicBox .bottomBase .txt{
+  bottom: 61px;
+  left: 135px;
+  font-size: 18px;
+}
+
+
+.aboutUSDX .phaseTwoBox .rightPicBox .topImage{
+  top:130px;
+  left: 12px;
+}
+.aboutUSDX .phaseThreeBox .rightPicBox .topImage{
+  background-size: 78% auto;
+  left: 24px;
+  top:-16px;
+}
+.aboutUSDX .phaseThreeBox .rightPicBox .bottomBase{
+  top:108px;
+}
+.aboutUSDX .phaseOneBox .order{
+  top:100px;
+}
+
 .aboutUSDX{
+  .phaseOneBox{
+    .order{
+      top:146px;
+    }
+  }
   .phaseTwoBox{
     .content{
       .order{
         margin-top: 0px;
-        top: 222px;
+        top: 186px;
       }
     }
   }
 }
-
+.aboutUSDX .phaseTwoBox .rightPicBox .bottomBase{
+  top:210px;
+}
+.aboutUSDX .phaseThreeBox .content .order{
+  margin-top: 20px;
+}
 
