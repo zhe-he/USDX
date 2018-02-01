@@ -123,6 +123,7 @@
                 cursor: pointer;
                 opacity: 0.6;
                 line-height: 1.2;
+                font-size: 16px;
                 @for $i from 1 to 7 {
                     &:nth-child(#{$i}){
                         transform: rotate(#{($i/1+1)*-60}deg);
