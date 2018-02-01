@@ -94,17 +94,17 @@
             width: 100%;
         }
         transition: 0.6s;
-        background: #181a1d url('../../images/phases/bg.png') no-repeat 0% bottom;
+        background: #181a1d url('../../images/phases/bg.png') no-repeat 0% 90%;
         background-size: 300%;
 
         &.active0{
-            background-position: 0% bottom;
+            background-position-x: 0%;
         }
         &.active1{
-            background-position: 33.33% bottom;
+            background-position-x: 33.33%;
         }
         &.active2{
-            background-position: 66.66% bottom;
+            background-position-x: 66.66%;
         }
     }
     .phases-top{
@@ -175,7 +175,7 @@
         display: flex;
         align-item: center;
         justify-content: center;
-        padding: 10%;
+        padding: 12% 10% 10%;
     }
     .phases-l{
         position: relative;
