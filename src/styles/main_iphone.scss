@@ -11,6 +11,7 @@
 .mobile_block{display: block;}
 .mobileShow{display: block;}
 .mobileHide{display: none;}
+.aboutUSDX{background-image: none;}
 .topNav{
   height: 50px;
   background:rgba(41, 43, 49, .8);
@@ -424,3 +425,23 @@
     }
   }
 }
+.phaseTwoDesc{
+  padding-top: 4px;
+  li{
+    margin-top: 12px;
+    line-height: 14px;
+    height: 14px;
+  }
+}
+.aboutUSDX{
+  .phaseTwoBox{
+    .content{
+      .order{
+        margin-top: 0px;
+        top: 222px;
+      }
+    }
+  }
+}
+
+
