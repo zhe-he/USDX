@@ -317,6 +317,7 @@ body,html{background: #272a2f;}
 }
 .phaseTwoDesc{
     padding-top: 10px;
+
     .psIconfont{
         color: #08d6d8;
         font-size: 15px;
@@ -350,6 +351,20 @@ body,html{background: #272a2f;}
     width: 470px;
     height: 290px;
 }
+.phaseOneBox{
+    .order{
+        position: absolute;
+        top: 416px;
+        .number{margin-top: 2px;}
+        .icon-one{font-size: 24px;}
+    }
+}
+.phaseTwoBox{
+    .order{
+        position: absolute;
+        top: 416px;
+    }
+}
 .phaseThreeBox{
     .content{
         p{
@@ -369,7 +384,7 @@ body,html{background: #272a2f;}
 
 }
 .aboutContent p{font-size: 13px;}
-
+.aboutContent .number{width: 56px;}
 .partenersBox .title{
     height:40px;
     line-height: 40px;
