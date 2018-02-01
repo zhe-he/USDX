@@ -82,11 +82,15 @@ body,html{background: #272a2f;}
         }
     }
     .navtab-box{
+        height: 0;
         overflow: hidden;
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
+        &.active{
+            height: auto;
+        }
     }
     .navtab{
         z-index: -1;
