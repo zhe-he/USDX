@@ -4,7 +4,11 @@
         {},{},{},{},
 
 
-        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/bot_ceo.png",
+            "title": "Motoko Eio&nbsp;&nbsp;The Bank of Japan",
+            "content": "Graduated from University of Tokyo<br/>Used to be an economic adviser to the Bank of Japan<br/>Participating in the formulation of monetary policy of Japan<br/>"
+        },
         {"img": "images/hexagon/blank.png"},
         {
             "img": "images/hexagon/Motoko.png",

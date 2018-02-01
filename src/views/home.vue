@@ -94,7 +94,6 @@
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                   <!--<div class="height60 height_mobile_120"></div>-->
                    <!--team four-->
                    <div class="itemFour clearfix">
                         <div class="intro">
@@ -126,7 +125,7 @@
 
         <footer class="footerBox">
             <div class="wrapper clearfix">
-                <p class="bottomLogo"><!--<img src="images/bottom_logo.png">-->
+                <p class="bottomLogo">
                     <i class="icon iconfont icon-USDX-logo"></i>
                 </p>
                 <div class="clearfix linkBox">
