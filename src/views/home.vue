@@ -174,7 +174,7 @@
                 this.showNav = !this.showNav;
             },
             to(item,index){
-                var T = this.$refs[item.ref].getBoundingClientRect().y;
+                var T = this.$refs[item.ref].getBoundingClientRect().top;
                 var t = document.documentElement.scrollTop||document.body.scrollTop;
                 this.curpage = index;
                 scrollMove({y:t+T})
@@ -184,7 +184,7 @@
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();
-                        if (rect.y>=0 && rect.y+rect.height>=0) {
+                        if (rect.top>=0 && rect.top+rect.height>=0) {
                             this.curpage = i;
                             return ;
                         }
