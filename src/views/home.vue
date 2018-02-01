@@ -119,6 +119,7 @@
 
         
         <div ref="nav-parteners">
+            <div class="height80 height_mobile_70"></div>
             <parteners></parteners>
         </div>
 

@@ -386,6 +386,7 @@ body,html{background: #272a2f;}
 .aboutContent p{font-size: 13px;}
 .aboutContent .number{width: 56px;}
 .partenersBox .title{
+    background: #282B30;
     height:40px;
     line-height: 40px;
     width: 466px;
@@ -657,7 +658,7 @@ body,html{background: #272a2f;}
 .partenersBox {
     .itemContainer{
         padding-top: 26px;
-        padding-bottom: 106px;
+        padding-bottom: 85px;
         ul{
             display: flex;
             width: 80%;
@@ -667,8 +668,7 @@ body,html{background: #272a2f;}
                 display: block;
                 margin-top: 20px;
                 margin-right: 20px;
-                border: 1px solid #272a2f;
-                background: #2c2f35;
+                border: 1px solid #25272c;
                 img{
                     display: block;
                     width: 100%;
