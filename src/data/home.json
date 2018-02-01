@@ -73,7 +73,7 @@
     "phases": [
         {
             "h4": "Genesis USDX token",
-            "p": "The initial offering of USDX will be a fixed supply of Genesis USDX token with initial price for bidding before pegging day to maintain the spread of the token."
+            "p": "The initial offering of USDX will be a fixed supply of Genesis USDX token with initial price for bidding before pegging day to ensure the spread of the token."
         },
         {
             "h4": "Pegging Day",
