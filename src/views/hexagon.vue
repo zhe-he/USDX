@@ -71,15 +71,16 @@
             font-size: 32px;
         }
         h4{
-            font-size: 20px;
+            font-size: 28px;
+            font-weight: normal;
             margin-bottom: 14px;
         }
         p{
             height: 54px;
-            font-size: 14px;
+            font-size: 16px;
             text-align: justify;
             color: #999999;
-            line-height: 20px;
+            line-height: 22px;
         }
         .line{
             height: 2px;
