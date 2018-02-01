@@ -122,7 +122,7 @@
                 text-align: center;
                 cursor: pointer;
                 opacity: 0.6;
-                line-height: 2;
+                line-height: 1.2;
                 @for $i from 1 to 7 {
                     &:nth-child(#{$i}){
                         transform: rotate(#{($i/1+1)*-60}deg);
@@ -130,6 +130,7 @@
                 }
                 &:active,&:hover,&.active{
                     opacity: 1;
+                    text-decoration: underline;
                     &:before{
                         background-color: #04e0e0;
                     }
