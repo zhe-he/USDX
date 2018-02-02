@@ -52,8 +52,9 @@
                                 <i class="icon iconfont icon-one big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Richard Tiutiun</span></h2>
-                            <p>Fanatical genius of blockchain technology and hacker born in Ukraine Designed and developed XOR project and stablecoin lab after drop out from UC Berkley, and focus on the research of next generation of currency.
-                            </p>
+                            <p class="mt2">Fanatical genius of blockchain <br/>technology and hacker born in Ukraine</p>
+                            <p>Designed and developed XOR project<br/>and stablecoin lab after drop out from <br/> UC Berkley</p>
+                            <p>Focus on the research of next generation <br/>of currency </p>
                         </div>
                         <div class="teamPic">
                             <img src="images/team_one.png"/>
@@ -68,14 +69,15 @@
                                 <i class="icon iconfont icon-two big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Lucas Porco</span></h2>
-                            <p>Experienced lawyer focus on the compliance of blockchain and cryptocurrency Ph.D candidate of Law at University of Toronto Top-level participation in the design of legal frameworks for several cryptocurrencies</p>
+                            <p>Experienced lawyer focus on the<br/>compliance of blockchain and<br/>cryptocurrency </p>
+                            <p>Ph.D candidate of Law at University of <br/>Toronto </p>
+                            <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
                         </div>
                         <div class="teamPic">
                             <img src="images/team_two.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
-                    <!--<div class="height_mobile_20"></div>-->
                     <!--team three-->
                     <div class="itemThree clearfix">
                         <div class="intro">
@@ -83,7 +85,8 @@
                                 <i class="icon iconfont icon-three big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Michael Gord</span></h2>
-                           <p>Professional blockchain consultant expert and product strategy expert In charge of strategic planning, business expansion and cooperation with regulators, banks and other institutions and departments of USDX project.</p>
+                            <p>Professional blockchain consultant<br/>expert and product strategy expert</p>
+                            <p>In charge of strategic planning, business<br/>expansion and cooperation with <br/>regulators, banks and other institutions</p>
                         </div>
                         <div class="teamPic">
                             <img src="images/team_three.png"/>
@@ -94,11 +97,12 @@
                    <div class="itemFour clearfix">
                         <div class="intro">
                             <h2>
-                                <!--<span class="big">04</span>&nbsp;/&nbsp;<span class="small">04</span>-->
                                 <i class="icon iconfont icon-four big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Ada Tie</span></h2>
-                           <p>Graduated from University of Toronto and London School of Economics Not only a financial practitioner but also a brand expert Has rich brand and marketing experience in art curatorial, luxury marketing and private banking, and applies it to the field of cryptocurrency.</p>
+                            <p>Graduated from University of Toronto<br/>and London School of Economics</p>
+                            <p>Not only a financial practitioner but also<br/>a brand expert</p>
+                            <p>Rich brand and marketing experience in<br/>art curatorial, luxury marketing and<br/> private banking.</p>
                         </div>
                         <div class="teamPic">
                             <img src="images/team_four.png"/>

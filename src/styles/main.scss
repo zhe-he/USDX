@@ -41,6 +41,7 @@ body{background:#fff;font-size: 16px;}
 .mobileShow{display: none;}
 .mobileHide{display: block;}
 
+
 body,html{background: #272a2f;}
 
 
@@ -445,6 +446,8 @@ body,html{background: #272a2f;}
         margin: 0 auto;
         padding-bottom: 70px;
         .intro{
+            position: relative;
+            z-index: 2;
             .title{
                 font-size: 24px;
                 font-weight: normal;
@@ -454,11 +457,12 @@ body,html{background: #272a2f;}
             font-size: 16px;
             color: #999999;
             line-height: 22px;
-            margin-top: 2px;
+            margin-top: 10px;
         }
+        .mt2{margin-top: 2px;}
         .itemOne{
             padding-left: 100px;
-            ;
+
             position: relative;
             height: auto;
             .intro{
@@ -502,8 +506,8 @@ body,html{background: #272a2f;}
                 display: block;
                 background: url("../images/l_big_icon.png") no-repeat;
                 background-size: 147px 225px;
-                right: 262px;
-                top:198px;
+                right: 281px;
+                top: 292px;
             }
         }
         .itemThree{
@@ -512,7 +516,7 @@ body,html{background: #272a2f;}
             padding-top: 120px;
             .intro{
                 font-size: 15px;
-                width: 274px;
+                width: 298px;
                 text-align: left;
                 margin-top: 300px;
                 margin-left: 110px;
@@ -538,12 +542,13 @@ body,html{background: #272a2f;}
         }
         .itemFour{
             position: relative;
+            margin-top: 100px;
             .intro{
                 font-size: 15px;
                 width: 296px;
                 text-align: left;
                 float: left;
-                margin-top: 133px;
+                margin-top: 72px;
                 margin-left: 207px;
             }
             .teamPic{
