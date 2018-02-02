@@ -72,15 +72,15 @@
     ],
     "phases": [
         {
-            "h4": "Genesis USDX token",
-            "p": "The initial offering of USDX will be a fixed supply of Genesis USDX token with initial price for bidding before pegging day to ensure the spread of the token."
+            "h4": "Phase 1   Genesis Phase",
+            "p": "Genesis USDX token will be offered with a fixed supply and an initial price for bidding. Before the pegging day, these tokens can be traded freely to  spread."
         },
         {
-            "h4": "Pegging Day",
-            "p": "On pegging day, USDX will increase or decrease the supply of token based on the exchange rate at that time, making the USDX price back to 1 USD."
+            "h4": "Transition   Pegging Day",
+            "p": "On the pegging day, USDX will increase or decrease the token supply based on the real-time exchange rate to adjust the USDX price to 1 USD."
         },
         {
-            "h4": "Stablecoin",
+            "h4": "Phase 2   Stable Phase",
             "p": "After pegging day, decentralized algorithmic bank of USDX starts work, making USDX price fluctuates around 1USD. USDX protocol with a non-fixed supply is a unlimited market, attracting more developers to build a financial system that replace the real world financial system."
         }
     ],
