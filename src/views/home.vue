@@ -108,8 +108,8 @@
                     </div>
                 </div>
         </div>
-        <div class="blueBg">
-            <div ref="nav-advisors" class="hexagon-box">
+        <div class="blueBg" ref="screen">
+            <div ref="nav-advisors" class="hexagon-warp">
                 <div class="advisorBox mobileHide">
                     <i class="icon iconfont icon-adivsor"></i>
                 </div>
@@ -163,9 +163,22 @@
         mounted() {
             this.$nextTick(() => {
                 this.scroll();
+                this.resize();
             })
         },
         methods:{
+            resize() {
+                this.setScreen();
+                window.addEventListener('resize',this.setScreen);
+            },
+            setScreen() {
+                var w = window.innerWidth;
+                if (w > 720) {
+                    this.$refs["screen"].style.height = window.screen.height +'px';
+                } else {
+                    this.$refs["screen"].style.height = 'auto';
+                }
+            },
             to2(item,index) {
                 this.showNav = false;
                 this.to(item,index);
@@ -204,9 +217,10 @@
 </script>
 
 <style lang="scss">
-    .hexagon-box{
-        padding-top: 20px;
+    .hexagon-warp{
+        padding-top: 30px;
         width: 80%;
         margin: 0 auto;
+        box-sizing: border-box;
     }
 </style>
