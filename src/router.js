@@ -9,6 +9,15 @@ const routes = [{
     meta: {
         keepAlive: true // 是否缓存
     }
+},{
+    path: '*',
+    name: '404',
+    component: {
+        template: "<div>404</div>"
+    },
+    meta: {
+        keepAlive: false
+    }
 }];
 
 
