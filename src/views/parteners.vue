@@ -3,7 +3,7 @@
         <h2 class="title">
             <i class="line_icon left_line"></i>
             <!--<span>PARTENERS</span>-->
-            <i class="icon iconfont icon-partner1"></i>
+            <i class="icon iconfont icon-partners"></i>
             <i class="line_icon right_line"></i>
         </h2>
         <div class="itemContainer">
@@ -52,7 +52,7 @@
 
 <style lang="scss">
     .partenersBox{
-        .icon-partner1{
+        .icon-partners{
             font-size: 26px;
             float: left;
             font-weight: normal;
@@ -64,7 +64,7 @@
     }
     @media screen and (max-width: 720px) {
         .partenersBox{
-            .icon-partner1{
+            .icon-partners{
                 font-size: 20px;
             }
         }

@@ -3,12 +3,12 @@
         <div class="phases-top">
             <p><i class="icon iconfont icon-PHASES"></i></p>
             <ul :class="'active'+cur">
-                <li :class="cur==0?'active':''" @click="cur=0">1. Genesis USDX<br/>token</li>
-                <li :class="cur==1?'active':''" @click="cur=1">2. Pegging Day</li>
-                <li :class="cur==2?'active':''" @click="cur=2">3. Stablecoin</li>
-                <li :class="cur==0?'active':''" @click="cur=0">1. Genesis USDX<br/>token</li>
-                <li :class="cur==1?'active':''" @click="cur=1">2. Pegging Day</li>
-                <li :class="cur==2?'active':''" @click="cur=2">3. Stablecoin</li>
+                <li :class="cur==0?'active':''" @click="cur=0">Phase 1<br/>Genesis Phase</li>
+                <li :class="cur==1?'active':''" @click="cur=1">Phase 2<br/>Stable Phase</li>
+                <li :class="cur==2?'active':''" @click="cur=2">Transition<br/>Pegging Day</li>
+                <li :class="cur==0?'active':''" @click="cur=0">Phase 1<br/>Genesis Phase</li>
+                <li :class="cur==1?'active':''" @click="cur=1">Phase 2<br/>Stable Phase</li>
+                <li :class="cur==2?'active':''" @click="cur=2">Transition<br/>Pegging Day</li>
             </ul>
         </div>
         <div class="phases-main">

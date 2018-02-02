@@ -19,8 +19,7 @@
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
                     <p>The Protocol for Decentralized<br/>
-                        Stablecoin Central Bank<br/>
-                        in the Community</p>
+                        Stablecoin</p>
                     <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2.pdf" target="_blank">Whitepaper  Download</a>
                 </div>
 
