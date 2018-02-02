@@ -16,8 +16,8 @@
                 <div v-show="cur==index" v-for="(item,index) in phases">
                     <h4 class="h4Titlte" v-html="item.h4"></h4>
                     <p class="phaseContent" v-html="item.p"></p>
-                    <i class="phases-font icon iconfont"
-                        :class="{'icon-one_big':cur==0,'icon-two_big':cur==1,'icon-three_big':cur==2}"></i>
+                    <!--<i class="phases-font icon iconfont"
+                        :class="{'icon-one_big':cur==0,'icon-two_big':cur==1,'icon-three_big':cur==2}"></i>-->
                 </div>
             </div>
             <div class="phases-r">
@@ -216,6 +216,8 @@
     .fade-enter, .fade-leave-to {
         opacity: 0;
     }
+    .h4Titlte{font-size: 34px;font-weight: normal;}
+    .phaseContent{font-size:16px; line-height: 22px;}
     /*
     .phases-tianping{
         width: 35%;
