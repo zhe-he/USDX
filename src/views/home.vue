@@ -21,7 +21,7 @@
                     <p>The Protocol for Decentralized<br/>
                         Stablecoin Central Bank<br/>
                         in the Community</p>
-                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.1.pdf" target="_blank">Whitepaper  Download</a>
+                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2.pdf" target="_blank">Whitepaper  Download</a>
                 </div>
 
             </div>
