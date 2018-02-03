@@ -85,7 +85,6 @@
 }
 .aboutUSDX{
   width: 100%;
-  // padding-bottom: 185px;
   .title{
     width: 336px;
     .line_icon{
@@ -111,13 +110,17 @@
         font-size: 21px;
         line-height: 23px;
       }
-      .line{margin-top: 20px;}
+      .line{
+        margin-top: 20px;
+        margin-bottom: 16px;
+      }
       p{
         font-size: 12px;
         line-height: 16px;
         padding-right: 48px;
         margin-top: 8px;
       }
+
       .order{margin-top: 32px;}
     }
     .rightPicBox{
@@ -143,7 +146,6 @@
   }
   /*two*/
   .phaseTwoBox{
-    // margin-top: 192px;
     .content{
       h2{
         font-size: 21px;
@@ -193,6 +195,7 @@
         line-height: 16px;
         width: 312px;
       }
+      p:first-child{margin-top: 16px;}
       .order{margin-top: 40px;}
     }
     .rightPicBox{
@@ -487,14 +490,14 @@
 .aboutUSDX{
   .phaseOneBox{
     .order{
-      top:146px;
+      top:154px;
     }
   }
   .phaseTwoBox{
     .content{
       .order{
         margin-top: 0px;
-        top: 186px;
+        top: 192px;
       }
     }
   }
