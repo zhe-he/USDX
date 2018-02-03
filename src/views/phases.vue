@@ -216,7 +216,7 @@
         width: 85%;
         height: 90%;
         background-color: rgb(24, 26, 29);
-        animation: toright 2.5s infinite;
+        animation: toright 6s infinite;
     }
     .phase-line-box{
         position: absolute;
@@ -228,16 +228,16 @@
                 margin-top: -100%;
             }
             &:nth-child(1){
-                animation: to_c 1.5s infinite;
+                animation: to_c 2s infinite;
             }
             &:nth-child(2){
-                animation: to_l 1.5s infinite;
+                animation: to_l 2s infinite;
             }
             &:nth-child(3){
-                animation: to_r 1.5s infinite;
+                animation: to_r 2s infinite;
             }
             &:nth-child(4){
-                animation: to_b 1.5s ease-in infinite;
+                animation: to_b 2s ease-in infinite;
             }
         }
     }
@@ -247,7 +247,7 @@
     
     @keyframes toright{
         0%{width: 85%;}
-        100%{width: 0%;}
+        50%,100%{width: 0%;}
     }
     @keyframes to_c{
         0%{
@@ -272,7 +272,7 @@
             opacity: 1;
             transform: translate3d(0,0,0);
         }
-        100%{
+        75%,100%{
             transform: translate3d(-150%,0,0);
         }
     }
@@ -288,7 +288,7 @@
             opacity: 1;
             transform: translate3d(0,0,0);
         }
-        100%{
+        75%,100%{
             transform: translate3d(150%,0,0);
         }
     }
