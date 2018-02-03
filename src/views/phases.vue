@@ -87,6 +87,7 @@
 </script>
 
 <style lang="scss">
+
     .phases{
         overflow: hidden;
         img{
@@ -108,7 +109,7 @@
         }
     }
     .phases-top{
-        
+        .icon-PHASES{font-size: 38px;}
         > ul{
             position: relative;
             margin: -270px auto 0;
@@ -218,6 +219,7 @@
     }
     .h4Titlte{font-size: 34px;font-weight: normal;}
     .phaseContent{font-size:16px; line-height: 22px;}
+
     /*
     .phases-tianping{
         width: 35%;
