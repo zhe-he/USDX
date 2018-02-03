@@ -36,6 +36,7 @@
                 </div>
                 <div v-show="cur==2" class="phase-line">
                     <img src="images/phases/line3.png" alt="">
+                    <img class="phase-line-baseimg" src="images/phases/line2.png" alt="">
                     <div class="toright"></div>
                 </div>
                 <!-- <div class="phases-tianping">
@@ -208,6 +209,15 @@
     }
     .phase-line{
         position: relative;
+    }
+    .phase-line-baseimg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background-size: 100% 100%;
     }
     .toright {
         position: absolute;
