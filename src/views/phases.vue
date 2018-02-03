@@ -21,22 +21,23 @@
                 </div>
             </div>
             <div class="phases-r">
-                <transition name="fade">
-                    <div v-show="cur==0" class="phase-line">
-                        <img src="images/phases/line1.png" alt="">
+                <div v-show="cur==0" class="phase-line">
+                    <img src="images/phases/line1.png" alt="">
+                    <div class="toright"></div>
+                </div>
+                <div v-show="cur==1" class="phase-line">
+                    <img src="images/phases/line2.png" alt="">
+                    <div class="phase-line-box">
+                        <img src="images/phases/1-5.png" alt="">
+                        <img src="images/phases/1-5.png" alt="">
+                        <img src="images/phases/1-5.png" alt="">
+                        <img src="images/phases/1-6.png" alt="">
                     </div>
-                </transition>
-                <transition name="fade">
-                    <div v-show="cur==1" class="phase-line">
-                        <img src="images/phases/line2.png" alt="">
-                    </div>
-                </transition>
-                <transition name="fade">
-                    <div v-show="cur==2" class="phase-line">
-                        <img src="images/phases/line3.png" alt="">
-                    </div>
-                </transition>
-                <img style="opacity:0" src="images/phases/line3.png" alt="">
+                </div>
+                <div v-show="cur==2" class="phase-line">
+                    <img src="images/phases/line3.png" alt="">
+                    <div class="toright"></div>
+                </div>
                 <!-- <div class="phases-tianping">
                     <img src="images/phases/tianping_base.png" alt="">
                 </div>
@@ -206,20 +207,104 @@
         // width: 330px; 
     }
     .phase-line{
+        position: relative;
+    }
+    .toright {
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
+        width: 85%;
+        height: 90%;
+        background-color: rgb(24, 26, 29);
+        animation: toright 2s infinite;
+    }
+    .phase-line-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10%;
+        img{
+            &:nth-child(2),&:nth-child(3),&:nth-child(4){
+                margin-top: -100%;
+            }
+            &:nth-child(1){
+                animation: to_c 1s infinite;
+            }
+            &:nth-child(2){
+                animation: to_l 1s infinite;
+            }
+            &:nth-child(3){
+                animation: to_r 1s infinite;
+            }
+            &:nth-child(4){
+                animation: to_b 1s ease-in infinite;
+            }
+        }
     }
 
-    .fade-enter-active,.fade-leave-active{
-        transition: opacity 0.6s ease-out;
-    }
-    .fade-enter, .fade-leave-to {
-        opacity: 0;
-    }
     .h4Titlte{font-size: 34px;font-weight: normal;}
     .phaseContent{font-size:16px; line-height: 22px;}
-
+    
+    @keyframes toright{
+        0%{width: 85%;}
+        100%{width: 0%;}
+    }
+    @keyframes to_c{
+        0%{
+            opacity: 0;
+        }
+        49%{
+            opacity: 0;
+        }
+        50%,100%{
+            opacity: 1;
+        }
+    }
+    @keyframes to_l{
+        0%{
+            opacity: 0;
+            transform: translate3d(0,0,0);
+        }
+        49%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+            transform: translate3d(0,0,0);
+        }
+        100%{
+            transform: translate3d(-150%,0,0);
+        }
+    }
+    @keyframes to_r{
+        0%{
+            opacity: 0;
+            transform: translate3d(0,0,0);
+        }
+        49%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+            transform: translate3d(0,0,0);
+        }
+        100%{
+            transform: translate3d(150%,0,0);
+        }
+    }
+    @keyframes to_b{
+        0%{
+            opacity: 1;
+            transform: translate3d(0,-200%,0);
+        }
+        49%{
+            opacity: 1;
+        }
+        50%,100%{
+            opacity: 0;
+            transform: translate3d(0,50%,0);
+        }
+    }
     /*
     .phases-tianping{
         width: 35%;
