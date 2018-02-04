@@ -134,10 +134,10 @@
                 <div class="clearfix linkBox">
                     <a href="https://twitter.com/NewMoneyUSDX"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
                     <a href="https://www.facebook.com/NewMoneyUSDX" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>
+                    <!--<a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
+                    <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>-->
                     <a href="https://github.com/USDXProject" target="_blank" class="icon icon_github"><i class="icon iconfont icon-github"></i></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>
+                    <!--<a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>-->
                     <a href="https://t.me/NewMoneyUSDX" target="_blank" class="icon icon_medium"><i class="icon iconfont icon-emi"></i></a>
                 </div>
                 <p class="copyRight">©️USDX 2017.All Rights Reserved.</p>

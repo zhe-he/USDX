@@ -707,13 +707,15 @@ body,html{background: #272a2f;}
     width: 100%;
     padding-top: 34px;
     .linkBox{
-        //width: 420px;
         text-align: center;
         margin: 0 auto;
         margin-top: 28px;
         .iconfont{
             font-size: 26px;
             color: #fff;
+            //margin-right: 29px;
+        }
+        a{
             margin-right: 29px;
         }
         a:hover{
@@ -733,14 +735,13 @@ body,html{background: #272a2f;}
     }
 
 }
-
+.bottomLogo{text-align: center;}
 .bottomLogo .icon-USDX-logo{
-    display: block;
-    margin: 0 auto;
+    //display: block;
+    //margin: 0 auto;
     font-size: 70px;
     color: #fff;
     text-align: center;
-    padding-right: 20px;
 }
 
 /*750*/
