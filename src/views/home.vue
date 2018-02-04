@@ -23,7 +23,13 @@
                     <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2.pdf" target="_blank">Whitepaper  Download</a>
                 </div>
 
+                <div class="indexBox-line">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
+            <usdx></usdx>
         </div>
         <div ref="nav-about">
             <aboutusdx></aboutusdx>
@@ -150,6 +156,7 @@
     import Hexagon from './hexagon';
     import Phases from './phases';
     import Parteners from './parteners';
+    import Usdx from './usdx';
     import Aboutusdx from './Aboutusdx';
     import homeData from '../data/home';
     import { scrollMove } from '../modules/method'
@@ -214,16 +221,61 @@
             Hexagon,
             Phases,
             Parteners,
-            Aboutusdx
+            Aboutusdx,
+            Usdx
         }
     }
 </script>
 
 <style lang="scss">
+    .indexBox{
+        position: relative;
+        z-index: 10;
+
+        .indexBox-line div{
+            position: absolute;
+            left: 40%;
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(left, rgba(255,182,193, 1), rgba(255,182,193, 0));
+            animation: tlf 3s ease infinite;
+            opacity: 0;
+            &:nth-child(1){
+                top: 15%;
+            }
+            &:nth-child(2){
+                top: 44%;
+                animation-delay: 1s;
+            }
+            &:nth-child(3){
+                top: 90%;
+                animation-delay: 2s;
+            }
+        }
+    }
     .hexagon-warp{
         padding-top: 30px;
         width: 80%;
         margin: 0 auto;
         box-sizing: border-box;
+    }
+
+    @keyframes tlf{
+        0%{
+            opacity: 0.5;
+            transform: translate3d(0,0,0);
+        }
+        49.999%{
+            opacity: 1;
+            transform: translate3d(-400%,0,0) rotate(0deg);
+        }
+        50%{
+            opacity: 1;
+            transform: translate3d(-400%,0,0) rotate(180deg);
+        }
+        100%{
+            opacity: 0.5;
+            transform: translate3d(0,0,0) rotate(180deg);
+        }
     }
 </style>

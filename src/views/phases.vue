@@ -211,7 +211,7 @@
     
     .phases-r{
         position: relative;
-        width: 30%;
+        width: 50%;
     }
     .phase-line{
         position: relative;
