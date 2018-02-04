@@ -9,7 +9,7 @@
     export default {
         mounted() {
             this.$nextTick(() => {
-                this.make();
+                // this.make();
             });
         },
         methods: {
