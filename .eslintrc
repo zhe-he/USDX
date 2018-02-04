@@ -20,7 +20,10 @@
         "es6": true
     },
     "globals": {
-        "BMap": true
+        "BMap": true,
+        "_": true,
+        "Circ": true,
+        "TweenLite": true
     },
     "plugins": [
         "vue"

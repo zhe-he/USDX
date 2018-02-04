@@ -234,7 +234,7 @@
 
         .indexBox-line div{
             position: absolute;
-            left: 40%;
+            left: 45%;
             width: 60px;
             height: 2px;
             background: linear-gradient(left, rgba(255,182,193, 1), rgba(255,182,193, 0));
@@ -262,20 +262,16 @@
 
     @keyframes tlf{
         0%{
-            opacity: 0.5;
+            opacity: 0.1;
             transform: translate3d(0,0,0);
-        }
-        49.999%{
-            opacity: 1;
-            transform: translate3d(-400%,0,0) rotate(0deg);
         }
         50%{
             opacity: 1;
-            transform: translate3d(-400%,0,0) rotate(180deg);
+            transform: translate3d(-350%,0,0);
         }
         100%{
-            opacity: 0.5;
-            transform: translate3d(0,0,0) rotate(180deg);
+            opacity: 0.1;
+            transform: translate3d(-700%,0,0);
         }
     }
 </style>
