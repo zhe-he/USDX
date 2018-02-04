@@ -112,7 +112,7 @@
       }
       .line{
         margin-top: 20px;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
       }
       p{
         font-size: 12px;
@@ -509,3 +509,10 @@
   margin-top: 20px;
 }
 .aboutContent .number{width: auto;}
+.phaseTwoDesc li span{font-size: 12px;}
+.icon-one_big{display: none;}
+.icon-two_big{display: none;}
+.icon-three_big{display: none;}
+.phases-l div{width: auto;margin-top: 0px;}
+.phases-l div:nth-child(2){margin-top: 0px;}
+.phases-l div:last-child{margin-top: 0px;}
