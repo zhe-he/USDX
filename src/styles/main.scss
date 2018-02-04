@@ -341,7 +341,7 @@ body,html{background: #272a2f;}
         span{
             float: left;
             margin-left: 12px;
-            font-size: 14px;
+            font-size: 16px;
             color: #fff;
         }
     }
@@ -602,8 +602,9 @@ body,html{background: #272a2f;}
 }
 .advisorBox{
     position: absolute;
-    top: 116px;
-    left: -100px;
+    top: 100px;
+    left: 0px;
+    z-index: 3;
     .icon-adivsor{
         font-size: 100px;
         opacity: 0.01;
@@ -698,6 +699,7 @@ body,html{background: #272a2f;}
 }
 .blueBg{
     background-color: #23252a;
+    position: relative;
 }
 .footerBox{
     background: #292b31;

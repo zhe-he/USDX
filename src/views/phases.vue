@@ -16,8 +16,8 @@
                 <div v-show="cur==index" v-for="(item,index) in phases">
                     <h4 class="h4Titlte" v-html="item.h4"></h4>
                     <p class="phaseContent" v-html="item.p"></p>
-                    <!--<i class="phases-font icon iconfont"
-                        :class="{'icon-one_big':cur==0,'icon-two_big':cur==1,'icon-three_big':cur==2}"></i>-->
+                    <i class="phases-font icon iconfont"
+                        :class="{'icon-one_big':cur==0,'icon-two_big':cur==1,'icon-three_big':cur==2}"></i>
                 </div>
             </div>
             <div class="phases-r">
@@ -188,24 +188,30 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        div{
+            margin-top: -84px;
+            padding-left: 6px;
+            width: 375px;
+        }
+        div:nth-child(2){margin-top: -104px;}
+        div:last-child{margin-top: -43px;}
         .phases-font{
             position: absolute;
             left: 15%;
-            bottom: 0;
+            top: -40px;
             font-size: 200px;
             font-weight: normal;
             line-height: 1;
             opacity: 0.1;
         }
-        .icon-one{font-size: 190px;}
-        .icon-two_big{font-size: 230px;}
-        .icon-two_three{font-size: 230px;}
+        .icon-one_big{font-size: 324px;}
+        .icon-two_big{font-size: 380px;top:-81px;}
+        .icon-three_big{top:-70px;font-size: 387px;}
     }
     
     .phases-r{
         position: relative;
         width: 30%;
-        // width: 330px; 
     }
     .phase-line{
         position: relative;
@@ -252,8 +258,12 @@
         }
     }
 
-    .h4Titlte{font-size: 34px;font-weight: normal;}
-    .phaseContent{font-size:16px; line-height: 22px;}
+    .h4Titlte{font-size: 28px;font-weight: normal;}
+    .phaseContent{
+        font-size:16px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
     
     @keyframes toright{
         0%{width: 85%;}
