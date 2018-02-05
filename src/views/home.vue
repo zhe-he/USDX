@@ -20,7 +20,7 @@
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
                     <p>The Protocol for Decentralized<br/>
                         Stablecoin</p>
-                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2.pdf" target="_blank">Whitepaper  Download</a>
+                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2V2.pdf" target="_blank">Whitepaper  Download</a>
                 </div>
 
                 <div class="indexBox-line">
