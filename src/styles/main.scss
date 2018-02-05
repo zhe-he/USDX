@@ -685,6 +685,9 @@ body,html{background: #272a2f;}
                     display: block;
                     width: 100%;
                 }
+                &:last-child{
+                    margin-right: 0;
+                }
                 &.active,&:active,&:hover{
                     border: 1px solid #2e3137;
                     background-color: #2e3137;
