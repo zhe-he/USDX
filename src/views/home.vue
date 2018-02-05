@@ -29,7 +29,6 @@
                     <div></div>
                 </div>
             </div>
-            <usdx></usdx>
         </div>
         <div ref="nav-about">
             <aboutusdx></aboutusdx>
@@ -156,7 +155,6 @@
     import Hexagon from './hexagon';
     import Phases from './phases';
     import Parteners from './parteners';
-    import Usdx from './usdx';
     import Aboutusdx from './Aboutusdx';
     import homeData from '../data/home';
     import { scrollMove } from '../modules/method'
@@ -221,8 +219,7 @@
             Hexagon,
             Phases,
             Parteners,
-            Aboutusdx,
-            Usdx
+            Aboutusdx
         }
     }
 </script>
