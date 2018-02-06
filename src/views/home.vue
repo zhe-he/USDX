@@ -99,7 +99,7 @@
                         <span class="bigCapitial"></span>
                     </div>
                    <!--team four-->
-                   <div class="itemFour clearfix">
+                   <!--<div class="itemFour clearfix">
                         <div class="intro">
                             <h2>
                                 <i class="icon iconfont icon-four big_number_font"></i>
@@ -113,7 +113,7 @@
                             <img src="images/team_four.png"/>
                         </div>
                         <span class="bigCapitial"></span>
-                    </div>
+                    </div>-->
                 </div>
         </div>
         <div class="blueBg" ref="screen">
