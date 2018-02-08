@@ -181,10 +181,11 @@
             },
             setScreen() {
                 var w = window.innerWidth;
+                this.$refs["nav-home"].style.width = w + 'px';
                 if (w > 720) {
-                    this.$refs["screen"].style.height = window.screen.height +'px';
+                    this.$refs["nav-home"].style.height = this.$refs["screen"].style.height = window.screen.height +'px';
                 } else {
-                    this.$refs["screen"].style.height = 'auto';
+                    this.$refs["nav-home"].style.height = this.$refs["screen"].style.height = 'auto';
                 }
             },
             to2(item,index) {

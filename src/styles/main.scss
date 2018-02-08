@@ -142,9 +142,12 @@ body,html{background: #272a2f;}
 
 .indexSection{
     width: 100%;
-    padding: 10% 0 15%;
+    // padding: 10% 0 15%;
     // height: 638px;
     background-color: #2c2f35;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
 }
 .indexBox{
     width:960px;
