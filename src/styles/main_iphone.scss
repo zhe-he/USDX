@@ -415,12 +415,13 @@
     }
   }
   .linkBox{
-    width: 302px;
+    width: 248px;
     margin-top: 38px;
     a{
       .iconfont{
         font-size: 20px;
         margin: 0 10px;
+
       }
     }
     a:last-child{margin-right: 0px;}
@@ -531,3 +532,4 @@
 .phases-l div{width: auto;margin-top: 0px;}
 .phases-l div:nth-child(2){margin-top: 0px;}
 .phases-l div:last-child{margin-top: 0px;}
+.footerBox .linkBox a{margin-right: 28px;}

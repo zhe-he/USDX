@@ -717,13 +717,18 @@ body,html{background: #272a2f;}
         text-align: center;
         margin: 0 auto;
         margin-top: 28px;
+        width: 288px;
         .iconfont{
             font-size: 26px;
             color: #fff;
             //margin-right: 29px;
         }
         a{
-            margin-right: 29px;
+            //margin-right: 29px;
+            margin-right: 60px;
+            display: block;
+            float: left;
+
         }
         a:hover{
             i{

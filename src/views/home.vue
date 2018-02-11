@@ -14,7 +14,7 @@
             
         </div>
         <div ref="nav-home" class="indexSection clearfix">
-            <div class="height110 height_mobile_40"></div>
+            <!--<div class="height110 height_mobile_40"></div>-->
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
