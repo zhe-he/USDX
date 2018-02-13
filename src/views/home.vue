@@ -120,6 +120,13 @@
                     </div>
                 </div>
         </div>
+
+        <div class="supportBg" ref="screen">
+            <div ref="nav-supports" class="hexagon-warp">
+                <support></support>
+            </div>
+        </div>
+
         <div class="blueBg" ref="screen">
             <div ref="nav-advisors" class="hexagon-warp">
                 <div class="advisorBox mobileHide">
@@ -156,6 +163,7 @@
 </template>
 
 <script type="text/javascript">
+    import Support from './support';
     import Hexagon from './hexagon';
     import Phases from './phases';
     import Parteners from './parteners';
@@ -207,7 +215,7 @@
                 scrollMove({y:t+T})
             },
             scroll() {
-                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-advisors','nav-parteners'];
+                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-supports','nav-advisors','nav-parteners'];
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();
@@ -222,6 +230,7 @@
             }
         },
         components: {
+            Support,
             Hexagon,
             Phases,
             Parteners,
