@@ -465,8 +465,6 @@ body,html{background: #272a2f;}
         }
         .mt2{margin-top: 2px;}
         .itemOne{
-            // padding-left: 100px;
-
             position: relative;
             height: auto;
             .intro{
@@ -488,21 +486,29 @@ body,html{background: #272a2f;}
             }
             img{
                 display: block;
-                padding-left:32px;
+                padding-left:26px;
+                width: 215px;
+                height: 204px;
             }
         }
         .itemTwo{
             height:438px;
             position: relative;
             float: right;
-            // padding-right: 80px;
             margin-top: 40px;
             .intro{
                 font-size: 15px;
                 width: 296px;
                 text-align: left;
             }
-            .teamPic{padding-top: 16px;}
+            .teamPic{
+                padding-top: 16px;
+                padding-left: 38px;
+            }
+            img{
+                width: 202px;
+                height: 202px;
+            }
             .bigCapitial{
                 position: absolute;
                 width: 147px;
@@ -526,11 +532,14 @@ body,html{background: #272a2f;}
                 margin-left: 110px;
             }
             .teamPic{
+
                 img{
                     display: block;
                     position: absolute;
                     top: 200px;
-                    left: 165px;
+                    left: 168px;
+                    width: 207px;
+                    height: 203px;
                 }
             }
             .bigCapitial{
@@ -562,8 +571,10 @@ body,html{background: #272a2f;}
                 img{
                     position: absolute;
                     display: block;
-                    right: 160px;
+                    right: 128px;
                     top:36px;
+                    width: 215px;
+                    height: 204px;
                 }
             }
             .bigCapitial{
@@ -584,11 +595,11 @@ body,html{background: #272a2f;}
     display: block;
     margin: 0 auto;
 }
-.teamPic{
+/*.teamPic{
     img{
         width: 200px;
     }
-}
+}*/
 .intro{
     .big_number_font{
         font-size: 22px;

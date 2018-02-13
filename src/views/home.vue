@@ -62,7 +62,8 @@
                             <p>Focus on the research of next generation <br/>of currency </p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_one.png"/>
+                            <!--<img src="images/team_one.png"/>-->
+                            <img class="teamOne" src="images/team/team_icon_one.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -79,7 +80,8 @@
                             <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_two.png"/>
+                            <!--<img src="images/team_two.png"/>-->
+                            <img class="teamTwo" src="images/team/team_icon_two.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -94,26 +96,28 @@
                             <p>In charge of strategic planning, business<br/>expansion and cooperation with <br/>regulators, banks and other institutions</p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_three.png"/>
+                            <!--<img src="images/team_three.png"/>-->
+                            <img class="teamThree" src="images/team/team_icon_three.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
                    <!--team four-->
-                   <!--<div class="itemFour clearfix">
+                   <div class="itemFour clearfix">
                         <div class="intro">
                             <h2>
                                 <i class="icon iconfont icon-four big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Ada Tie</span></h2>
-                            <p>Graduated from University of Toronto<br/>and London School of Economics</p>
-                            <p>Not only a financial practitioner but also<br/>a brand expert</p>
-                            <p>Rich brand and marketing experience in<br/>art curatorial, luxury marketing and<br/> private banking.</p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Dennis S. Lee</span></h2>
+                            <p>Serial entrepreneur and Crypto <br/>evangelist </p>
+                            <p>INK Business Developer</p>
+                            <p>Talented in marketing and brand</p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_four.png"/>
+                            <!--<img src="images/team_four.png"/>-->
+                            <img class="teamFour" src="images/team/team_icon_four.png"/>
                         </div>
                         <span class="bigCapitial"></span>
-                    </div>-->
+                    </div>
                 </div>
         </div>
         <div class="blueBg" ref="screen">
