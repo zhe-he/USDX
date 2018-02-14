@@ -547,3 +547,51 @@
 .support-box .title .line_icon{
   width: 64px;
 }
+.supportBg{
+  .hexagon-warp{
+    width: 100%;
+  }
+}
+.supportContent{
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+    ul{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      li{
+        margin: 0;
+        padding: 0 24px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        .nameBox{
+          width: 124px;
+          background-size: 124px 124px;
+          font-size: 16px;
+          padding-top: 34px;
+          line-height: 18px;
+          float: left;
+          h2{margin-top: 4px;}
+          .position{
+            padding-top: 6px;
+            margin-top: 0px;
+          }
+        }
+        .descBox{
+          float: left;
+          margin-top: -6px;
+          padding-left: 20px;
+          p{
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 2px;
+            br{
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+}
