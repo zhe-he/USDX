@@ -590,7 +590,14 @@ body,html{background: #272a2f;}
         }
     }
 }
-
+.support-box{
+    background-color: #222529;
+}
+.support-box{
+    .title{
+        width: 556px;
+    }
+}
 .teamHeader img{
     display: block;
     margin: 0 auto;
@@ -764,7 +771,9 @@ body,html{background: #272a2f;}
     color: #fff;
     text-align: center;
 }
-
+.supportBg{
+    background-color: #222529;
+}
 /*750*/
 @media screen and (max-width: 720px) {
     @import "./main_iphone";

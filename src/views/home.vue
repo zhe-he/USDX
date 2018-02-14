@@ -121,7 +121,7 @@
                 </div>
         </div>
 
-        <div class="supportBg" ref="screen">
+        <div class="supportBg clearfix" ref="screen">
             <div ref="nav-supports" class="hexagon-warp">
                 <support></support>
             </div>
