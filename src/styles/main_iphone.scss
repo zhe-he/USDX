@@ -43,7 +43,7 @@
 .teamBox .teamMember{
   .intro{
     .title{
-      font-size: 13px;
+      font-size: 15px;
       font-weight: normal;
     }
   }
@@ -92,7 +92,13 @@
 .whitePaper{
   font-size: 12px;
   height: 38px;
-  width: 152px;
+  a{
+    width: 120px;
+    font-size: 12px;
+  }
+  .deck{
+    margin-left: 10px;
+  }
 }
 .aboutContent-box{
   overflow-x: hidden;
@@ -350,7 +356,7 @@
         top:0;
         img{
           width: 104px;
-          height: 99px;
+          height: 105px;
           right: 0px;
           top:0px;
         }
@@ -406,32 +412,7 @@
 .partenersBox .itemContainer{
   padding-bottom:60px;
 }
-.footerBox{
-  height: 234px;
-  .bottomLogo{
-    img{
-      height: 56px;
-      width: 186px;
-    }
-    .icon-USDX-logo{
-      font-size: 50px;
-      margin-top: 8px;
-    }
-  }
-  .linkBox{
-    width: 248px;
-    margin-top: 38px;
-    a{
-      .iconfont{
-        font-size: 20px;
-        margin: 0 10px;
 
-      }
-    }
-    a:last-child{margin-right: 0px;}
-  }
-  .copyRight{font-size: 13px;}
-}
 .homeBox{
   .icon-team1{
     font-size: 20px;
@@ -479,7 +460,7 @@
   height: 540px;
 }
 .aboutUSDX .aboutContent .content{
-  padding-top: 0px;
+  padding-top: 6px;
 }
 .aboutUSDX .aboutContent .content .order{
   margin-top: 0px;
@@ -536,7 +517,6 @@
 .phases-l div{width: auto;margin-top: 0px;}
 .phases-l div:nth-child(2){margin-top: 0px;}
 .phases-l div:last-child{margin-top: 0px;}
-.footerBox .linkBox a{margin-right: 28px;}
 .teamBox .teamMember .itemTwo{margin-right: 0px;}
 .support-box  .icon-rd_title{
   font-size: 12px;
@@ -550,48 +530,13 @@
 .supportBg{
   .hexagon-warp{
     width: 100%;
+    padding-top: 0px;
   }
 }
-.supportContent{
-  margin: 0;
-  padding: 0;
-  margin-top: 40px;
-    ul{
-      width: 100%;
-      margin: 0px;
-      padding: 0px;
-      li{
-        margin: 0;
-        padding: 0 24px;
-        width: 100%;
-        box-sizing: border-box;
-        margin-top: 20px;
-        .nameBox{
-          width: 124px;
-          background-size: 124px 124px;
-          font-size: 16px;
-          padding-top: 34px;
-          line-height: 18px;
-          float: left;
-          h2{margin-top: 4px;}
-          .position{
-            padding-top: 6px;
-            margin-top: 0px;
-          }
-        }
-        .descBox{
-          float: left;
-          margin-top: -6px;
-          padding-left: 20px;
-          p{
-            font-size: 12px;
-            line-height: 16px;
-            margin-top: 2px;
-            br{
-              display: inline;
-            }
-          }
-        }
-      }
-    }
+
+.teamBox .title .right_line{
+  background-position: right center;
+}
+.partenersBox .title .right_line{
+  background-position: right center;
 }

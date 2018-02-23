@@ -33,7 +33,11 @@
 
 
         {"img": "images/hexagon/blank.png"},
-        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/AlanWunsche.png",
+            "title":"Alan Wunsche / CEO of TokenFunder",
+            "content":"CEO & Chief Token Officer of TokenFunder.<br/>Finance technologist focused on new blockchain business models and the disruptive impacts of blockchain on global wealth distribution and innovation.<br/>Brings hands-on technology experience as a finance and risk transformation executive at a global bank, management consulting and startups."
+        },
         {
             "img": "images/hexagon/AlexMashinsky.png",
             "title": "Alex Mashinsky / CEO of Celsius",

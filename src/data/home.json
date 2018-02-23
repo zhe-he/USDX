@@ -11,64 +11,65 @@
     ],
     "icon": [
         {
-            "link": "http://www.halalchain.ae/",
+            "link": "http://www.futuremoneyventure.com/",
             "img": "images/company/parterners_1.png"
         },
         {
-            "link": "http://spacechain.com/",
+            "link": "http://www.lenovo.com/",
             "img": "images/company/parterners_2.png"
         },
         {
-            "link": "https://robin8.net/",
+            "link": "http://www.k2vc.com/",
             "img": "images/company/parterners_3.png"
         },
         {
-            "link": "https://qtum.org/en/",
+            "link": "http://www.collinstar.com/en",
             "img": "images/company/parterners_4.png"
         },
         {
-            "link": "http://entcash.com/",
+            "link": "http://dupontcapital.com/",
             "img": "images/company/parterners_5.png"
         },
         {
-            "link": "https://beechat.io/",
+            "link": "https://qtum.org/en/",
             "img": "images/company/parterners_21.png"
         },
         {
-            "link": "http://ink.one/",
+            "link": "https://stormtoken.com/",
             "img": "images/company/parterners_22.png"
         },
         {
-            "link": "https://cfunproject.com/",
+            "link": "https://www.lbank.info/",
             "img": "images/company/parterners_23.png"
         },
         {
-            "link": "https://tokensale.datawallet.com/",
+            "link": "https://www.zb.com/",
             "img": "images/company/parterners_24.png"
         },
         {
-            "link": "https://pundix.com/",
+            "link": "http://www.zeniex.com/",
             "img": "images/company/parterners_25.png"
         },
         {
-            "link": "http://www.hticm.com/aspx/en/en_index.aspx",
+            "link": "https://www.huobi.com/",
             "img": "images/company/parterners_31.png"
         },
         {
-            "link": "http://www.collinstar.com/zh-cn",
-            "img": "images/company/parterners_32.png"
+            "link": "javascript:;",
+            "img": ""
+        }
+      ,
+        {
+            "link": "javascript:;",
+            "img": ""
         },
         {
-            "link": "http://dupontcapital.com/",
-            "img": "images/company/parterners_33.png"
+            "link": "javascript:;",
+            "img": ""
         },
         {
-            "link": "http://www.sora.vc/",
-            "img": "images/company/parterners_34.png"
-        },
-        {
-            "link": "http://draperdragon.com/home-en",
-            "img": "images/company/parterners_35.png"
+            "link": "javascript:;",
+            "img": ""
         }
     ],
     "phases": [

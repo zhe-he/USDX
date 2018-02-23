@@ -41,7 +41,7 @@
         },
         methods: {
             setMobileIcon() {
-                this.iconMobile = [icon.slice(0,3),icon.slice(3,6),icon.slice(6,9),icon.slice(9,12),icon.slice(12,15)];
+                this.iconMobile = [icon.slice(0,3),icon.slice(3,6),icon.slice(6,9),icon.slice(9,12)];
             },
             setPCIcon() {
                 this.iconPC = [icon.slice(0,5),icon.slice(5,10),icon.slice(10,15)];

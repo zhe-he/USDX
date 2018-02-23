@@ -173,24 +173,67 @@ body,html{background: #272a2f;}
     padding-left: 546px;
     padding-top: 70px;
 }
+
 .whitePaper{
-    font-size: 13px;
-    color: #ffffff;
+
     display: block;
-    border:1px solid #12a6a9;
-    border-radius: 2px;
-    width: 178px;
     height: 42px;
     text-align: center;
     line-height: 42px;
     margin-top: 30px;
-}
+    position: relative;
 
+    a{
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        width: 150px;
+        height: 42px;
+        line-height: 42px;
+        border: 1px solid #05e1e3;
+        border-radius: 4px;
+        float: left;
+        box-sizing: border-box;
+    }
+    .deck{
+        margin-left: 15px;
+    }
+    a:hover{
+        color: #000;
+        background: url("../images/submit_bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+
+    /*.bg{
+        left: 0;
+        top:0;
+        position: absolute;
+        background-color: #fff;
+        opacity: 0.2;
+        border-radius: 26px;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }*/
+}
+.commmuity{
+    width: 180px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 28px;
+    display: block;
+}
 .adviserBox{
     background: #2b2e34;
     width:100%;
     padding-top: 58px;
-
 }
 .aboutUSDX{
     background: #2e3137;
@@ -575,8 +618,8 @@ body,html{background: #272a2f;}
                     display: block;
                     right: 130px;
                     top:36px;
-                    width: 215px;
-                    height: 204px;
+                    width: 229px;
+                    height: 231px;
                 }
             }
             .bigCapitial{
@@ -597,7 +640,7 @@ body,html{background: #272a2f;}
 }
 .support-box{
     .title{
-        width: 556px;
+        width: 544px;
     }
 }
 .teamHeader img{
@@ -728,53 +771,87 @@ body,html{background: #272a2f;}
     background-color: #23252a;
     position: relative;
 }
-.footerBox{
-    background: #292b31;
-    height: 298px;
-    width: 100%;
-    padding-top: 34px;
-    .linkBox{
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 28px;
-        width: 288px;
-        .iconfont{
-            font-size: 26px;
-            color: #fff;
-            //margin-right: 29px;
-        }
-        a{
-            //margin-right: 29px;
-            margin-right: 60px;
-            display: block;
-            float: left;
 
-        }
-        a:hover{
-            i{
-                color:#06dde0;
-            }
-        }
-        a:last-child{
-            margin-right: 0px;
-        }
-    }
-    .copyRight{
-        color:#cccccc;
-        font-size: 15px;
-        text-align: center;
-        margin-top: 54px;
-    }
-
-}
-.bottomLogo{text-align: center;}
-.bottomLogo .icon-USDX-logo{
-    font-size: 70px;
-    color: #fff;
-    text-align: center;
-}
 .supportBg{
     background-color: #222529;
+}
+.container {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+}
+.subscriber-section {
+    padding: 60px 0;
+    //font-family:"HelveticaNeue";
+    //background: url("../images/Subscribe - bg.png") no-repeat;
+    background-size: cover;
+}
+.subscriber-section .form-group {
+    position: relative;
+}
+.subscriber-section input[type="text"],
+.subscriber-section input[type="email"],
+textarea#abi-inerface{
+    background-color: #333437;
+    box-shadow: 0px 2px 0px 0px #000000;
+    border-radius: 24px;
+    padding: 0 20px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    width: 700px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+.subscriber-section input[type="text"]:focus,
+.subscriber-section input[type="email"]:focus {
+    outline: none;
+}
+.subscriber-section .cta {
+    margin-left: -5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size:15px;
+}
+input[type="text"],
+input[type="email"] {
+    background: rgba(51, 52, 55, 0.9);
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 0 15px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+.cta {
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 196px;
+    text-align: center;
+    display: inline-block;
+    height: 48px;
+    line-height: 47px;
+    padding: 0;
+    cursor: pointer;
+    font-weight:600;
+    transition:all 0.3s linear;
+    //background: transparent;
+    background: #333439;
+
+}
+.cta:hover{
+    background-color:#F88A2F !important;
+    border:2px solid transparent;
+}
+.cta:focus {
+    outline: none;
 }
 /*750*/
 @media screen and (max-width: 720px) {

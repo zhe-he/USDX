@@ -18,9 +18,14 @@
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
-                    <p>The Protocol for Decentralized<br/>
-                        Stablecoin</p>
-                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2V2.pdf" target="_blank">Whitepaper  Download</a>
+                    <p>The Protocol for Decentralized<br/>Stablecoin</p>
+                    <div class="whitePaper">
+                        <!--<span class="bg"></span>-->
+                        <a href="whitepaper/USDX Whitepaper.pdf" target="_blank">WHITE PAPER</a>
+                        <a href="javascript:;" target="_blank" class="deck">DECK</a>
+                    </div>
+                    <!--<a class="commmuity" target="_blank" href="https://t.me/NewMoneyUSDX">Join our commmuity</a>-->
+                    <!--<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>-->
                 </div>
 
                 <div class="indexBox-line">
@@ -62,8 +67,8 @@
                             <p>Focus on the research of next generation <br/>of currency </p>
                         </div>
                         <div class="teamPic">
-                            <!--<img src="images/team_one.png"/>-->
-                            <img class="teamOne" src="images/team/team_icon_one.png"/>
+                            <img src="images/team_one.png"/>
+                            <!--<img class="teamOne" src="images/team/team_icon_one.png"/>-->
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -80,8 +85,8 @@
                             <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
                         </div>
                         <div class="teamPic">
-                            <!--<img src="images/team_two.png"/>-->
-                            <img class="teamTwo" src="images/team/team_icon_two.png"/>
+                            <img src="images/team_two.png"/>
+                            <!--<img class="teamTwo" src="images/team/team_icon_two.png"/>-->
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -96,8 +101,8 @@
                             <p>In charge of strategic planning, business<br/>expansion and cooperation with <br/>regulators, banks and other institutions</p>
                         </div>
                         <div class="teamPic">
-                            <!--<img src="images/team_three.png"/>-->
-                            <img class="teamThree" src="images/team/team_icon_three.png"/>
+                            <img src="images/team_three.png"/>
+                            <!--<img class="teamThree" src="images/team/team_icon_three.png"/>-->
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -113,8 +118,8 @@
                             <p>Talented in marketing and brand</p>
                         </div>
                         <div class="teamPic">
-                            <!--<img src="images/team_four.png"/>-->
-                            <img class="teamFour" src="images/team/team_icon_four.png"/>
+                            <img src="images/team_four.png"/>
+                            <!--<img class="teamFour" src="images/team/team_icon_four.png"/>-->
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -142,23 +147,11 @@
             <parteners></parteners>
         </div>
 
-        <footer class="footerBox">
-            <div class="wrapper clearfix">
-                <p class="bottomLogo">
-                    <i class="icon iconfont icon-USDX-logo"></i>
-                </p>
-                <div class="clearfix linkBox">
-                    <a href="https://twitter.com/NewMoneyUSDX"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
-                    <a href="https://www.facebook.com/NewMoneyUSDX" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>
-                    <!--<a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>-->
-                    <a href="https://github.com/USDXProject" target="_blank" class="icon icon_github"><i class="icon iconfont icon-github"></i></a>
-                    <!--<a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>-->
-                    <a href="https://t.me/NewMoneyUSDX" target="_blank" class="icon icon_medium"><i class="icon iconfont icon-emi"></i></a>
-                </div>
-                <p class="copyRight">©️USDX 2017.All Rights Reserved.</p>
-            </div>
-        </footer>
+        <div>
+            <footers></footers>
+        </div>
+
+        <telegramDialog></telegramDialog>
     </div>
 </template>
 
@@ -169,6 +162,8 @@
     import Parteners from './parteners';
     import Aboutusdx from './Aboutusdx';
     import homeData from '../data/home';
+    import footers from './footers';
+    import telegramDialog from './telegramDialog';
     import { scrollMove } from '../modules/method'
 
     export default {
@@ -234,7 +229,9 @@
             Hexagon,
             Phases,
             Parteners,
-            Aboutusdx
+            Aboutusdx,
+            footers,
+            telegramDialog
         }
     }
 </script>
