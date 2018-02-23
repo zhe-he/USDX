@@ -44,24 +44,29 @@
         data(){
             return {
                 email:'',
-                title:'Success',
-                message:'welcome to join us !',
+                title:'',
+                message:'',
                 showToast: false
             }
         },
         methods: {
             submitEmail(){
                 if(!reg.test(this.email)){
-                    alert("Please enter the correct e-mail address");
+                    this.showDialog('Fail','Please input the correct email !');
                     return;
                 }
+                this.showDialog('Success','welcome to join us !');
 
 
+
+            },
+            showDialog(title,message){
+                this.title = title;
+                this.message = message;
                 this.showToast = true;
                 setTimeout(() => {
                     this.showToast = false;
                 }, 3000);
-
             }
         }
     }
@@ -70,7 +75,6 @@
 
 <style lang="scss">
     .toastBox{
-        z-index: -1;
         opacity: 0;
         position: fixed;
         top:90px;
@@ -83,7 +87,6 @@
         z-index: 999;
         padding-top: 8px;
         .title{
-
             color: #6fe9bd;
             font-weight: bold;
             font-size: 16px;
