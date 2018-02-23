@@ -1,7 +1,7 @@
 <template>
     <div>
         <!--toast-->
-        <div class="toastBox">
+        <div class="toastBox" :class="{'active':showToast}">
             <div class="title">{{title}}</div>
             <div class="message">{{message}}</div>
         </div>
@@ -45,7 +45,8 @@
             return {
                 email:'',
                 title:'Success',
-                message:'welcome to join us !'
+                message:'welcome to join us !',
+                showToast: false
             }
         },
         methods: {
@@ -56,7 +57,10 @@
                 }
 
 
-
+                this.showToast = true;
+                setTimeout(() => {
+                    this.showToast = false;
+                }, 3000);
 
             }
         }
@@ -66,6 +70,8 @@
 
 <style lang="scss">
     .toastBox{
+        z-index: -1;
+        opacity: 0;
         position: fixed;
         top:90px;
         right: 10px;
@@ -89,6 +95,12 @@
             color: #fff;
             text-align: left;
 
+        }
+
+        &.active{
+            z-index: 10;
+            opacity: 1;
+            animation: fadeInRight 0.6s 0s both;
         }
 
     }
@@ -239,5 +251,11 @@
         }
 
     }
-
+    
+@keyframes fadeInRight{
+    0%{opacity:0;
+    transform:translateX(100%)}
+    100%{opacity:1;
+    transform:translateX(0)}
+}
 </style>
