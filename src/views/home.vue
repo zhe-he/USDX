@@ -22,7 +22,7 @@
                     <div class="whitePaper">
                         <!--<span class="bg"></span>-->
                         <a href="whitepaper/USDX Whitepaper.pdf" target="_blank">WHITE PAPER</a>
-                        <a href="javascript:;" target="_blank" class="deck">DECK</a>
+                        <a href="whitepaper/USDX Deck.pdf" target="_blank" class="deck">DECK</a>
                     </div>
                     <!--<a class="commmuity" target="_blank" href="https://t.me/NewMoneyUSDX">Join our commmuity</a>-->
                     <!--<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>-->
