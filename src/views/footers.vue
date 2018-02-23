@@ -39,6 +39,9 @@
 </template>
 
 <script type="text/javascript">
+    import axios from 'axios'
+    // api https://github.com/axios/axios
+
     var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"); //正则表达式
     export default {
         data(){
@@ -55,6 +58,22 @@
                     alert("Please enter the correct e-mail address");
                     return;
                 }
+
+                // 服务器需设置返回头部，允许跨域 header("Access-control-Allow-Origin:*");
+
+
+                // axios.post('http://m.huchill.com/usdx/api/joinUs',{
+                //    email: this.meail
+                // })
+                axios.get('http://m.huchill.com/usdx/api/joinUs',{
+                    params: {
+                        email: this.meail
+                    }
+                }).then(res => {
+                    console.log(res)
+                }).catch(err => {
+                    console.log(err)
+                })
 
 
                 this.showToast = true;
