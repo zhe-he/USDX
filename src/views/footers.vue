@@ -66,7 +66,7 @@
                 // axios.post('http://m.huchill.com/usdx/api/joinUs',{
                 //    email: this.meail
                 // })
-                axios.get('http://m.huchill.com/usdx/api/joinUs',{
+               /* axios.get('http://m.huchill.com/usdx/api/joinUs',{
                     params: {
                         email: this.meail
                     }
@@ -74,7 +74,7 @@
                     console.log(res)
                 }).catch(err => {
                     console.log(err)
-                })
+                })*/
 
 
 

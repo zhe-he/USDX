@@ -23,10 +23,6 @@
             "img": "images/company/parterners_3.png"
         },
         {
-            "link": "http://www.collinstar.com/en",
-            "img": "images/company/parterners_4.png"
-        },
-        {
             "link": "http://dupontcapital.com/",
             "img": "images/company/parterners_5.png"
         },
@@ -39,20 +35,25 @@
             "img": "images/company/parterners_22.png"
         },
         {
-            "link": "https://www.lbank.info/",
-            "img": "images/company/parterners_23.png"
-        },
-        {
-            "link": "https://www.zb.com/",
-            "img": "images/company/parterners_24.png"
-        },
-        {
             "link": "http://www.zeniex.com/",
             "img": "images/company/parterners_25.png"
         },
         {
-            "link": "https://www.huobi.com/",
-            "img": "images/company/parterners_31.png"
+            "link": "javascript:;",
+            "img": ""
+        },
+        {
+            "link": "javascript:;",
+            "img": ""
+        },
+        {
+            "link": "javascript:;",
+            "img": ""
+        },
+
+        {
+            "link": "javascript:;",
+            "img": ""
         },
         {
             "link": "javascript:;",

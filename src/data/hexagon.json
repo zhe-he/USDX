@@ -20,9 +20,9 @@
 
         {"img": "images/hexagon/blank.png"},
         {
-            "img": "images/hexagon/JasonFang.png",
-            "title": "Jason Fang / Sora Ventures",
-            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
+            "img": "images/hexagon/PatrickDai.png",
+            "title": "Patrick Dai / Founder of Qtum",
+            "content": "Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group.<br/>Rich experience in the development<br/> of blockchain technology and management <br/>and striving to push the blockchain technology<br/>to mainstream at an early date"
         },
         {"img": "images/hexagon/blank.png"},
         {
@@ -54,11 +54,8 @@
             "content": "Founder and President of GIC group.<br/>Rich experience in investment and management.<br/>Has a very unique understanding and insight<br/>to the foreign exchange market,<br/>international trade and monetary policy"
         },
         {"img": "images/hexagon/blank.png"},
-        {
-            "img": "images/hexagon/PatrickDai.png",
-            "title": "Patrick Dai / Founder of Qtum",
-            "content": "Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group.<br/>Rich experience in the development<br/> of blockchain technology and management <br/>and striving to push the blockchain technology<br/>to mainstream at an early date"
-        },
+        {"img": "images/hexagon/blank.png"},
+
 
 
         {"img": "images/hexagon/blank.png"},
