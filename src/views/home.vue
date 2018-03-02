@@ -11,21 +11,21 @@
                     <div v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to2(item,index)" class="anchor-hd">{{item.content}}</a></div>
                 </div>
             </div>
-            
+
         </div>
-        <div ref="nav-home" class="indexSection clearfix">
-            <!--<div class="height110 height_mobile_40"></div>-->
+        <!--<div ref="nav-home" class="indexSection clearfix">
+            &lt;!&ndash;<div class="height110 height_mobile_40"></div>&ndash;&gt;
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
                     <p>The Protocol for Decentralized<br/>Stablecoin</p>
                     <div class="whitePaper">
-                        <!--<span class="bg"></span>-->
+                        &lt;!&ndash;<span class="bg"></span>&ndash;&gt;
                         <a href="whitepaper/USDX Whitepaper.pdf" target="_blank">WHITE PAPER</a>
                         <a href="whitepaper/USDX Deck.pdf" target="_blank" class="deck">DECK</a>
                     </div>
-                    <!--<a class="commmuity" target="_blank" href="https://t.me/NewMoneyUSDX">Join our commmuity</a>-->
-                    <!--<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>-->
+                    &lt;!&ndash;<a class="commmuity" target="_blank" href="https://t.me/NewMoneyUSDX">Join our commmuity</a>&ndash;&gt;
+                    &lt;!&ndash;<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>&ndash;&gt;
                 </div>
 
                 <div class="indexBox-line">
@@ -34,128 +34,19 @@
                     <div></div>
                 </div>
             </div>
-        </div>
+        </div>-->
+        <div style="height: 100px;"></div>
         <div ref="nav-about">
-            <aboutusdx></aboutusdx>
-        </div>
-        <div ref="nav-phases">
-            <phases></phases>
-        </div>    
-
-        <!--TEAM-->
-        <div ref="nav-team" class="teamBox clearfix">
-            <div class="height80 height_mobile_70"></div>
-            <h2 class="title">
-                <i class="line_icon left_line"></i>
-                <i class="icon iconfont icon-team1"></i>
-                <i class="line_icon right_line"></i>
-            </h2>
-            <div class="teamBg mobileHide">
-                <i class="icon iconfont icon-team1"></i>
-            </div>
-            <div class="height60 height_mobile_120"></div>
-                <div class="teamMember">
-                    <!--team one-->
-                    <div class="itemOne clearfix">
-                        <div class="intro">
-                            <h2>
-                                <i class="icon iconfont icon-one big_number_font"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Richard Tiutiun</span></h2>
-                            <p class="mt2">Fanatical genius of blockchain <br/>technology and hacker born in Ukraine</p>
-                            <p>Designed and developed XOR project<br/>and stablecoin lab after drop out from <br/> UC Berkley</p>
-                            <p>Focus on the research of next generation <br/>of currency </p>
-                        </div>
-                        <div class="teamPic">
-                            <img src="images/team_one.png"/>
-                            <!--<img class="teamOne" src="images/team/team_icon_one.png"/>-->
-                        </div>
-                        <span class="bigCapitial"></span>
-                    </div>
-                    <div class="height56 height_moblie_10"></div>
-                    <!--team two-->
-                    <div class="itemTwo clearfix">
-                        <div class="intro ">
-                            <h2>
-                                <i class="icon iconfont icon-two big_number_font"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Lucas Porco</span></h2>
-                            <p>Experienced lawyer focus on the<br/>compliance of blockchain and<br/>cryptocurrency </p>
-                            <p>Ph.D candidate of Law at University of <br/>Toronto </p>
-                            <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
-                        </div>
-                        <div class="teamPic">
-                            <img src="images/team_two.png"/>
-                            <!--<img class="teamTwo" src="images/team/team_icon_two.png"/>-->
-                        </div>
-                        <span class="bigCapitial"></span>
-                    </div>
-                    <!--team three-->
-                    <div class="itemThree clearfix">
-                        <div class="intro">
-                            <h2>
-                                <i class="icon iconfont icon-three big_number_font"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Michael Gord</span></h2>
-                            <p>Professional blockchain consultant<br/>expert and product strategy expert</p>
-                            <p>In charge of strategic planning, business<br/>expansion and cooperation with <br/>regulators, banks and other institutions</p>
-                        </div>
-                        <div class="teamPic">
-                            <img src="images/team_three.png"/>
-                            <!--<img class="teamThree" src="images/team/team_icon_three.png"/>-->
-                        </div>
-                        <span class="bigCapitial"></span>
-                    </div>
-                   <!--team four-->
-                   <div class="itemFour clearfix">
-                        <div class="intro">
-                            <h2>
-                                <i class="icon iconfont icon-four big_number_font"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Dennis S. Lee</span></h2>
-                            <p>Serial entrepreneur and Crypto <br/>evangelist </p>
-                            <p>INK Business Developer</p>
-                            <p>Talented in marketing and brand</p>
-                        </div>
-                        <div class="teamPic">
-                            <img src="images/team_four.png"/>
-                            <!--<img class="teamFour" src="images/team/team_icon_four.png"/>-->
-                        </div>
-                        <span class="bigCapitial"></span>
-                    </div>
-                </div>
+            <FatalProblems></FatalProblems>
         </div>
 
-        <div class="supportBg clearfix" ref="screen">
-            <div ref="nav-supports" class="hexagon-warp">
-                <support></support>
-            </div>
-        </div>
-
-        <div class="blueBg" ref="screen">
-            <div ref="nav-advisors" class="hexagon-warp">
-                <div class="advisorBox mobileHide">
-                    <i class="icon iconfont icon-adivsor"></i>
-                </div>
-                <hexagon></hexagon>
-            </div>
-        </div>
-
-        
-        <div ref="nav-parteners">
-            <div class="height80 height_mobile_70"></div>
-            <parteners></parteners>
-        </div>
-
-        <div>
-            <footers></footers>
-        </div>
 
         <telegramDialog></telegramDialog>
     </div>
 </template>
 
 <script type="text/javascript">
+    import FatalProblems from './fatalProblems';
     import Support from './support';
     import Hexagon from './hexagon';
     import Phases from './phases';
@@ -225,6 +116,7 @@
             }
         },
         components: {
+            FatalProblems,
             Support,
             Hexagon,
             Phases,

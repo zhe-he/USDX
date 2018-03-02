@@ -49,8 +49,8 @@
                         <div class="descBox">
                             <p>Graduated from University <br/>of Toronto</p>
                             <p>Serial entrepreneur and <br/>angel investor</p>
-                            <p>Has founded and managed <br/>3 hedge funds</p>
-                            <p>Used to be the investment <br/>director at Qihu360</p>
+                            <p>Has founded and managed <br/>multiple hedge funds </p>
+                            <p>Used to be the investment <br/>director at a large Internet <br/>company</p>
                         </div>
 
                     </div>
