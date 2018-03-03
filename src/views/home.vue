@@ -13,40 +13,24 @@
             </div>
 
         </div>
-        <!--<div ref="nav-home" class="indexSection clearfix">
-            &lt;!&ndash;<div class="height110 height_mobile_40"></div>&ndash;&gt;
-            <div class="indexBox">
-                <div class="indexContent">
-                    <h2><i class="icon iconfont icon-USDX"></i></h2>
-                    <p>The Protocol for Decentralized<br/>Stablecoin</p>
-                    <div class="whitePaper">
-                        &lt;!&ndash;<span class="bg"></span>&ndash;&gt;
-                        <a href="whitepaper/USDX Whitepaper.pdf" target="_blank">WHITE PAPER</a>
-                        <a href="whitepaper/USDX Deck.pdf" target="_blank" class="deck">DECK</a>
-                    </div>
-                    &lt;!&ndash;<a class="commmuity" target="_blank" href="https://t.me/NewMoneyUSDX">Join our commmuity</a>&ndash;&gt;
-                    &lt;!&ndash;<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>&ndash;&gt;
-                </div>
+        <index></index>
 
-                <div class="indexBox-line">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </div>-->
-        <div style="height: 100px;"></div>
         <div ref="nav-about">
             <FatalProblems></FatalProblems>
         </div>
+        <div ref="">
+            <usdxIntro></usdxIntro>
+        </div>
+        <div style="height: 500px"></div>
 
-
-        <telegramDialog></telegramDialog>
+        <!--<telegramDialog></telegramDialog>-->
     </div>
 </template>
 
 <script type="text/javascript">
+    import index from './index';
     import FatalProblems from './fatalProblems';
+    import usdxIntro from './usdxIntro';
     import Support from './support';
     import Hexagon from './hexagon';
     import Phases from './phases';
@@ -116,7 +100,9 @@
             }
         },
         components: {
+            index,
             FatalProblems,
+            usdxIntro,
             Support,
             Hexagon,
             Phases,

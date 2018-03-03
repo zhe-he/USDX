@@ -10,7 +10,7 @@
                 <td class="left">
                 &nbsp;
                 </td>
-                <td class="content" v-html="title"></td>
+                <td class="content" v-html="htitle"></td>
                 <td class="right">&nbsp;</td>
             </tr>
         </table>
@@ -23,10 +23,10 @@
     export default {
         data(){
             return {
-                title:'',
+                htitle:'',
             }
         },
-        props:["title"],
+        props:["htitle"],
         methods: {
 
         }
@@ -36,12 +36,13 @@
 
 <style lang="scss">
     .headBox{
+        padding-top: 50px;
         .title{
             text-align: center;
             margin: 0 auto;
 
             .content{
-                font-size: 50px;
+                font-size: 47px;
                 line-height: 60px;
                 font-weight: normal;
                 margin-left: 18px;
