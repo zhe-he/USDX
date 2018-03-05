@@ -4,6 +4,7 @@
         {"content": "Home", "ref": "nav-home"},
         {"content": "About USDX", "ref": "nav-about"},
         {"content": "Phases", "ref": "nav-phases"},
+        {"content": "roadMap", "ref": "nav-roadMap"},
         {"content": "Team", "ref": "nav-team"},
         {"content": "Supports", "ref": "nav-supports"},
         {"content": "Advisors", "ref": "nav-advisors"},

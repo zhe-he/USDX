@@ -12,25 +12,37 @@
                 </div>
             </div>
         </div>
-        <index></index>
+        <div ref="nav-home">
+            <index></index>
+        </div>
 
         <div ref="nav-about">
             <FatalProblems></FatalProblems>
         </div>
-        <div ref="" class="phaseContainer">
+
+        <div ref="nav-phases" class="phaseContainer">
             <usdxIntro class="mobileHide"></usdxIntro>
             <usdxIntroPhone class="mobileShow"></usdxIntroPhone>
         </div>
+
         <div class="linerSection">
-            <div ref="" class="roadContainer">
+            <div ref="nav-roadMap" class="roadContainer">
                 <roadMap class="mobileHide"></roadMap>
+                <roadMapPhone class="mobileShow"></roadMapPhone>
             </div>
 
-            <roadMapPhone class="mobileShow"></roadMapPhone>
-            <team></team>
-            <support></support>
-            <Hexagon></Hexagon>
-            <Parteners></Parteners>
+            <div ref="nav-team">
+                <team></team>
+            </div>
+            <div ref="nav-supports">
+                <support></support>
+            </div>
+            <div ref="nav-advisors">
+                <Hexagon></Hexagon>
+            </div>
+            <div ref="nav-parteners">
+                <Parteners></Parteners>
+            </div>
             <footers></footers>
             <telegramDialog></telegramDialog>
 
@@ -104,7 +116,7 @@
                 scrollMove({y:t+T})
             },
             scroll() {
-                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-supports','nav-advisors','nav-parteners'];
+                var arr = ['nav-home','nav-about','nav-phases','nav-roadMap','nav-team','nav-supports','nav-advisors','nav-parteners'];
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();
