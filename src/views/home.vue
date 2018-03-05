@@ -84,7 +84,7 @@
         mounted() {
             this.$nextTick(() => {
                 this.scroll();
-                this.resize();
+                //this.resize();
             })
         },
         methods:{

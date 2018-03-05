@@ -38,6 +38,8 @@
 <style lang="scss">
     .hexagon-box{
         position: relative;
+        width: 960px;
+        margin: 0 auto;
         .icon-adivsor{
             font-size: 26px;
             float:left;
@@ -54,7 +56,7 @@
     }
     .hexagon-box{
         display: flex;
-        > ul, > div{
+        > ul{
             flex: 1;
             
         }
@@ -64,7 +66,9 @@
         flex-direction: column;
         justify-content: center;
         color: #fff;
-        padding: 0 50px;
+        //padding: 0 50px;
+        width: 490px;
+        padding-right: 50px;
         h3{
             margin-top: -30%;
             font-size: 32px;
@@ -91,7 +95,8 @@
 
     .hexagon{
         overflow:hidden;
-        padding-right: 5%;
+        //padding-right: 5%;
+        padding-right: 14px;
         li{
             position:relative;
             width: 23%;
