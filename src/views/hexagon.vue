@@ -1,7 +1,8 @@
 <template>
     <div class="hexagon-box">
         <div class="hexagon-title">
-            <i class="icon iconfont icon-adivsor"></i>
+            <!--<i class="icon iconfont icon-adivsor"></i>-->
+            <span>ADVISORS</span>
             <div class="line"></div>
             <h4 v-html="hexagon[cur].title">{{hexagon[cur].title}}</h4>
             <p v-html="hexagon[cur].content"></p>
@@ -68,7 +69,11 @@
         color: #fff;
         //padding: 0 50px;
         width: 490px;
-        padding-right: 50px;
+        padding-right: 52px;
+        span{
+            font-size: 50px;
+            font-weight: 600;
+        }
         h3{
             margin-top: -30%;
             font-size: 32px;
@@ -90,6 +95,7 @@
             width: 64px;
             background-color: #267474;
             margin: 30px 0;
+            margin-top: 24px;
         }
     }
 

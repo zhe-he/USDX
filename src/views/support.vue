@@ -113,7 +113,7 @@
 
     .supportContent{
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 70px;
         width: 960px;
         ul{
             display: block;
@@ -194,6 +194,7 @@
             margin: 0;
             padding: 0;
             width: auto;
+
             ul{
                 width: 100%;
                 margin: 0px;
