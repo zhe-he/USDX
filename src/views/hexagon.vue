@@ -37,7 +37,6 @@
 
 <style lang="scss">
     .hexagon-box{
-        background-color: #23252a;
         position: relative;
         .icon-adivsor{
             font-size: 26px;

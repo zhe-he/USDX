@@ -61,7 +61,7 @@
                     <swiper-slide>
                         <div class="top">
                             <div class="headBar roadTitle">
-                                <div class="mt mt45">
+                                <div class="mt">
                                     <h3>2019</h3>
                                     <p>Game of Stablecoin World</p>
                                     <i class="line"></i>
@@ -167,7 +167,6 @@
             width: 370px;
             margin: 0 auto;
             overflow: hidden;
-            padding-bottom: 80px;
             .roadTitle{
                 .mt{
                     float: left;
@@ -193,15 +192,13 @@
                         margin-top: 14px;
                     }
                 }
-                .mt45{
+                .mt15{
                     margin-left: 45px;
                 }
             }
             .roadContent{
-
                 width: 408px;
                 height: 372px;
-                margin-top: 100px;
                 .swiper-slide{
                     background: url("../../images/road_map_bg.png");
                     background-repeat: repeat-x;
@@ -282,7 +279,8 @@
                         padding-left: 18px;
                     }
                     .headBar{
-                        height: 92px;
+                        height: 52px;
+                        padding-top: 40px;
                         width: 100%;
                     }
 
@@ -332,6 +330,7 @@
                     width: 36px;
                     height: 36px;
                     background-size: 36px 36px;
+                    left: 10px;
                 }
                 .swiper-button-next_road_phone{
                     background: url("../../images/right_icon.png") no-repeat;
@@ -339,7 +338,7 @@
                     top:106px;
                     position: absolute;
                     z-index: 9999;
-                    right: 24px;
+                    right: 45px;
                     width: 36px;
                     height: 36px;
                     background-size: 36px 36px;

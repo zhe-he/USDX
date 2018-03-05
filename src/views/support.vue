@@ -112,7 +112,6 @@
     }
 
     .supportContent{
-        background-color: #222529;
         margin: 0 auto;
         margin-top: 50px;
         width: 960px;

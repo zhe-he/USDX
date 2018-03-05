@@ -234,6 +234,15 @@
         background-color: rgb(24, 26, 29);
         animation: toright 6s infinite;
     }
+    .torightBig {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 85%;
+        height: 90%;
+        background-color: rgb(24, 26, 29);
+        animation: torightBig 6s infinite;
+    }
     .phase-line-box{
         position: absolute;
         top: 50%;
@@ -268,6 +277,13 @@
     @keyframes toright{
         0%{width: 85%;}
         50%,100%{width: 0%;}
+    }
+
+    @keyframes torightBig{
+        0%{width: 0%;
+            left: 0;}
+        50%{left:0;width: 100%;}
+        100%{left:0;width: 100%;}
     }
     @keyframes to_c{
         0%{
@@ -325,118 +341,5 @@
             transform: translate3d(0,50%,0);
         }
     }
-    /*
-    .phases-tianping{
-        width: 35%;
-        margin: 0 auto;
-    }
-    .phases-tianping-main{
-        position: absolute;
-        top: 13.7%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .phases-tianping-main-line{
-        position: absolute;
-        top: 3%;
-        left: 20%;
-        width: 60%;
-        transform-origin: 50% 50%;
-        animation: tianping1 3s linear infinite;
-        
-    }
-    .phases-tianping-main-l,
-    .phases-tianping-main-r{
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 41.5%;
-        span{
-            position: absolute;
-            width: 40%;
-            bottom: 6%;
-            left: 30%;
-        }
-        i{
-            position: absolute;
-            width: 40%;
-            bottom: 6%;
-            left: 30%;
-            img{
-                float: left;
-                width: 50%;
-                &:nth-child(1){
-                    margin-left: 25%;
-                }
-            }
-        }
-    }
-    .phases-tianping-main-l{
-        animation: tianping2 3s linear infinite;
-    }
-    .phases-tianping-main-r{
-        left: auto;
-        right: 0;
-        animation: tianping3 3s linear infinite;
-    }
-    .icon-PHASES{font-size: 30px;}
-    .h4Titlte{font-size: 33px;font-weight: normal;}
-    .phaseContent{font-size: 14px;
-        color: #fff;
-        line-height: 20px;
-        margin-top: 16px;
-        width: 390px;
-    }
-    @keyframes tianping1{
-        0%{
-            transform: rotate(0deg);
-        }
-        25%{
-            transform: rotate(-10deg);
-        }
-        50%{
-            transform: rotate(0deg);
-        }
-        75%{
-            transform: rotate(10deg);
-        }
-        100%{
-            transform: rotate(0deg);
-        }
-    }
-    @keyframes tianping2{
-        0%{
-            margin-top: 0%;
-        }
-        25%{
-            margin-top: 4%;
-        }
-        50%{
-            margin-top: 0%;
-        }
-        75%{
-            margin-top: -4%;
-        }
-        100%{
-            margin-top: 0%;
-        }
-    }
-    @keyframes tianping3{
-        0%{
-            margin-top: 0%;
-        }
-        25%{
-            margin-top: -4%;
-        }
-        50%{
-            margin-top: 0%;
-        }
-        75%{
-            margin-top: 4%;
-        }
-        100%{
-            margin-top: 0%;
-        }
-    }*/
+
 </style>

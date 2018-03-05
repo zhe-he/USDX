@@ -17,6 +17,8 @@
                 <div class="introCtn clearfix">
                     <div class="leftImg">
                         <img src="../../images/phase01.png" class="phase01"/>
+                        <img src="../../images/usdt-icon.png" class="usdt scaleBig"/>
+                        <img src="../../images/usdx-icon.png" class="usdx scaleBig">
                     </div>
                     <div class="rightCtn">
                         <div class="sectionCtn">
@@ -40,7 +42,14 @@
             <swiper-slide>
                 <div class="introCtn clearfix">
                     <div class="leftImg">
-                        <img src="../../images/phase02.png" class="phase02"/>
+                        <div class="intro-line">
+                            <img src="../../images/line_icon_bg.png" class=""/>
+
+                            <div class="torightBig">
+                                <img src="../../images/line_icons.png" class="phase-line-baseimg shadeImage"/>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="rightCtn">
                         <div class="sectionCtn">
@@ -59,7 +68,7 @@
             <swiper-slide>
                 <div class="introCtn clearfix">
                     <div class="leftImg">
-                        <img src="../../images/phase03.png" class="phase03"/>
+                        <img src="../../images/phase003.gif" class="phase03"/>
                     </div>
                     <div class="rightCtn">
                         <div class="sectionCtn">
@@ -111,7 +120,6 @@
         },
 
         mounted() {
-            //this.swiper.slideTo(3, 1000, false)
         },
         methods: {
             selectTab(index){
@@ -171,31 +179,71 @@
         .phaseBox{
             width: 1280px;
             margin: 0 auto;
+
             .introCtn{
                 width:1280px;
                 margin:  0 auto;
+                padding-bottom: 80px;
                 .leftImg{
                     width: 665px;
                     float:left;
                     min-height: 100px;
-                    img{
-                        width: 454px;
+                    position: relative;
+
+                    .phase01{
                         height: auto;
                         display: block;
                         margin-left: 140px;
                         padding-top: 75px;
-                    }
-                    .phase01{
                         width: 463px;
                     }
-                    .phase02{
-                        width: 467px;
+                    .usdx{
+                        width: 84px;
+                        height: 84px;
+                        display: block;
+                        position: absolute;
+                        right: 77px;
+                        top: 143px;
 
                     }
+                    .usdt{
+                        width: 76px;
+                        height: 73px;
+                        display: block;
+                        position: absolute;
+                        top: 172px;
+                        left: 254px;
+                    }
+
                     .phase03{
-                        width: 380px;
+                        height: auto;
+                        display: block;
+                        width: 484px;
+                        margin-top: 67px;
+                        margin-left: 148px;
 
                     }
+                }
+                .intro-line{
+                    position: relative;
+                    width: 467px;
+                    margin-left: 140px;
+                    margin-top: 75px;
+                    img{
+                        display: block;
+                        width: 100%;
+                    }
+                    .shadeImage{
+                        position: absolute;
+                        left: 0;
+                        top: 20px;
+                        width: 467px;
+                    }
+                    .torightBig{
+                        overflow: hidden;
+                        background: transparent;
+                    }
+
                 }
                 .rightCtn{
                     margin-top: 70px;
@@ -219,7 +267,20 @@
             }
         }
     }
+    .scaleBig {
+        animation: scaleBig 4s infinite;
+    }
+    @keyframes scaleBig{
+        0%{
+            transform:scale(0,0)
+        }
+        100%{
 
+            transform:scale(1,1)
+        }
+    }
+
+    
 
     @media screen and (max-width: 720px) {
         .introBox{

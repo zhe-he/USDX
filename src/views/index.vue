@@ -58,7 +58,7 @@
         width: 100%;
         background-color: #2c2f35;
         box-sizing: border-box;
-        padding-top: 113px;
+        padding-top: 150px;
         .indexBox{
             width:960px;
             height:468px;
@@ -118,11 +118,9 @@
                         margin-left: 11px;
                     }
                     a:hover{
-                        color: #000;
-                        background: url("../../images/submit_bg.png");
-                        background-repeat: no-repeat;
-                        background-size: 100% 100%;
-                        border: none;
+                        border-radius: 2px;
+                        background-color: rgb(31, 241, 251);
+
                     }
                 }
             }
@@ -180,6 +178,7 @@
                             line-height: 25px;
                             text-align: center;
                         }
+
 
                     }
                 }

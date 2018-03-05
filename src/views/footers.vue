@@ -127,7 +127,6 @@
 
     }
     .footerBox{
-        background: #292b31;
         width: 100%;
         padding-top: 34px;
         .bottomLogo{

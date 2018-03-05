@@ -17,18 +17,25 @@
         <div ref="nav-about">
             <FatalProblems></FatalProblems>
         </div>
-        <div ref="">
+        <div ref="" class="phaseContainer">
             <usdxIntro class="mobileHide"></usdxIntro>
             <usdxIntroPhone class="mobileShow"></usdxIntroPhone>
         </div>
-        <roadMap class="mobileHide"></roadMap>
-        <roadMapPhone class="mobileShow"></roadMapPhone>
-        <team></team>
-        <support></support>
-        <Hexagon></Hexagon>
-        <Parteners></Parteners>
-        <footers></footers>
-        <telegramDialog></telegramDialog>
+        <div class="linerSection">
+            <div ref="" class="roadContainer">
+                <roadMap class="mobileHide"></roadMap>
+            </div>
+
+            <roadMapPhone class="mobileShow"></roadMapPhone>
+            <team></team>
+            <support></support>
+            <Hexagon></Hexagon>
+            <Parteners></Parteners>
+            <footers></footers>
+            <telegramDialog></telegramDialog>
+
+        </div>
+
         <div style="height: 500px"></div>
 
 

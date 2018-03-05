@@ -105,7 +105,7 @@
 
 <style lang="scss">
     .teamBox{
-        background-color: #24272b;
+        //background-color: #1d1f22;
         position: relative;
         .teamBg{
             .icon-team1{

@@ -358,11 +358,6 @@ body,html{background: #272a2f;}
 .aboutContent p{font-size: 13px;}
 .aboutContent .number{width: 56px;}
 
-
-.support-box{
-    background-color: #222529;
-}
-
 .teamHeader img{
     display: block;
     margin: 0 auto;
@@ -424,9 +419,7 @@ body,html{background: #272a2f;}
 }
 
 
-.hexagon-box{
-    background-color: #23252a;
-}
+
 .blueBg{
     background-color: #23252a;
     position: relative;
@@ -511,6 +504,15 @@ input[type="email"] {
 .cta:focus {
     outline: none;
 }
+//.hexagon-box,.support-box,.roadContainer,
+.phaseContainer{
+    width: 100%;
+    background: #1d1f22;
+}
+.linerSection{
+    background: linear-gradient(to bottom, #1d1f22, #2d3036);
+}
+
 /*750*/
 @media screen and (max-width: 720px) {
     @import "./main_iphone";

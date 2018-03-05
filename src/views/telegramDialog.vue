@@ -1,6 +1,6 @@
 <template>
     <div class="telegramBox">
-        <a href="" target="_blank">JOIN OUR TELEGRAM</a>
+        <a href="https://t.me/USDXBlockchain" target="_blank">JOIN OUR TELEGRAM</a>
     </div>
 </template>
 
