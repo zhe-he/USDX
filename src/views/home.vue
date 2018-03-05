@@ -21,7 +21,8 @@
             <usdxIntro class="mobileHide"></usdxIntro>
             <usdxIntroPhone class="mobileShow"></usdxIntroPhone>
         </div>
-        <roadMap></roadMap>
+        <roadMap class="mobileHide"></roadMap>
+        <roadMapPhone class="mobileShow"></roadMapPhone>
         <team></team>
         <support></support>
         <Hexagon></Hexagon>
@@ -40,6 +41,7 @@
     import usdxIntro from './usdxIntro';
     import usdxIntroPhone from './usdxIntroPhone';
     import roadMap from './roadMap';
+    import roadMapPhone from './roadMapPhone';
     import team from './team';
     import Support from './support';
     import Hexagon from './hexagon';
@@ -115,6 +117,7 @@
             usdxIntro,
             usdxIntroPhone,
             roadMap,
+            roadMapPhone,
             team,
             Support,
             Hexagon,
