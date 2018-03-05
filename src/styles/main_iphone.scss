@@ -17,6 +17,8 @@
   background:rgba(41, 43, 49, .8);
   .icon-USDX-logo{
     font-size: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
   img{
     height: 48px;
@@ -31,7 +33,7 @@
     width: 23px;
     height: 17px;
     position: absolute;
-    right: 18px;
+    right: 10px;
     top:18px;
     background: url("../images/mobile/nav_bar_icon.png");
     background-repeat: no-repeat;
@@ -49,46 +51,7 @@
   }
 
 }
-.indexSection{
-  height: auto;
-  padding-bottom: 80px;
-  .indexBox{
-    width: 352px;
-    height: 468px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 342px auto;
-    background-position: 32px top;
 
-    .indexContent{
-      padding: 0px;
-      padding-top: 260px;
-      padding-left: 32px;
-      h2{
-        font-size: 52px;
-        .icon-USDX{
-          font-size: 50px;
-        }
-      }
-    }
-    p{font-size: 18px;line-height: 21px;}
-
-    .indexBox-line div{
-      left: 70%;
-      width: 40px;
-      &:nth-child(1){
-        top: 8%;
-      }
-      &:nth-child(2){
-        top: 25%;
-      }
-      &:nth-child(3){
-        top: 51%;
-      }
-    }
-  }
-
-}
 .whitePaper{
   font-size: 12px;
   height: 38px;
@@ -374,7 +337,6 @@
     }
   }
   .title{
-    width: 314px;
     span{
       font-size: 29px;
     }
@@ -383,21 +345,6 @@
 
 }
 
-.partenersBox{
-  .title{
-    width: 328px;
-    margin: 0 auto;
-    span{
-      font-size: 25px;
-      margin-left: 9px;
-      margin-right: 9px;
-
-    }
-    .line_icon{
-      width: 74px;
-    }
-  }
-}
 .itemContainer{
   //padding-bottom: 40px;
   ul{
@@ -534,9 +481,4 @@
   }
 }
 
-.teamBox .title .right_line{
-  background-position: right center;
-}
-.partenersBox .title .right_line{
-  background-position: right center;
-}
+

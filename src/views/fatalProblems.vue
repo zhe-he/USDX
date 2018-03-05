@@ -1,13 +1,14 @@
 <template>
     <div class="fatalBox">
-        <Head htitle="Current Stable Coins’ <br/>Fatal Problems"></Head>
+        <Head htitle="Current Stable Coins’ <br/>Fatal Problems"  lineHeight="2"></Head>
         <p class="desc">Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money<br/> covertion companies, which exsit moral and policy risks.</p>
         <div class="itemBox clearfix">
             <div class="height50"></div>
             <div class="left">
                 <img src="../../images/fatal01.png"/>
                 <h2>Regulatory Risk</h2>
-                <p>Tether’s account for fiat currency can be frozen at any time under <br/>regulation.</p>
+                <p class="mobileShow">Tether’s account for fiat <br/>currency can be frozen at any <br/>time under regulation.</p>
+                <p class="mobileHide">Tether’s account for fiat currency can be frozen at any time under <br/>regulation.</p>
             </div>
             <div class="right">
                 <h2>Moral Hazard</h2>
@@ -19,7 +20,7 @@
         <!--scandals-->
         <div class="scanBox">
             <div class="title">
-                <h2>USDT's Scandals</h2>
+                <h2>USDT'S SCABDALS</h2>
                 <i class="line"></i>
             </div>
             <div class="scrollBox">
@@ -27,7 +28,7 @@
                 <swiper :options="swiperOption">
                     <swiper-slide>
                         <div class="content">
-                            <!--<img src="logo"/>-->
+                            <img class="cnbc" src="../../images/cnbc_logo.png"/>
                             <h3>'Devastating' Effects On The Market</h3>
                             <div class="fromBox">
                                 <span class="date">Feb 3, 2018</span>
@@ -37,7 +38,8 @@
                                 "Tether printing moves the market appreciably; 48.8 percent of <br/>BTC's price rise in the period studied occurred in the two-hour <br/>periods following the arrival of 91 different tether grants to the <br/>Bitfinex wallet," 
                             </div>
                         </div>
-                        <div class="content">
+                        <div class="content mobileHide">
+                            <img class="business" src="../../images/business_logo.png"/>
                             <h3>Bitfinex and Tether, which share a CEO, have<br/>
                                 been accused of fraudulent behavior.
                             </h3>
@@ -52,11 +54,18 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <div class="content">
-
-                        </div>
-                        <div class="content">
-
+                        <div class="content mobileShow">
+                            <img class="business" src="../../images/business_logo.png"/>
+                            <h3>Bitfinex and Tether, which share a CEO, have<br/>
+                                been accused of fraudulent behavior.
+                            </h3>
+                            <div class="fromBox">
+                                <span class="date">Feb 3, 2018</span>
+                                <span class="from">form : coindesk</span>
+                            </div>
+                            <div class="ctn">
+                                “The ending of the audit has fueled criticisms of the cryptocurrency company and led to accusations that the <br/>$2.3 billion worth of USDT currently in circulation is not backed ...
+                            </div>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
@@ -80,6 +89,7 @@
                 <div class="swiper-button-prev" slot="button-prev"></div>
                 <div class="swiper-button-next" slot="button-next"></div>
             </div>
+
         </div>
     </div>
 
@@ -185,6 +195,7 @@
     }
     .scanBox{
         padding-bottom: 150px;
+        margin-top: 30px;
         .title{
             text-align: center;
         }
@@ -221,6 +232,7 @@
                         box-sizing: border-box;
                         float: left;
                         padding-left: 14px;
+                        cursor: pointer;
                         h3{
                             font-weight: normal;
                             font-size: 22px;
@@ -233,12 +245,13 @@
                                 color:#fff;
                                 display: inline-block;
                                 margin-right: 16px;
+                                padding-left: 20px;
+                                background: url("../../images/time_icon.png") no-repeat;
 
                             }
                             .from{
                                 font-size: 14px;
                                 color:#fff;
-
                             }
                         }
                         .ctn{
@@ -246,23 +259,210 @@
                             font-size: 16px;
                             line-height: 22px;
                         }
+                        .cnbc{
+                            width: 110px;
+                            height: auto;
+                            margin-top: 24px;
+                            margin-bottom: 18px;
+                        }
+                        .business{
+                            width: 90px;
+                            margin-top: 18px;
+                            margin-bottom: 12px;
+
+                        }
                     }
                     .content:first-child{
                         margin-right: 6px;
+                    }
+                    .content:hover{
+                        border-color: #05e1e3;
                     }
                 }
             }
             .swiper-button-prev{
                 left: -87px;
+                background: url("../../images/left_icon.png") no-repeat;
+                width: 69px;
+                height: 69px;
+                cursor: pointer;
             }
             .swiper-button-next{
                 right: -87px;
+                background: url("../../images/right_icon.png") no-repeat;
+                width: 69px;
+                height: 69px;
+                cursor: pointer;
             }
         }
 
     }
     @media screen and (max-width: 720px) {
         .fatalBox{
+            .desc{
+                width: 294px;
+                text-align: center;
+                font-size: 10px;
+                margin: 0 auto;
+                margin-top: 10px;
+                line-height: 14px;
+                br{
+                    display: none;
+                }
+            }
+            .itemBox{
+                width: 352px;
+                margin: 0 auto;
+                div{
+                    h2{
+                        font-size: 13px;
+                        line-height: 22px;
+
+
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 13px;
+                        margin-top: 3px;
+                        br{
+                            display: none;
+                        }
+
+                    }
+                    .mobileShow{
+                        br{
+                            display: block;
+                        }
+                    }
+                    img{
+
+                    }
+                }
+                .left{
+                    width: 180px;
+                    padding-left: 0px;
+                    img{
+                        width: 172px;
+                        margin-left: 10px;
+                    }
+                    h2{
+                        margin-top: 42px;
+                        margin-left: 10px;
+
+                    }
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+                .right{
+                    width: 172px;
+                    img{
+                        width: 160px;
+                        margin-left: -5px;
+                        margin-top: 50px;
+                    }
+                    h2{
+                        margin-top: 76px;
+                        margin-left: 20px;
+
+                    }
+                    p{
+                        margin-left: 20px;
+                    }
+
+                }
+            }
+        }
+
+        .scanBox{
+            margin-top: 40px;
+            padding-bottom: 0px;
+            .title{
+            }
+            h2{
+                font-size: 16px;
+            }
+            .line{
+                width: 26px;
+                height: 1px;
+                margin-top: 10px;
+            }
+            .scrollBox{
+                width: 280px;
+                margin-top: 24px;
+
+                .swiper-container{
+
+                    .swiper-slide{
+                        .content{
+                            width: 280px;
+                            height: 140px;
+                            overflow: hidden;
+                            border:1px solid #3b3c3f;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            h3{
+                                font-size: 13px;
+                                line-height: 16px;
+                                br{
+                                    display: none;
+
+                                }
+                            }
+                            .fromBox{
+                                margin-top: -4px;
+                                .date{
+                                    font-size: 8px;
+                                    background-size: 9px auto;
+                                    margin-right: 8px;
+                                    padding-left: 14px;
+                                }
+                                .from{
+                                    font-size: 9px;
+
+                                }
+                            }
+                            .ctn{
+                                font-size: 10px;
+                                line-height: 13px;
+                                margin-top: 4px;
+                                br{
+                                    display: none;
+                                }
+                            }
+                            .cnbc{
+                                width: 67px;
+                                margin-top: 14px;
+                                margin-bottom: 0px;
+                            }
+                            .business{
+                                width: 65px;
+                                margin-top: 8px;
+                                margin-bottom: 2px ;
+                            }
+                            h2{
+
+                            }
+                        }
+                        .content:first-child{
+                        }
+                    }
+                }
+                .swiper-button-prev{
+                    width: 36px;
+                    height: 36px;
+                    background-size: 36px auto;
+                    left: -42px;
+                    top:70px
+                }
+                .swiper-button-next{
+                    width: 36px;
+                    height: 36px;
+                    background-size: 36px auto;
+                    right: -42px;
+                    top:70px;
+                }
+            }
 
         }
     }

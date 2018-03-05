@@ -142,6 +142,63 @@
 
     @media screen and (max-width: 720px) {
         .indexSection{
+            height: auto;
+            padding-bottom: 80px;
+            .indexBox{
+                width: 100%;
+                height: 468px;
+                background-repeat: no-repeat;
+                background-size: 342px auto;
+                background-position: 52px top;
+
+                .indexContent{
+                    padding: 0px;
+                    padding-top: 302px;
+                    padding-left: 54px;
+                    margin-left: 0px;
+                    background-position: 20px 300px;
+                    background-size: 4px 160px;
+                    h2{
+                        font-size: 52px;
+                        .icon-USDX{
+                            font-size: 50px;
+                        }
+                    }
+                    .feature{
+                        font-size: 14px;
+                    }
+
+
+
+
+                    .whitePaper{
+                        a{
+                            font-size: 9px;
+                            border-radius: 2px;
+                            width: 65px;
+                            height: 25px;
+                            line-height: 25px;
+                            text-align: center;
+                        }
+
+                    }
+                }
+                p{font-size: 18px;line-height: 21px;}
+
+                .indexBox-line div{
+                    left: 70%;
+                    width: 40px;
+                    &:nth-child(1){
+                        top: 8%;
+                    }
+                    &:nth-child(2){
+                        top: 25%;
+                    }
+                    &:nth-child(3){
+                        top: 51%;
+                    }
+                }
+            }
 
         }
     }

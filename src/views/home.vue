@@ -11,7 +11,6 @@
                     <div v-for="(item,index) in nav"><a href="javascript:;" :class="{'active':curpage==index}" @click="to2(item,index)" class="anchor-hd">{{item.content}}</a></div>
                 </div>
             </div>
-
         </div>
         <index></index>
 
@@ -19,11 +18,19 @@
             <FatalProblems></FatalProblems>
         </div>
         <div ref="">
-            <usdxIntro></usdxIntro>
+            <usdxIntro class="mobileHide"></usdxIntro>
+            <usdxIntroPhone class="mobileShow"></usdxIntroPhone>
         </div>
+        <roadMap></roadMap>
+        <team></team>
+        <support></support>
+        <Hexagon></Hexagon>
+        <Parteners></Parteners>
+        <footers></footers>
+        <telegramDialog></telegramDialog>
         <div style="height: 500px"></div>
 
-        <!--<telegramDialog></telegramDialog>-->
+
     </div>
 </template>
 
@@ -31,6 +38,9 @@
     import index from './index';
     import FatalProblems from './fatalProblems';
     import usdxIntro from './usdxIntro';
+    import usdxIntroPhone from './usdxIntroPhone';
+    import roadMap from './roadMap';
+    import team from './team';
     import Support from './support';
     import Hexagon from './hexagon';
     import Phases from './phases';
@@ -103,6 +113,9 @@
             index,
             FatalProblems,
             usdxIntro,
+            usdxIntroPhone,
+            roadMap,
+            team,
             Support,
             Hexagon,
             Phases,

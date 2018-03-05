@@ -52,7 +52,6 @@ body,html{background: #272a2f;}
     position: fixed;
     top:0;
     background: rgba(41,43,49,0.5);
-    //padding-left: 84px;
     img{
         width: 134px;
         height: 40px;
@@ -358,221 +357,17 @@ body,html{background: #272a2f;}
 }
 .aboutContent p{font-size: 13px;}
 .aboutContent .number{width: 56px;}
-.partenersBox .title{
-    background: #282B30;
-    height:40px;
-    line-height: 40px;
-    width: 445px;
-    margin: 0 auto;
-}
-.teamBox{
-    background-color: #24272b;
-    position: relative;
-    .title{
-        width: 352px;
-        height:40px;
-        line-height: 40px;
-        margin: 0 auto;
-        .line_icon{
-            background: url("../images/left_line_icon.png") no-repeat;
-            background-size: 109px 1px;
-            display: block;
-            width: 109px;
-            height: 40px;
-            background-position: left center;
-        }
-        .left_line{
-            float: left;
-        }
-        span{
-            font-size: 34px;
-            font-weight: bold;
-            float: left;
-            margin-left: 18px;
-            margin-right: 18px;
-            color: #fff;
-        }
-        .right_line{
-            float: left;
-            background-image: url("../images/right_line_icon.png");
-        }
-    }
-    .teamBg{
-        .icon-team1{
-            font-weight: bold;
-            font-size: 130px;
-            position: absolute;
-            right: 10px;
-            top:116px;
-            opacity: 0.01;
-        }
 
 
-    }
-    .teamMember{
-        width: 960px;
-        margin: 0 auto;
-        padding: 0 10% 70px;
-        .intro{
-            position: relative;
-            z-index: 2;
-            .title{
-                font-size: 24px;
-                font-weight: normal;
-            }
-        }
-        p{
-            font-size: 16px;
-            color: #999999;
-            line-height: 22px;
-            margin-top: 10px;
-        }
-        .mt2{margin-top: 2px;}
-        .itemOne{
-            position: relative;
-            height: auto;
-            padding-left: 97px;
-            .intro{
-                font-size: 15px;
-                width: 298px;
-                text-align: left;
-                float: left;
-                padding-top: 40px
-            }
-            .bigCapitial{
-                position: absolute;
-                width: 169px;
-                height: 219px;
-                display: block;
-                background: url("../images/r_big_icon.png") no-repeat;
-                background-size: 163px 211px;
-                left: 325px;
-                top:152px;
-            }
-            img{
-                display: block;
-                padding-left:26px;
-                width: 215px;
-                height: 204px;
-            }
-        }
-        .itemTwo{
-            height:438px;
-            position: relative;
-            float: right;
-            margin-right: 100px;
-            margin-top: 40px;
-            .intro{
-                font-size: 15px;
-                width: 296px;
-                text-align: left;
-            }
-            .teamPic{
-                padding-top: 16px;
-                padding-left: 38px;
-            }
-            img{
-                width: 202px;
-                height: 202px;
-            }
-            .bigCapitial{
-                position: absolute;
-                width: 147px;
-                height: 225px;
-                display: block;
-                background: url("../images/l_big_icon.png") no-repeat;
-                background-size: 147px 225px;
-                right: 180px;
-                top: 292px;
-            }
-        }
-        .itemThree{
-            height: 444px;
-            position: relative;
-            padding-top: 120px;
-            .intro{
-                font-size: 15px;
-                width: 298px;
-                text-align: left;
-                margin-top: 300px;
-                margin-left: 110px;
-            }
-            .teamPic{
-
-                img{
-                    display: block;
-                    position: absolute;
-                    top: 200px;
-                    left: 168px;
-                    width: 207px;
-                    height: 203px;
-                }
-            }
-            .bigCapitial{
-                width: 175px;
-                height: 168px;
-                display: block;
-                background: url("../images/m_big_icon.png") no-repeat;
-                background-size: 175px 168px;
-                position: absolute;
-                top:130px;
-                left:0px;
-            }
-        }
-        .itemFour{
-            position: relative;
-            margin-top: 100px;
-            .intro{
-                font-size: 15px;
-                width: 296px;
-                text-align: left;
-                float: left;
-                margin-top: 72px;
-                margin-left: 178px;
-            }
-            .teamPic{
-                float: left;
-                margin-left: 21px;
-                margin-top: 156px;
-                img{
-                    position: absolute;
-                    display: block;
-                    right: 130px;
-                    top:36px;
-                    width: 229px;
-                    height: 231px;
-                }
-            }
-            .bigCapitial{
-                position: absolute;
-                width: 152px;
-                height: 197px;
-                display: block;
-                background: url("../images/d_big_icon.png") no-repeat;
-                background-size: 152px 197px;
-                left: 446px;
-                top:-26px;
-            }
-        }
-    }
-}
 .support-box{
     background-color: #222529;
 }
-.support-box{
-    .title{
-        width: 544px;
-    }
-}
+
 .teamHeader img{
     display: block;
     margin: 0 auto;
 }
-/*.teamPic{
-    img{
-        width: 200px;
-    }
-}*/
+
 .intro{
     .big_number_font{
         font-size: 22px;
@@ -597,33 +392,6 @@ body,html{background: #272a2f;}
         font-size: 100px;
         opacity: 0.01;
         font-weight: normal;
-    }
-}
-.partenersBox{
-    .title{
-        .line_icon{
-            background: url("../images/left_line_icon.png") no-repeat;
-            background-size: 109px 1px;
-            display: block;
-            width: 109px;
-            height: 40px;
-            background-position: left center;
-        }
-        .left_line{
-            float: left;
-        }
-        span{
-            font-size: 34px;
-            font-weight: bold;
-            float: left;
-            margin-left: 18px;
-            margin-right: 18px;
-            color: #fff;
-        }
-        .right_line{
-            float: left;
-            background-image: url("../images/right_line_icon.png");
-        }
     }
 }
 
@@ -655,36 +423,7 @@ body,html{background: #272a2f;}
     }
 }
 
-.partenersBox {
-    .itemContainer{
-        padding-top: 26px;
-        padding-bottom: 85px;
-        ul{
-            display: flex;
-            width: 80%;
-            margin: 0 auto;
-            li{
-                flex: 1;
-                display: block;
-                margin-top: 20px;
-                margin-right: 20px;
-                border: 1px solid #25272c;
-                img{
-                    display: block;
-                    width: 100%;
-                }
-                &:last-child{
-                    margin-right: 0;
-                }
-                &.active,&:active,&:hover{
-                    border: 1px solid #2e3137;
-                    background-color: #2e3137;
-                    box-shadow: 3px 2.598px 12.18px 1.82px rgba(0, 0, 0, 0.067);
-                }
-            }
-        }
-    }
-}
+
 .hexagon-box{
     background-color: #23252a;
 }
@@ -703,8 +442,6 @@ body,html{background: #272a2f;}
 }
 .subscriber-section {
     padding: 60px 0;
-    //font-family:"HelveticaNeue";
-    //background: url("../images/Subscribe - bg.png") no-repeat;
     background-size: cover;
 }
 .subscriber-section .form-group {

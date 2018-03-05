@@ -146,4 +146,19 @@
         }
     }
 
+    @media screen and (max-width: 720px) {
+        .hexagon-box{
+            box-sizing: border-box;
+            padding: 0 10px;
+            .hexagon-title{
+                padding: 0 24px;
+            }
+        }
+        .hexagon{
+            padding-right: 14px;
+        }
+
+    }
+
+
 </style>

@@ -10,7 +10,8 @@
                 <td class="left">
                 &nbsp;
                 </td>
-                <td class="content" v-html="htitle"></td>
+                <td v-if="lineHeight == 2" :class="'content lineHeight20 '+fontSize==29?'fontSize29':''" v-html="htitle"></td>
+                <td v-else :class="'content '+(fontSize==29?'fontSize29':'')" v-html="htitle"></td>
                 <td class="right">&nbsp;</td>
             </tr>
         </table>
@@ -24,9 +25,11 @@
         data(){
             return {
                 htitle:'',
+                lineHeight:'',
+                fontSize:'',
             }
         },
-        props:["htitle"],
+        props:["htitle","lineHeight","fontSize"],
         methods: {
 
         }
@@ -71,6 +74,34 @@
 
     /*720*/
     @media screen and (max-width: 720px) {
+        .headBox{
+            padding-top: 38px;
+            .title{
+
+                .content{
+                    font-size: 18px;
+                    margin-left: 6px;
+                    margin-right: 6px;
+                    //line-height: 20px;
+                }
+                .lineHeight20{
+                    line-height: 20px;
+                }
+                .fontSize29{
+                    font-size: 29px;
+                }
+                .left{
+                    width: 68px;
+                    background-size:68px auto;
+                }
+                .right{
+                    width: 68px;
+                    background-size:68px auto;
+                }
+
+
+            }
+        }
 
     }
 </style>

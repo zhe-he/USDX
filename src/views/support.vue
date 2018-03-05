@@ -1,12 +1,6 @@
 <template>
-    <div class="support-box teamBox">
-        <div class="height80 height_mobile_70"></div>
-        <h2 class="title">
-            <i class="line_icon left_line"></i>
-            <i class="icon iconfont icon-rd_title"></i>
-            <i class="line_icon right_line"></i>
-        </h2>
-
+    <div class="support-box">
+        <Head htitle="R&D SUPPUORT TEAM"></Head>
         <div class="supportContent">
             <ul class="clearfix">
                 <li>
@@ -19,7 +13,7 @@
                             <p class="position">Researcher</p>
                         </div>
                         <div class="positionBox mobileShow">
-                            <h2 class="name">Hash Hao \ Researcher</h2>
+                            <h2 class="name">Hash Hao / Researcher</h2>
                         </div>
                         <div class="descBox">
                             <p>Graduated from Columbia <br/>University</p>
@@ -43,7 +37,7 @@
                             <p class="position">Researcher</p>
                         </div>
                         <div class="positionBox mobileShow">
-                            <h2 class="name">Steven Li \ Researcher</h2>
+                            <h2 class="name">Steven Li / Researcher</h2>
                         </div>
 
                         <div class="descBox">
@@ -68,7 +62,7 @@
                             <p class="position">Development</p>
                         </div>
                         <div class="positionBox mobileShow">
-                            <h2 class="name">Chen Nie \ Development</h2>
+                            <h2 class="name">Chen Nie / Development</h2>
                         </div>
 
                         <div class="descBox">
@@ -88,7 +82,7 @@
 </template>
 
 <script type="text/javascript">
-
+    import Head from './head';
     export default {
         data(){
             return {
@@ -101,6 +95,9 @@
                     this.cur = index;
                 }
             }
+        },
+        components:{
+            Head,
         }
     }
 </script>

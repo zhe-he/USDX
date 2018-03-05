@@ -1,11 +1,6 @@
 <template>
     <div class="partenersBox">
-        <h2 class="title">
-            <i class="line_icon left_line"></i>
-            <!--<span>PARTENERS</span>-->
-            <i class="icon iconfont icon-partners"></i>
-            <i class="line_icon right_line"></i>
-        </h2>
+        <Head htitle="PARTENER"></Head>
         <div class="itemContainer">
             <ul class="itemContainer-pc" v-for="icon in iconPC">
                 <li v-for="item in icon">
@@ -28,6 +23,7 @@
 <script type="text/javascript">
     import homeData from '../data/home'
     const icon = homeData.icon;
+    import Head from './head';
     export default {
         data() {
             return {
@@ -46,20 +42,43 @@
             setPCIcon() {
                 this.iconPC = [icon.slice(0,5),icon.slice(5,10)];
             }
+        },
+        components:{
+            Head,
         }
+
     }
 </script>
 
 <style lang="scss">
-    .partenersBox{
-        .icon-partners{
-            font-size: 26px;
-            float: left;
-            font-weight: normal;
-            margin-left: 18px;
-            margin-right: 18px;
-            color: #fff;
-            margin-top: 2px;
+    .partenersBox {
+        .itemContainer{
+            padding-top: 12px;
+            padding-bottom: 85px;
+            ul{
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                li{
+                    flex: 1;
+                    display: block;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    border: 1px solid #25272c;
+                    img{
+                        display: block;
+                        width: 100%;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    &.active,&:active,&:hover{
+                        border: 1px solid #2e3137;
+                        background-color: #2e3137;
+                        box-shadow: 3px 2.598px 12.18px 1.82px rgba(0, 0, 0, 0.067);
+                    }
+                }
+            }
         }
     }
     @media screen and (max-width: 720px) {
