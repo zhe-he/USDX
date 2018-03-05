@@ -1,16 +1,11 @@
 <template>
     <div class="headBox clearfix">
-        <!--<h2 class="title">
-            <i></i>
-            <span></span>
-            <i></i>
-        </h2>-->
         <table class="title">
             <tr>
                 <td class="left">
                 &nbsp;
                 </td>
-                <td v-if="lineHeight == 2" :class="'content lineHeight20 '+fontSize==29?'fontSize29':''" v-html="htitle"></td>
+                <td v-if="lineHeight == 2" :class="'content lineHeight20 '+(fontSize==29?'fontSize29':'')" v-html="htitle"></td>
                 <td v-else :class="'content '+(fontSize==29?'fontSize29':'')" v-html="htitle"></td>
                 <td class="right">&nbsp;</td>
             </tr>

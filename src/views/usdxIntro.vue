@@ -103,8 +103,8 @@
                 curIndex:0,
                 swiperOption: {
                     navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
+                        nextEl: '.swiper-button-next_intro',
+                        prevEl: '.swiper-button-prev_intro'
                     }
                 }
             }

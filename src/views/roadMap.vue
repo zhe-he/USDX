@@ -1,24 +1,18 @@
 <template>
     <div class="roadMapBox">
         <Head htitle="ROADMAP OF USDX"></Head>
-        <div class="roadTitle clearfix">
-            <div class="mt">
-                <h3>2018</h3>
-                <p>The Dark Knight Rises</p>
-                <i class="line"></i>
-            </div>
-            <div class="mt">
-                <h3>2019</h3>
-                <p>Game of Stablecoin World</p>
-                <i class="line"></i>
-            </div>
-        </div>
         <div class="roadContent">
-
             <div class="clearfix">
             <swiper :options="swiperOption">
                     <swiper-slide>
                         <div class="top">
+                            <div class="headBar roadTitle">
+                                <div class="mt">
+                                    <h3>2018</h3>
+                                    <p>The Dark Knight Rises</p>
+                                    <i class="line"></i>
+                                </div>
+                            </div>
                             <div class="content">
                                 <p>Setting Up Foundation in</p>
                                 <p>Singapore</p>
@@ -30,6 +24,7 @@
                     </swiper-slide>
                     <swiper-slide>
                         <div class="bottom">
+                            <div class="headBar"></div>
                             <div class="number">Q2</div>
                             <div class="content">
                                 <p>Launching D-wallet</p>
@@ -41,6 +36,7 @@
                     </swiper-slide>
                     <swiper-slide>
                         <div class="top">
+                            <div class="headBar"></div>
                             <div class="content">
                                 <p>Building a Public Chain</p>
                                 <p>Landing Korean Market&</p>
@@ -52,6 +48,7 @@
                     </swiper-slide>
                     <swiper-slide>
                         <div class="bottom">
+                            <div class="headBar"></div>
                             <div class="number pl101">Q4</div>
                             <div class="content pl30">
                                 <p>Testing and Perfacting</p>
@@ -63,6 +60,13 @@
                     </swiper-slide>
                     <swiper-slide>
                         <div class="top">
+                            <div class="headBar roadTitle">
+                                <div class="mt mt45">
+                                    <h3>2019</h3>
+                                    <p>Game of Stablecoin World</p>
+                                    <i class="line"></i>
+                                </div>
+                            </div>
                             <div class="content pl45">
                                 <p>Lanuching Public</p>
                                 <p>Chain</p>
@@ -74,6 +78,7 @@
                     </swiper-slide>
                     <swiper-slide>
                         <div class="bottom">
+                            <div class="headBar"></div>
                             <div class="number pl118">Q2</div>
                             <div class="content ml20">
                                 <p>Perfecting Price Stability</p>
@@ -86,6 +91,7 @@
 
                     <swiper-slide>
                         <div class="top">
+                            <div class="headBar"></div>
                             <div class="content pl18">
                                 <p>Expanding to Derivatives</p>
                                 <p>Markets</p>
@@ -95,8 +101,8 @@
                             <div class="number pl116">Q3</div>
                         </div>
                     </swiper-slide>
-                <div class="swiper-button-prev" slot="button-prev"></div>
-                <div class="swiper-button-next" slot="button-next"></div>
+                <div class="swiper-button-prev_road" slot="button-prev"></div>
+                <div class="swiper-button-next_road" slot="button-next"></div>
             </swiper>
 
             </div>
@@ -127,8 +133,8 @@
             return {
                 swiperOption: {
                     navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
+                        nextEl: '.swiper-button-next_road',
+                        prevEl: '.swiper-button-prev_road'
                     },
                     slidesPerView: 6,
                     spaceBetween: 0,
@@ -156,14 +162,17 @@
         width: 1280px;
         margin: 0 auto;
         overflow: hidden;
+        padding-bottom: 80px;
         .roadTitle{
             .mt{
                 float: left;
+                margin-left: 12px;
                 h3{
                     font-weight: normal;
                     font-size: 18px;
                     color: #05e1e3;
                     line-height: 22px;
+
 
 
                 }
@@ -172,7 +181,7 @@
                     font-size: 18px;
                     color: #05e1e3;
                     line-height: 22px;
-
+                    white-space:nowrap;
                 }
                 i{
                     margin-top: 20px;
@@ -183,42 +192,43 @@
 
                 }
             }
-            .mt:nth-child(2){
-                float: right;
+            .mt45{
+                margin-left: 45px;
             }
         }
         .roadContent{
 
             width: 1290px;
-            height: 320px;
+            height: 372px;
+            margin-top: 100px;
             .swiper-slide{
                 background: url("../../images/road_map_bg.png");
                 background-repeat: repeat-x;
                 //
             }
             .swiper-slide:nth-child(1){
-                background-position: -80px center;
+                background-position: -80px 108px;
             }
             .swiper-slide:nth-child(2){
-                background-position: 140px center;
+                background-position: 140px 100px;
 
             }
             .swiper-slide:nth-child(3){
-                background-position: 358px center;
+                background-position: 358px 108px;
             }
             .swiper-slide:nth-child(4){
-                background-position: 579px center;
+                background-position: 579px 100px;
 
             }
             .swiper-slide:nth-child(5){
-                background-position: 799px center;
+                background-position: 799px 108px;
             }
             .swiper-slide:nth-child(6){
-                background-position: 1022px center;
+                background-position: 1022px 100px;
 
             }
             .swiper-slide:nth-child(7){
-                background-position: 1246px center;
+                background-position: 1246px 108px;
 
             }
             ul{
@@ -232,9 +242,11 @@
             }
             .top{
                 padding-left: 10px;
-                height: 280px;
+                /*height: 280px;*/
+                height: 372px;
+
                 .content{
-                    padding-top: 48px;
+                    padding-top: 57px;
                     padding-left: 12px;
                     p{
                         line-height: 22px;
@@ -265,14 +277,18 @@
                 .pl18{
                     padding-left: 18px;
                 }
-
+                .headBar{
+                    height: 92px;
+                    width: 100%;
+                }
 
             }
             .bottom{
                 padding-left: 14px;
-                height: 263px;
+                /*height: 263px;*/
+                height: 355px;
                 .content{
-                    padding-top: 110px;
+                    padding-top: 100px;
                     padding-left: 26px;
                     p{
                         line-height: 22px;
@@ -281,7 +297,7 @@
                 }
                 .number{
                     padding-left: 87px;
-                    padding-top: 14px;
+                    padding-top: 24px;
                 }
                 .pl101{
                     padding-left: 101px;
@@ -291,22 +307,30 @@
                 }
                 .pl30{
                     padding-left: 30px;
-
+                }
+                .headBar{
+                    height: 92px;
+                    width: 100%;
                 }
             }
-            .swiper-button-prev{
+            .swiper-button-prev_road{
                 background: url("../../images/left_icon.png") no-repeat;
                 width: 69px;
                 height: 69px;
                 cursor: pointer;
-                top:30px;
+                top:106px;
+                position: absolute;
+                z-index: 9999;
             }
-            .swiper-button-next{
+            .swiper-button-next_road{
                 background: url("../../images/right_icon.png") no-repeat;
                 width: 69px;
                 height: 69px;
                 cursor: pointer;
-                top:30px;
+                top:106px;
+                position: absolute;
+                z-index: 9999;
+                right: 24px;
             }
         }
 
