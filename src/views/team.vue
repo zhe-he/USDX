@@ -122,8 +122,9 @@
         .teamMember{
             width: 960px;
             margin: 0 auto;
-            padding: 0 10% 70px;
-            margin-top: 60px;
+            //padding: 0 10% 70px;
+            margin-top: 90px;
+            padding-bottom: 210px;
             .intro{
                 position: relative;
                 z-index: 2;
