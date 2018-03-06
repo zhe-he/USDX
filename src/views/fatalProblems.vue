@@ -20,7 +20,7 @@
         <!--scandals-->
         <div class="scanBox">
             <div class="title">
-                <h2>USDT'S SCABDALS</h2>
+                <h2>USDT'S SCANDALS</h2>
                 <i class="line"></i>
             </div>
             <div class="scrollBox">

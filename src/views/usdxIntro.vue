@@ -17,8 +17,8 @@
                 <div class="introCtn clearfix">
                     <div class="leftImg">
                         <img src="../../images/phase01.png" class="phase01"/>
-                        <img src="../../images/usdt-icon.png" class="usdt scaleBig"/>
-                        <img src="../../images/usdx-icon.png" class="usdx scaleBig">
+                        <img src="../../images/usdt-icon.png" class="usdt scaleUSDT"/>
+                        <img src="../../images/usdx-icon.png" class="usdx scaleUSDX">
                     </div>
                     <div class="rightCtn">
                         <div class="sectionCtn">
@@ -267,16 +267,45 @@
             }
         }
     }
-    .scaleBig {
-        animation: scaleBig 4s infinite;
+    .scaleUSDT {
+        animation: scaleUSDT 8s infinite;
     }
-    @keyframes scaleBig{
+    .scaleUSDX {
+        animation: scaleUSDX 8s infinite;
+    }
+
+    @keyframes scaleUSDT{
         0%{
             transform:scale(0,0)
         }
-        100%{
-
+        25%{
             transform:scale(1,1)
+
+        }
+        50%{
+            transform:scale(1,1)
+        }
+        75%{
+            transform:scale(0,0)
+        }
+        100%{
+            transform:scale(0,0)
+        }
+    }
+
+    @keyframes scaleUSDX{
+        0%{
+            transform:scale(0,0)
+        }
+        25%{
+            transform:scale(0,0)
+        }
+        50%{transform:scale(0,0)}
+        75%{
+            transform:scale(1,1);
+        }
+        100%{
+            transform:scale(1,1);
         }
     }
 
