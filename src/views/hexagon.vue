@@ -1,5 +1,6 @@
 <template>
     <div class="hexagon-box">
+        <i class="icon iconfont icon-adivsor"></i>
         <div class="hexagon-title">
             <!--<i class="icon iconfont icon-adivsor"></i>-->
             <span>ADVISORS</span>
@@ -42,11 +43,16 @@
         width: 960px;
         margin: 0 auto;
         .icon-adivsor{
-            font-size: 26px;
             float:left;
-            float: left;
             color: #fff;
             font-weight: normal;
+            position: absolute;
+            left: -180px;
+            font-size: 100px;
+            opacity: .01;
+            font-weight: 400;
+            top:60px;
+
         }
     }
     .icon520{
@@ -117,7 +123,7 @@
             cursor: pointer;
             
             &:nth-child(4n+2),&:nth-child(4n+3){
-                // margin: 0 0.5%;
+
             }
 
 

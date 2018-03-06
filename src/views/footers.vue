@@ -176,7 +176,7 @@
             padding-bottom: 60px;
         }
         .subscribeSection{
-            width: 584px;
+            width: 440px;
             margin: 0 auto;
             height: 48px;
             margin-top: 52px;
@@ -185,26 +185,28 @@
                 padding: 0;
                 border: none;
                 float: left;
-                width: 418px;
-                height: 48px;
-                line-height: 48px;
-                padding-left: 20px;
-                background: #54555a;
+                line-height: 38px;
+                padding-left: 14px;
                 font-size: 14px;
                 color: #cccccc;
+                border-radius: 4px;
+                background-color: rgb(60, 64, 72);
+                width: 296px;
+                height: 38px;
+                box-shadow:none;
             }
             .subBtn{
-                width: 138px;
                 float: right;
-                height: 48px;
-                line-height: 48px;
+                height: 38px;
+                line-height: 38px;
                 text-align: center;
                 color: #ffffff;
                 border: none;
-                font-size: 18px;
-                background: url("../../images/submit_bg.png");
-                background-repeat: no-repeat;
-                background-size: 138px 48px;
+                border-radius: 4px;
+                background-color: rgb(5, 225, 227);
+                width: 120px;
+                height: 38px;
+                font-size: 16px;
             }
         }
     }
