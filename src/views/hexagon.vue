@@ -168,6 +168,7 @@
             padding: 0 10px;
             .hexagon-title{
                 padding: 0 24px;
+                width: 312px;
             }
         }
         .hexagon{
@@ -176,6 +177,7 @@
         .hexagon-title{
             span{
                 font-size: 24px;
+
             }
         }
 
