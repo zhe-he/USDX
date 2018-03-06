@@ -132,7 +132,7 @@
         .bottomLogo{
             text-align: center;
             .icon-USDX-logo{
-                font-size: 45px;
+                font-size: 66px;
                 color: #fff;
                 text-align: center;
             }
@@ -178,7 +178,7 @@
         .subscribeSection{
             width: 440px;
             margin: 0 auto;
-            height: 48px;
+            height: 28px;
             margin-top: 52px;
             .inputBox{
                 margin: 0;
@@ -221,7 +221,7 @@
                     width: 186px;
                 }
                 .icon-USDX-logo{
-                    font-size: 50px;
+                    font-size: 66px;
                     margin-top: 8px;
                 }
             }

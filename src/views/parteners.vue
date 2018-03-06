@@ -53,7 +53,7 @@
 <style lang="scss">
     .partenersBox {
         .itemContainer{
-            padding-top: 12px;
+            padding-top: 77px;
             padding-bottom: 85px;
             ul{
                 display: flex;

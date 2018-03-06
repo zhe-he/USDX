@@ -27,63 +27,97 @@
                 <!-- swiper -->
                 <swiper :options="swiperOption">
                     <swiper-slide>
-                        <div class="content">
-                            <img class="cnbc" src="../../images/cnbc_logo.png"/>
-                            <h3>'Devastating' Effects On The Market</h3>
-                            <div class="fromBox">
-                                <span class="date">Feb 3, 2018</span>
-                                <span class="from">form : cnbc</span>
+                        <a class="linkBox" href="https://www.cnbc.com/2018/02/02/tether-what-you-need-to-know-about-the-cryptocurrency-worrying-markets.html" target="_blank">
+                            <div class="content">
+                                <img class="cnbc" src="../../images/cnbc_logo.png"/>
+                                <h3>'Devastating' Effects On The Market</h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : cnbc</span>
+                                </div>
+                                <div class="ctn">
+                                    "Tether printing moves the market appreciably; 48.8 percent of <br/>BTC's price rise in the period studied occurred in the two-hour <br/>periods following the arrival of 91 different tether grants to the <br/>Bitfinex wallet," 
+                                </div>
                             </div>
-                            <div class="ctn">
-                                "Tether printing moves the market appreciably; 48.8 percent of <br/>BTC's price rise in the period studied occurred in the two-hour <br/>periods following the arrival of 91 different tether grants to the <br/>Bitfinex wallet," 
-                            </div>
-                        </div>
-                        <div class="content mobileHide">
-                            <img class="business" src="../../images/business_logo.png"/>
-                            <h3>Bitfinex and Tether, which share a CEO, have<br/>
-                                been accused of fraudulent behavior.
-                            </h3>
-                            <div class="fromBox">
-                                <span class="date">Feb 3, 2018</span>
-                                <span class="from">form : coindesk</span>
-                            </div>
-                            <div class="ctn">
-                                “The ending of the audit has fueled criticisms of the cryptocurrency company and led to accusations that the <br/>$2.3 billion worth of USDT currently in circulation is not backed ...
-                            </div>
+                        </a>
 
-                        </div>
+                        <a class="linkBox" href="http://gold.cngold.com.cn/20180226d1715n211376816.html" target="_blank">
+                            <div class="content">
+                                <img class="business" src="../../images/business_logo.png"/>
+                                <h3>Bitfinex and Tether, which share a CEO, have<br/>
+                                    been accused of fraudulent behavior.
+                                </h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : coindesk</span>
+                                </div>
+                                <div class="ctn">
+                                    “The ending of the audit has fueled criticisms of the cryptocurrency company and led to accusations that the <br/>$2.3 billion worth of USDT currently in circulation is not backed ...
+                                </div>
+                            </div>
+                        </a>
                     </swiper-slide>
+
                     <swiper-slide>
-                        <div class="content mobileShow">
-                            <img class="business" src="../../images/business_logo.png"/>
-                            <h3>Bitfinex and Tether, which share a CEO, have<br/>
-                                been accused of fraudulent behavior.
-                            </h3>
-                            <div class="fromBox">
-                                <span class="date">Feb 3, 2018</span>
-                                <span class="from">form : coindesk</span>
+                        <a class="linkBox" href="https://www.coindesk.com/report-cftc-sends-subpoenas-bitfinex-tether/" target="_blank">
+                            <div class="content">
+                                <img class="cnbc" src="../../images/cnbc_logo.png"/>
+                                <h3>CFTC Sends Subpoenas to Bitfinex, Tether</h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : cnbc</span>
+                                </div>
+                                <div class="ctn">
+                                    “The news comes days after CoinDesk reported that Tether's relationship with auditing firm Friedman LLC had "dissolved," though it still remains unclear which party moved to curtail the work. ”
+                                </div>
                             </div>
-                            <div class="ctn">
-                                “The ending of the audit has fueled criticisms of the cryptocurrency company and led to accusations that the <br/>$2.3 billion worth of USDT currently in circulation is not backed ...
+                        </a>
+
+                        <a class="linkBox" href="https://www.marketwatch.com/story/why-bitfinex-tether-are-raising-nagging-questions-in-the-cryptocurrency-market-2018-01-30" target="_blank">
+                            <div class="content">
+                                <img class="business" src="../../images/business_logo.png"/>
+                                <h3>Friedman LLP didn’t respond to calls or emails for comment.</h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : coindesk</span>
+                                </div>
+                                <div class="ctn">
+                                    “A spokesman for Bitfinex declined to respond to an email list of questions from MarketWatch about the company’s operation…..Publicly, Tether has denied allegations that its digital asset isn’t pegged to fiat currencies and said that “any suggestion to the contrary is uninformed and baseless.”
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </swiper-slide>
+
                     <swiper-slide>
-                        <div class="content">
+                        <a class="linkBox" href="http://www.businessinsider.com/cryptocurrency-exchange-bitfinex-reportedly-subpoenaed-by-cftc-2018-1" target="_blank">
+                            <div class="content">
+                                <img class="cnbc" src="../../images/cnbc_logo.png"/>
+                                <h3>Bitfinex and Tether, which share a CEO, have been accused of fraudulent behavior.</h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : cnbc</span>
+                                </div>
+                                <div class="ctn">
+                                    “The ending of the audit has fueled criticisms of the cryptocurrency company and led to accusations that the $2.3 billion worth of USDT currently in circulation is not backed by actual dollars.”
+                                </div>
+                            </div>
+                        </a>
 
-                        </div>
-                        <div class="content">
-
-                        </div>
+                        <a class="linkBox" href="https://news.bitcoin.com/report-claims-48-8-btcs-price-rises-last-9-months-occurred-within-2-hours-91-usdt-issuances/" target="_blank">
+                            <div class="content">
+                                <img class="business" src="../../images/business_logo.png"/>
+                                <h3>Report Finds Correlation Between USDT Issuances and BTC Price Moves</h3>
+                                <div class="fromBox">
+                                    <span class="date">Feb 3, 2018</span>
+                                    <span class="from">form : coindesk</span>
+                                </div>
+                                <div class="ctn">
+                                    “The Tether Report, a pseudonymously authored analysis examining the speculative assertion that bitcoin price volatility is highly correlated to the issuance of new USDT, has claimed that approximately 48.8% of bullish price movements have occurred within the two-hours immediately following ninety-one individual Tether grants.”
+                                </div>
+                            </div>
+                        </a>
                     </swiper-slide>
-                    <swiper-slide>
-                        <div class="content">
 
-                        </div>
-                        <div class="content">
-
-                        </div>
-                    </swiper-slide>
 
                 </swiper>
                 <div class="swiper-button-prev" slot="button-prev"></div>
@@ -225,7 +259,7 @@
 
                 .swiper-slide{
                     width: 960px;
-                    .content{
+                    .linkBox{
                         width: 477px;
                         height: 234px;
                         border: 1px solid #444444;
@@ -233,6 +267,10 @@
                         float: left;
                         padding-left: 14px;
                         cursor: pointer;
+                        color: #fff;
+                    }
+                    .content{
+
                         h3{
                             font-weight: normal;
                             font-size: 22px;
