@@ -122,7 +122,6 @@
         .teamMember{
             width: 960px;
             margin: 0 auto;
-            //padding: 0 10% 70px;
             margin-top: 90px;
             padding-bottom: 210px;
             .intro{
@@ -271,6 +270,10 @@
 
     @media screen and (max-width: 720px) {
         .teamBox{
+            .teamMember{
+                padding-bottom: 48px;
+                margin-top: 40px;
+            }
 
         }
     }

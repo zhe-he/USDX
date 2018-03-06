@@ -198,7 +198,7 @@
             }
             .roadContent{
                 width: 408px;
-                height: 372px;
+                height: 290px;
                 .swiper-slide{
                     background: url("../../images/road_map_bg.png");
                     background-repeat: repeat-x;
@@ -287,7 +287,7 @@
                 }
                 .bottom{
                     padding-left: 14px;
-                    height: 355px;
+                    height: 290px;
                     .content{
                         padding-top: 62px;
                         padding-left: 15px;

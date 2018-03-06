@@ -23,7 +23,7 @@
                 <h2>USDT'S SCANDALS</h2>
                 <i class="line"></i>
             </div>
-            <div class="scrollBox">
+            <div class="scrollBox mobileHide">
                 <!-- swiper -->
                 <swiper :options="swiperOption">
                     <swiper-slide>
@@ -117,25 +117,27 @@
                             </div>
                         </a>
                     </swiper-slide>
-
-
                 </swiper>
                 <div class="swiper-button-prev" slot="button-prev"></div>
                 <div class="swiper-button-next" slot="button-next"></div>
             </div>
+            <div class="mobileShow">
+                <fatalMobileSwiper></fatalMobileSwiper>
+            </div>
 
         </div>
+
     </div>
 
 </template>
 
 <script type="text/javascript">
     import fatalData from '../data/home';
-    // require styles
     import 'swiper/dist/css/swiper.css'
 
     import { swiper, swiperSlide } from 'vue-awesome-swiper'
     import Head from './head';
+    import fatalMobileSwiper from './fatalMobileSwiper';
 
     export default {
         data() {
@@ -157,7 +159,8 @@
         components:{
             Head,
             swiper,
-            swiperSlide
+            swiperSlide,
+            fatalMobileSwiper
         }
     }
 </script>
@@ -269,6 +272,9 @@
                         cursor: pointer;
                         color: #fff;
                     }
+                    .linkBox:hover{
+                        border-color: #05e1e3;
+                    }
                     .content{
 
                         h3{
@@ -313,9 +319,7 @@
                     .content:first-child{
                         margin-right: 6px;
                     }
-                    .content:hover{
-                        border-color: #05e1e3;
-                    }
+
                 }
             }
             .swiper-button-prev{
@@ -432,13 +436,20 @@
                 .swiper-container{
 
                     .swiper-slide{
-                        .content{
+                        .linkBox{
                             width: 280px;
                             height: 140px;
+                            box-sizing: border-box;
+                            float: left;
+                            padding-left: 14px;
+                            cursor: pointer;
+                            color: #fff;
                             overflow: hidden;
-                            border:1px solid #3b3c3f;
-                            padding-left: 10px;
-                            padding-right: 10px;
+                        }
+                        .linkBox:hover{
+                            border-color: #444444;
+                        }
+                        .content{
                             h3{
                                 font-size: 13px;
                                 line-height: 16px;
@@ -486,19 +497,23 @@
                         }
                     }
                 }
-                .swiper-button-prev{
+                .swiper-button-prev_fm{
+                    background: url("../../images/left_icon.png") no-repeat;
                     width: 36px;
                     height: 36px;
                     background-size: 36px auto;
                     left: -42px;
-                    top:70px
+                    top:50px;
+                    position: absolute;
                 }
-                .swiper-button-next{
+                .swiper-button-next_fm{
+                    background: url("../../images/right_icon.png") no-repeat;
                     width: 36px;
                     height: 36px;
                     background-size: 36px auto;
                     right: -42px;
-                    top:70px;
+                    top:50px;
+                    position: absolute;
                 }
             }
 

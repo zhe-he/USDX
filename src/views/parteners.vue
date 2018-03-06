@@ -83,6 +83,9 @@
     }
     @media screen and (max-width: 720px) {
         .partenersBox{
+            .itemContainer{
+                padding-top: 28px;
+            }
             .icon-partners{
                 font-size: 20px;
             }

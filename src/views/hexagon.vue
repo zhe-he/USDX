@@ -173,6 +173,11 @@
         .hexagon{
             padding-right: 14px;
         }
+        .hexagon-title{
+            span{
+                font-size: 24px;
+            }
+        }
 
     }
 

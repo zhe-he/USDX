@@ -142,6 +142,7 @@
         .indexSection{
             height: auto;
             padding-bottom: 80px;
+            padding-top: 100px;
             .indexBox{
                 width: 100%;
                 height: 468px;

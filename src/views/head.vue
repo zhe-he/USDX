@@ -74,10 +74,9 @@
             .title{
 
                 .content{
-                    font-size: 18px;
+                    font-size: 20px;
                     margin-left: 6px;
                     margin-right: 6px;
-                    //line-height: 20px;
                 }
                 .lineHeight20{
                     line-height: 20px;

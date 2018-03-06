@@ -1,10 +1,10 @@
 <template>
     <div>
         <!--toast-->
-        <div class="toastBox" :class="{'active':showToast}">
+        <!--<div class="toastBox" :class="{'active':showToast}">
             <div class="title">{{title}}</div>
             <div class="message">{{message}}</div>
-        </div>
+        </div>-->
 
         <div class="footerBox">
             <footer class="footerBox">
@@ -93,7 +93,7 @@
 
 
 <style lang="scss">
-    .toastBox{
+    /*.toastBox{
         opacity: 0;
         position: fixed;
         top:90px;
@@ -125,7 +125,7 @@
             animation: fadeInRight 0.6s 0s both;
         }
 
-    }
+    }*/
     .footerBox{
         width: 100%;
         padding-top: 34px;
@@ -214,7 +214,7 @@
     /*720*/
     @media screen and (max-width: 720px) {
         .footerBox{
-            height: 234px;
+            padding-top: 0px;
             .bottomLogo{
                 img{
                     height: 56px;
@@ -241,13 +241,13 @@
             .copyRight{
                 font-size: 13px;
                 margin-top: 20px;
-                background-color: #292b31;
             }
             .subscribeSection{
                 width: auto;
                 padding-left: 24px;
                 padding-right: 24px;
                 position: relative;
+                margin-top: 28px;
                 .inputBox{
                     height: 24px;
                     line-height: 24px;
@@ -256,6 +256,7 @@
                     box-sizing: border-box;
                     font-size: 12px;
                     padding-left: 8px;
+                    width: 240px;
 
                 }
                 .subBtn{
@@ -267,7 +268,8 @@
                     position: absolute;
                     top:0;
                     right: 24px;
-                    border-left:6px solid #292b31;
+                    //border-left:6px solid #292b31;
+
 
                 }
             }
