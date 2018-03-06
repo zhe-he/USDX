@@ -26,11 +26,11 @@
                         <div class="bottom">
                             <div class="headBar"></div>
                             <div class="number">Q2</div>
-                            <div class="content">
-                                <p>Launching D-wallet</p>
-                                <p>Setting Up USDX Fund</p>
-                                <p>Community expanding</p>
-                                <p>&nbsp;</p>
+                            <div class="content" style="padding-left: 0px;">
+                                <p>Setting up USDX fund</p>
+                                <p>Expanding community scale</p>
+                                <p>Starting to develop an</p>
+                                <p>independent public blockchain</p>
                             </div>
                         </div>
                     </swiper-slide>
@@ -38,10 +38,10 @@
                         <div class="top">
                             <div class="headBar"></div>
                             <div class="content">
-                                <p>Building a Public Chain</p>
-                                <p>Landing Korean Market&</p>
-                                <p>the US Market</p>
-                                <p>&nbsp;</p>
+                                <p>Setting up foundation</p>
+                                <p>branch in Korea</p>
+                                <p>Landing on the Korean</p>
+                                <p>market</p>
                             </div>
                             <div class="number pl43">Q3</div>
                         </div>
@@ -51,10 +51,10 @@
                             <div class="headBar"></div>
                             <div class="number pl47">Q4</div>
                             <div class="content pl8">
-                                <p>Testing and Perfacting</p>
-                                <p>on Public Chain</p>
-                                <p>Setting Up Foundation</p>
-                                <p>Branch in America</p>
+                                <p>Introducing protocol of</p>
+                                <p>main function on </p>
+                                <p>the independent public</p>
+                                <p>blockchain</p>
                             </div>
                         </div>
                     </swiper-slide>
@@ -68,9 +68,10 @@
                                 </div>
                             </div>
                             <div class="content pl14">
-                                <p>Lanuching Public</p>
-                                <p>Chain</p>
-                                <p>USDY Generation</p>
+                                <p>Alpha version of </p>
+                                <p>Mainnet released</p>
+                                <p>Beta version of</p>
+                                <p>Mainnet released</p>
                                 <p>&nbsp;</p>
                             </div>
                             <div class="number pl38">Q1</div>

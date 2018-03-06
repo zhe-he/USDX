@@ -5,6 +5,14 @@
             <div class="title">{{title}}</div>
             <div class="message">{{message}}</div>
         </div>-->
+        <div class="shadowBox" :class="{'shadowStatus':showDialog}"></div>
+        <div class="mailTipBox" :class="{'active':showDialog}">
+            <i class="successIcon"></i>
+            <h2>Congratulations！</h2>
+            <p>Mail has been subscribed to success</p>
+            <a href="javascript:;" @click="closeDialog()" class="confirmBtn">CONFIRM</a>
+        </div>
+
 
         <div class="footerBox">
             <footer class="footerBox">
@@ -25,9 +33,9 @@
                     <a href="https://www.facebook.com/NewMoneyUSDX" target="_blank" class="icon iconfont icon-facebook"></a>
                     <!--<a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
                     <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>-->
-                    <a href="https://github.com/USDXProject" target="_blank" class="icon iconfont icon-github"></a>
+                    <a href="https://github.com/USDXToken/USDX-token" target="_blank" class="icon iconfont icon-github"></a>
                     <!--<a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>-->
-                    <a href="https://t.me/NewMoneyUSDX" target="_blank" class="icon iconfont icon-emi"></a>
+                    <a href="https://t.me/USDXBlockchain" target="_blank" class="icon iconfont icon-emi"></a>
                 </div>
                 <div style="clear:both;"></div>
 
@@ -49,16 +57,35 @@
                 email:'',
                 title:'',
                 message:'',
-                showToast: false
+                showToast: false,
+                showDialog:false,
             }
         },
         methods: {
             submitEmail(){
                 if(!reg.test(this.email)){
-                    this.showDialog('Fail','Please input the correct email !');
+                    alert("Please input the correct email !");
                     return;
                 }
-                this.showDialog('Success','welcome to join us !');
+                axios.get('https://usdx.money/web/api/joinUs',{
+                    params: {
+                        email: this.email
+                    }
+                }).then(res => {
+                    console.log(res);
+                    let json = res.data;
+                    if(json && json.status =='success'){
+                        this.showDialog = true;
+                    }else{
+                        alert("failed please try again!");
+
+                    }
+                }).catch(err => {
+                    console.log(err);
+                    alert("server error!");
+                });
+
+
 
                 // 服务器需设置返回头部，允许跨域 header("Access-control-Allow-Origin:*");
 
@@ -79,13 +106,19 @@
 
 
             },
-            showDialog(title,message){
-                this.title = title;
-                this.message = message;
-                this.showToast = true;
-                setTimeout(() => {
-                    this.showToast = false;
-                }, 3000);
+            closeDialog(){
+                this.showDialog = false;
+
+            },
+
+            showDialog(){
+                // this.title = title;
+                // this.message = message;
+                // this.showToast = true;
+                // setTimeout(() => {
+                //     this.showToast = false;
+                // }, 3000);
+                this.showDialog = true;
             }
         }
     }
@@ -93,6 +126,77 @@
 
 
 <style lang="scss">
+    .shadowBox{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.1;
+        top:0;
+        left: 0;
+        display: none;
+    }
+    .shadowStatus{
+        display: block;
+    }
+    .mailTipBox{
+        display: none;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,0.95);
+        //opacity: 0.952;
+        position: fixed;
+        left: 50%;
+        margin-left: -426px;
+        top: 120px;
+        width: 855px;
+        height: 462px;
+        z-index: 454;
+        .successIcon{
+            display: block;
+            width: 90px;
+            height: 90px;
+            background: url("../../images/successIcon.png");
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            margin-top: 66px;
+        }
+        h2{
+            font-weight: normal;
+            font-size: 40px;
+            color:#333333;
+            text-align: center;
+            margin-top: 35px;
+        }
+        p{
+            font-size: 36px;
+            color: #666;
+            text-align: center;
+            margin-top: 24px;
+
+        }
+        a{
+            border-radius: 5px;
+            background-color: rgb(31, 241, 251);
+             width: 219px;
+             height: 59px;
+            color: #fff;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            line-height: 59px;
+            font-size: 24px;
+            margin-top: 50px;
+
+        }
+        &.active{
+            z-index: 10;
+            //opacity: 1;
+            display: block;
+            animation: fadeIn 0.6s 0s both;
+        }
+
+    }
+
     /*.toastBox{
         opacity: 0;
         position: fixed;

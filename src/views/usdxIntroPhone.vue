@@ -3,7 +3,12 @@
         <Head htitle="USDX" fontSize="29"></Head>
         <h3>The New Era of Stable coin</h3>
         <div class="sect01">
-            <img src="../../images/phase01.png" class="phase01"/>
+            <!--<img src="../../images/phase01.png" class="phase01"/>-->
+            <div class="phase01Img">
+                <img src="../../images/phase01.png" class="phase01"/>
+                <img src="../../images/usdt-icon.png" class="usdt scaleUSDT"/>
+                <img src="../../images/usdx-icon.png" class="usdx scaleUSDX">
+            </div>
             <h2>Innovative De-Commerce</h2>
             <div class="conts">
                 <h3>Kill the Centralized Mechanism</h3>
@@ -19,7 +24,15 @@
         </div>
 
         <div class="sect01">
-            <img src="../../images/phase02.png"/>
+            <!--<img src="../../images/phase02.png"/>-->
+            <div class="sectBox02">
+                <div class="intro-line">
+                    <img src="../../images/line_icon_bg.png" class=""/>
+                    <div class="torightBig">
+                        <img src="../../images/line_icons.png" class="phase-line-baseimg shadeImage"/>
+                    </div>
+                </div>
+            </div>
             <h2>Bottom-Up Revolution</h2>
             <div class="conts">
                 <h3>Phase 1: Revolution Accessible to Everyone</h3>
@@ -33,7 +46,7 @@
         </div>
 
         <div class="sect01">
-            <img src="../../images/phase03.png"/>
+            <img src="../../images/phase003.gif" class="phase003"/>
             <h2>Extreme Stabilization</h2>
             <div class="conts">
                 <h3>Intelligent Algorithmic Monetary Control</h3>
@@ -105,6 +118,14 @@
                 margin-top: 80px;
 
             }
+            .phase003{
+                width: 330px;
+                display: block;
+                margin: 0 auto;
+                margin-top: 40px;
+                margin-left: -16px;
+                margin-bottom: 10px;
+            }
             h2{
                 font-size: 23px;
                 color: #09cbcd;
@@ -132,6 +153,49 @@
             }
         }
 
+    }
+    .sectBox02{
+        width: 294px;
+        height: 193px;
+        position: relative;
+        padding-bottom: 14px;
+        .intro-line{
+            .shadeImage {
+                position: absolute;
+                left: 0;
+                top: 6px;
+                width: 293px;
+                margin-top: 0px;
+            }
+            .torightBig {
+                overflow: hidden;
+                background: transparent;
+            }
+        }
+    }
+    .introPhoneoBox{
+        .sect01{
+            .phase01Img{
+                position: relative;
+                .usdx{
+                    width: 46px;
+                    height: 46px;
+                    display: block;
+                    position: absolute;
+                    right: 33px;
+                    top: -33px;
+
+                }
+                .usdt{
+                    width: 43px;
+                    height: 43px;
+                    display: block;
+                    position: absolute;
+                    top: -14px;
+                    left: 95px;
+                }
+            }
+        }
     }
 
 
