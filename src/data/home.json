@@ -2,13 +2,13 @@
     "version": "1.0.0",
     "nav": [
         {"content": "Home", "ref": "nav-home"},
-        {"content": "About USDX", "ref": "nav-about"},
-        {"content": "Phases", "ref": "nav-phases"},
+        {"content": "Background", "ref": "nav-background"},
+        {"content": "Features", "ref": "nav-features"},
         {"content": "RoadMap", "ref": "nav-roadMap"},
         {"content": "Team", "ref": "nav-team"},
         {"content": "Supports", "ref": "nav-supports"},
         {"content": "Advisors", "ref": "nav-advisors"},
-        {"content": "Partners", "ref": "nav-parteners"}
+        {"content": "Partners", "ref": "nav-partners"}
     ],
     "icon": [
         {

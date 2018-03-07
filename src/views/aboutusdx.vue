@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Head title="Current Stable Coins’<br/>Fatal Problems"></Head>
+        <Head title="Current Stablecoins’<br/>Fatal Problems"></Head>
 
         <div class="aboutUSDX clearfix">
 

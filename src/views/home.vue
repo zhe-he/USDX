@@ -16,11 +16,11 @@
             <index></index>
         </div>
 
-        <div ref="nav-about">
+        <div ref="nav-background">
             <FatalProblems></FatalProblems>
         </div>
 
-        <div ref="nav-phases" class="phaseContainer">
+        <div ref="nav-features" class="phaseContainer">
             <usdxIntro class="mobileHide"></usdxIntro>
             <usdxIntroPhone class="mobileShow"></usdxIntroPhone>
         </div>
@@ -40,7 +40,7 @@
             <div ref="nav-advisors">
                 <Hexagon></Hexagon>
             </div>
-            <div ref="nav-parteners">
+            <div ref="nav-partners">
                 <Parteners></Parteners>
             </div>
             <footers></footers>
@@ -113,7 +113,7 @@
                 scrollMove({y:t+T})
             },
             scroll() {
-                var arr = ['nav-home','nav-about','nav-phases','nav-roadMap','nav-team','nav-supports','nav-advisors','nav-parteners'];
+                var arr = ['nav-home','nav-background','nav-features','nav-roadMap','nav-team','nav-supports','nav-advisors','nav-partners'];
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();

@@ -14,10 +14,10 @@
                                 </div>
                             </div>
                             <div class="content">
-                                <p>Setting Up Foundation in</p>
+                                <p>Setting up foundation in</p>
                                 <p>Singapore</p>
-                                <p>ICO</p>
-                                <p>Setting Up Community</p>
+                                <p>Setting up community</p>
+                                <p>&nbsp;</p>
                             </div>
                             <div class="number">Q1</div>
                         </div>
@@ -72,9 +72,8 @@
                                 <p>Mainnet released</p>
                                 <p>Beta version of</p>
                                 <p>Mainnet released</p>
-                                <p>&nbsp;</p>
                             </div>
-                            <div class="number pl96" style="padding-top: 58px">Q1</div>
+                            <div class="number pl96" style="padding-top: 101px">Q1</div>
                         </div>
                     </swiper-slide>
                     <swiper-slide>

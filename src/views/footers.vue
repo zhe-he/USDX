@@ -74,7 +74,7 @@
                 }).then(res => {
                     console.log(res);
                     let json = res.data;
-                    if(json && json.status =='success'){
+                    if(json && json.status =='successs'){
                         this.showDialog = true;
                     }else{
                         alert("failed please try again!");
@@ -330,10 +330,10 @@
                 }
             }
             .linkBox{
-                width: 248px;
+                width: 230px;
                 margin-top: 10px;
                 a{
-                    width: 60px;
+                    width: 46px;
                     .iconfont{
                         font-size: 20px;
                         margin: 0 10px;
@@ -377,6 +377,68 @@
 
                 }
             }
+        }
+
+    }
+
+    .mailTipBox{
+        display: none;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,0.95);
+        //opacity: 0.952;
+        position: fixed;
+        left: 50%;
+        margin-left: -160px;
+        top: 120px;
+        width: 320px;
+        /*height: 462px;*/
+        height: 194px;
+        z-index: 454;
+        .successIcon{
+            display: block;
+            width: 50px;
+            height: 50px;
+            background: url("../../images/successIcon.png");
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            margin: 0 auto;
+            margin-top: 12px;
+        }
+        h2{
+            font-weight: normal;
+            font-size: 18px;
+            color:#333333;
+            text-align: center;
+            margin-top: 14px;
+        }
+        p{
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            margin-top: 12px;
+
+        }
+        a{
+            border-radius: 5px;
+            background-color: rgb(31, 241, 251);
+            width: 219px;
+            height: 59px;
+            width:140px;
+            height: 38px;
+            color: #fff;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            line-height: 38px;
+            font-size: 16px;
+            margin-top: 16px;
+
+        }
+        &.active{
+            z-index: 10;
+            //opacity: 1;
+            display: block;
+            animation: fadeIn 0.6s 0s both;
         }
 
     }

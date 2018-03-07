@@ -1,6 +1,6 @@
 <template>
     <div class="introBox">
-        <Head htitle="USDX：The New Era of Stable Coin"></Head>
+        <Head htitle="USDX：The New Era of Stablecoin"></Head>
         <div class="navBtnBox clearfix">
             <ul>
                 <li :class="curIndex == 0? 'active':''" @click="selectTab(0)">Innovative De-Commerce</li>
@@ -23,7 +23,7 @@
                     <div class="rightCtn">
                         <div class="sectionCtn">
                             <h3>Kill the Centralized Mechanism</h3>
-                            <p>1. Tether can release the USDT without any collateral and perform as a centralized <br/>entity.
+                            <p>1. Tether can release USDT without any collateral and perform as a centralized <br/>entity.
                             </p>
                             <p>2. With USDX’s absolute decentralized system, we build a healthy and organic <br/>decommerce ecosystem.
 
@@ -162,6 +162,7 @@
                     text-align: center;
                     float: left;
                     margin-right: 18px;
+                    cursor: pointer;
                 }
                 li:nth-last-child(1){
                     margin-right: 0px;
@@ -276,15 +277,9 @@
 
     @keyframes scaleUSDT{
         0%{
-            transform:scale(0,0)
-        }
-        25%{
             transform:scale(1,1)
+        }
 
-        }
-        50%{
-            transform:scale(1,1)
-        }
         75%{
             transform:scale(0,0)
         }
@@ -295,12 +290,12 @@
 
     @keyframes scaleUSDX{
         0%{
-            transform:scale(0,0)
+            transform:scale(0.25,0.25)
         }
         25%{
-            transform:scale(0,0)
+            transform:scale(0.5,0.5)
         }
-        50%{transform:scale(0,0)}
+        50%{transform:scale(0.75,0.75)}
         75%{
             transform:scale(1,1);
         }

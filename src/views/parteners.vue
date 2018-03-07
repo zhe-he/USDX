@@ -1,6 +1,6 @@
 <template>
     <div class="partenersBox">
-        <Head htitle="PARTENER"></Head>
+        <Head htitle="PARTNERS"></Head>
         <div class="itemContainer">
             <ul class="itemContainer-pc" v-for="icon in iconPC">
                 <li v-for="item in icon">

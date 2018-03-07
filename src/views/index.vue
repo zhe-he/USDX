@@ -3,7 +3,7 @@
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
-                    <p>The Ultimate Stage of Stable coin</p>
+                    <p>The Ultimate Stage of Stablecoin</p>
                     <div class="feature"><span>Stable</span><i class="point"></i><span>Secure</span><i class="point"></i><span>Scalable</span></div>
                     <div class="whitePaper">
                         <a href="whitepaper/USDX Whitepaper.pdf" target="_blank">Whitepaper</a>

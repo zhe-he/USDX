@@ -1,6 +1,6 @@
 <template>
     <div class="support-box">
-        <Head htitle="R&D SUPPUORT TEAM"></Head>
+        <Head htitle="R&D SUPPORT TEAM"></Head>
         <div class="supportContent">
             <ul class="clearfix">
                 <li>
@@ -59,10 +59,10 @@
 
                         <div class="positionBox mobileHide">
                             <h2 class="name">Chen Nie</h2>
-                            <p class="position">Development</p>
+                            <p class="position">Developer</p>
                         </div>
                         <div class="positionBox mobileShow">
-                            <h2 class="name">Chen Nie / Development</h2>
+                            <h2 class="name">Chen Nie / Developer</h2>
                         </div>
 
                         <div class="descBox">

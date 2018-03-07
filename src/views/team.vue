@@ -30,7 +30,7 @@
                             <i class="icon iconfont icon-two big_number_font"></i>
                             &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
                             &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Lucas Porco</span></h2>
-                        <p>Experienced lawyer focus on the<br/>compliance of blockchain and<br/>cryptocurrency </p>
+                        <p>Experienced lawyer focus on the<br/>compliance of blockchain and<br/>cryptocurrency's compliance to regulations </p>
                         <p>Ph.D candidate of Law at University of <br/>Toronto </p>
                         <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
                     </div>

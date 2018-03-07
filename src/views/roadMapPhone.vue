@@ -14,10 +14,10 @@
                                 </div>
                             </div>
                             <div class="content">
-                                <p>Setting Up Foundation in</p>
+                                <p>Setting up foundation in</p>
                                 <p>Singapore</p>
-                                <p>ICO</p>
-                                <p>Setting Up Community</p>
+                                <p>Setting up community</p>
+                                <p>&nbsp;</p>
                             </div>
                             <div class="number">Q1</div>
                         </div>
@@ -105,7 +105,6 @@
                     <swiper-slide>
                         <div class="bottom"></div>
                     </swiper-slide>
-               x
                 <div class="swiper-button-prev_road_phone" slot="button-prev"></div>
                 <div class="swiper-button-next_road_phone" slot="button-next"></div>
             </swiper>
