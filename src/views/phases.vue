@@ -342,4 +342,19 @@
         }
     }
 
+    @media screen and (max-width: 1280px) {
+        .introBox .phaseBox .introCtn .leftImg{
+            width: 600px;
+        }
+        .introBox .phaseBox .introCtn .leftImg .phase01{
+            margin-left: 90px;
+        }
+        .introBox .phaseBox .introCtn .intro-line{
+            margin-left: 90px;
+        }
+        .introBox .phaseBox .introCtn .leftImg .phase03{
+            margin-left: 90px;
+        }
+    }
+
 </style>

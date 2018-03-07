@@ -25,7 +25,7 @@
                     <swiper-slide>
                         <div class="bottom">
                             <div class="headBar"></div>
-                            <div class="number">Q2</div>
+                            <div class="number pt23">Q2</div>
                             <div class="content" style="padding-left: 0px;">
                                 <p>Setting up USDX fund</p>
                                 <p>Expanding community scale</p>
@@ -43,7 +43,7 @@
                                 <p>Landing on the Korean</p>
                                 <p>market</p>
                             </div>
-                            <div class="number pl78">Q3</div>
+                            <div class="number pl78 pt84">Q3</div>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
@@ -73,7 +73,7 @@
                                 <p>Beta version of</p>
                                 <p>Mainnet released</p>
                             </div>
-                            <div class="number pl96" style="padding-top: 101px">Q1</div>
+                            <div class="number pl96 pt101" style="">Q1</div>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
@@ -281,6 +281,9 @@
                 .pl18{
                     padding-left: 18px;
                 }
+                .pt101{
+                    padding-top: 101px;
+                }
                 .headBar{
                     height: 92px;
                     width: 100%;
@@ -340,5 +343,53 @@
         }
 
     }
+    @media screen and (min-width: 720px) and (max-width: 1280px) {
+        .roadMapBox .roadContent{
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .roadMapBox{
+            width: 1200px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(1) {
+            background-position: -80px 95px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(3) {
+            background-position: 358px 91px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(4) {
+            background-position: 579px 96px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(5) {
+            background-position: 799px 92px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(6) {
+            background-position: 1022px 95px;
+        }
+        .roadMapBox .roadContent .swiper-slide:nth-child(7) {
+            background-position: 1246px 94px;
+        }
+        .roadMapBox .roadContent .top .number{
+            padding-top: 89px;
+        }
+        .roadMapBox .roadContent .top .pl78 {
+            padding-left: 80px;
+        }
+        .roadMapBox .roadContent .top {
+            .pt84{
+                padding-top: 84px;
+            }
 
+        }
+        .roadMapBox .roadContent .top .content{
+            padding-left: 25px;
+        }
+        .roadMapBox .roadContent .bottom .number{
+            padding-top: 19px;
+        }
+        .roadMapBox .roadContent .bottom .pt23{
+            padding-top: 23px;
+        }
+    }
 </style>

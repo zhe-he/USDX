@@ -304,7 +304,12 @@
         }
     }
 
-    
+    @media screen and (max-width: 1280px) {
+        .introBox .phaseBox{
+            width: 1200px;
+            overflow: hidden;
+        }
+    }
 
     @media screen and (max-width: 720px) {
         .introBox{

@@ -137,6 +137,11 @@
 
     }
 
+    @media screen and (max-width: 1280px) {
+        .indexSection{
+            padding-top: 100px;
+        }
+    }
 
     @media screen and (max-width: 720px) {
         .indexSection{
